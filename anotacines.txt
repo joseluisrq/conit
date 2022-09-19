@@ -1,0 +1,4 @@
+nvm use v14.17.3
+npm i
+componser i
+
