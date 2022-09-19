@@ -8,10 +8,22 @@
 
     <title>CONIT</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
-<!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <!-- Fonts -->
+   <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <link href="css/themify-icons.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/odometer-theme-default.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/logo.css" rel="stylesheet">
 
   
 </head>
@@ -23,6 +35,11 @@
         </div>
     </div>
 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>   
+    <script src="js/jquery.dlmenu.js"></script>
+    <script src="js/jquery-plugin-collection.js"></script>  
+    <script src="js/script.js"></script>
     <script src="{{ mix('/js/app.js') }}"></script>
 </body>
 

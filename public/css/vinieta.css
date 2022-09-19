@@ -1,0 +1,14 @@
+.cohete ul{
+    list-style-type: none !important;
+}
+.cohete li::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Vinieta_cohete.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+    list-style-position: outside;
+}

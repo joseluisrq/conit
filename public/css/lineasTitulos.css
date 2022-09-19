@@ -1,0 +1,17 @@
+
+.lineasSubtitulo p{
+    content:"";
+    position:absolute;
+    color:#024997;
+    width:205px;
+    height:3px;
+    background-color:currentColor;
+    top:0.6em;
+}
+
+.lineasSubtitulo p::before{
+    left: -210px;
+}
+.lineasSubtitulo p::after{
+    right:-210px;
+}

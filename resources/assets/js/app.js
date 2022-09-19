@@ -30,7 +30,8 @@ Vue.use(VueSweetalert2);
 
 //Rutas
 import App from './components/App.vue'
-import dashboard from './components/ExampleComponent.vue'
+import example from './components/ExampleComponent.vue'
+import pageweb from './pages/services/PageWeb.vue'
 import Home from './pages/Home.vue'
 import Vue from "vue";
 
@@ -42,12 +43,17 @@ const router = new VueRouter({
       {
         path: '/',
         component: Home,
-        name: 'example-component'
+        name: 'Home'
       },
       {
-        path: '/home',
-        component: dashboard,
-        name: 'dashboard'
+        path: '/example',
+        component: example,
+        name: 'example'
+      }, 
+      {
+        path: '/paginasweb',
+        component: pageweb,
+        name: 'pageweb'
       }, 
   
   

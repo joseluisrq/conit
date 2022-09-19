@@ -1,38 +1,65 @@
 <template>
-  <div class="row">
-    <div class="col-md-12">
-      <TituloPrincipal :titulo="titulo" :subtitulo="subtitulo" />
-    </div>
-    <div class="col-md-12">
-      <h1>Hola {{ nombre }}</h1>
-      <button class="btn btn-danger" @click="saludarMetodo('Valeria')">
-        Siguiente
-      </button>
-      <div>
-        <span v-for="(c, index) in colaboradores_conit" :key="index">
-          <h1 v-if="c.tipo == 1">Hola Ingeniero {{ c.nombre }}</h1>
-          <h1 v-else-if="c.tipo == 2">Hola licenciada {{ c.nombre }}</h1>
-          <h1 v-else>Hola {{ c.nombre }}</h1>
-
-          <h4 class="text-info" v-show="c.profesion == 'ing'" v-text="c"></h4>
-        </span>
+  <div class="page-wrapper">
+      <div class="preloader">
+            <div class="angular-shape">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
       </div>
-    </div>
-    <div class="col-md-12">
-      <FooterPrincipal />
-    </div>
+      <MenuPrincipal/>
+      <section class="wpo-hero-section-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-6 col-lg-6">
+                        <div class="wpo-hero-section-text">
+                            <div class="wpo-hero-title">
+                                <h2>
+                                    <span>
+                                        Soluciones </br>
+                                        <font style="color:#f3ab41 ;">Innovadoras</font> </br>
+                                        para tu negocio
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="btns">
+                                <a class="btn btn-amarillo" href="about.html">Comencemos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-vec">
+                <div class="right-img">
+                    <img src="img/hombre_cohete.png" alt="">
+                </div>
+                <div class="round-1"></div>
+                <div class="round-2"></div>
+                <div class="round-3"></div>
+                <div class="round-4"></div>
+            </div>
+
+
+
+      </section>
+      
+      <FooterPrincipal/>
   </div>
 </template>
 
 <script>
 import FooterPrincipal from "../components/Footer.vue";
-import TituloPrincipal from "../components/Titulo.vue";
+import MenuPrincipal from "../components/Menu.vue";
 export default {
   name: "Home",
   data() {
     return {
-      titulo:'Home',
-      subtitulo:'Servicios',
+      titulo: "Home",
+      subtitulo: "Servicios",
       nombre: "Jose",
       colaboradores_conit: [
         {
@@ -63,8 +90,9 @@ export default {
     };
   },
   components: {
+    MenuPrincipal,
     FooterPrincipal,
-    TituloPrincipal,
+    // TituloPrincipal,
   },
   methods: {
     saludarMetodo(nombre) {

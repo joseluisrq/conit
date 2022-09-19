@@ -1,0 +1,73 @@
+/*Alinear Divs*/
+.wpo-about-section .centrar{
+    float: left;
+}
+
+
+/*Logo tamaño*/
+.logoP{
+    width: 140%;
+}
+
+/*Cuadro grande*/
+.cuadroGrande{
+    padding: 45px 150px;
+    background-color: #004585;
+    color: #fff;
+}
+
+/*Cuadros con títulos*/
+.tituloI{
+    font-size: 22px;
+    padding: 45px 150px;
+    background-color: #004585;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .tituloi{
+        padding: 5px 50px;
+    }
+}
+
+.tituloD{
+    font-size: 22px;
+    padding: 45px 150px;
+    background-color: #004585;
+    color: #fff;
+    float: right;
+}
+
+@media (max-width: 767px) {
+    .tituloD{
+        padding: 5px 50px;
+    }
+}
+
+
+/* Secciones*/
+
+/*Colores de cuadros*/
+.wpo-features-section .cuadroNaranja{
+    background-color: #f3ab41;
+    font-family:'Roboto', sans-serif;
+    color: #fff;
+}
+
+.wpo-features-section .cuadroAzul{
+    background-color: #004585;
+}
+
+/*wpo-características-section*/
+.wpo-caracteristicas-section .cuadroNaranja{
+    background-color: #f3ab41;
+    font-family:'Roboto', sans-serif;
+    color: #fff;
+}
+
+.wpo-caracteristicas-section .cuadroAzul{
+    background-color: #004585;
+}
+
+
+  
