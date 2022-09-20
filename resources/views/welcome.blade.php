@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="shortcut icon" type="image/png" href="img/logo_100_100.png">
     <title>CONIT</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
    <!-- Fonts -->
@@ -24,6 +25,10 @@
     <link href="css/odometer-theme-default.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/logo.css" rel="stylesheet">
+    <link href="css/vinieta.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/costos.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
   
 </head>

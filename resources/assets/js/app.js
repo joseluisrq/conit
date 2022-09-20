@@ -33,34 +33,59 @@ import App from './components/App.vue'
 import example from './components/ExampleComponent.vue'
 import pageweb from './pages/services/PageWeb.vue'
 import Home from './pages/Home.vue'
+import ecomerce from './pages/services/E-Comerce.vue'
+import socialmedia from './pages/services/SocialMedia.vue'
+import crm from './pages/services/CRM.vue'
 import Vue from "vue";
 
 const router = new VueRouter({
     mode: 'history',
     routes: [
   
+      
       // dashboard
       {
         path: '/',
         component: Home,
-        name: 'Home'
+        name: 'Home',
+        meta: { Auth: false, title: 'CONIT - Soluciones Digitales'}
       },
-      {
-        path: '/example',
-        component: example,
-        name: 'example'
-      }, 
       {
         path: '/paginasweb',
         component: pageweb,
-        name: 'pageweb'
+        name: 'paginasweb',
+        meta: { Auth: false, title: 'CONIT - Páginas Web'}
+      },
+      {
+        path: '/tiendaonline',
+        component: ecomerce,
+        name: 'tiendaonline',
+        meta: { Auth: false, title: 'CONIT - E-Comerce'}
       }, 
-  
-  
-  
-    ]
+      {
+        path: '/socialmedia',
+        component: socialmedia,
+        name: 'socialmedia',
+        meta: { Auth: false, title: 'CONIT - Social Media'}
+      },
+      {
+        path: '/crm',
+        component: crm,
+        name: 'crm',
+        meta: { Auth: false, title: 'CONIT - CRM'}
+      }   
+
+    ],
+    scrollBehavior (to, from, savedPosition) {
+      return {x:0,y:0}
+    }
+    
+    
   })
-  
+  router.beforeEach((to, from, next) => {
+    document.title = to.meta.title;
+    next();
+  });
   const app = new Vue({
     el: '#app',
     data: {

@@ -1,5 +1,6 @@
 <template>
-  <div class="page-wrapper">
+    <div class="page-wrapper">
+    
         <MenuPrincipal />
         <!-- start of breadcumb-section -->
         <div class="wpo-breadcumb-area">
@@ -7,7 +8,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="wpo-breadcumb-wrap">
-                            <h2>Páginas Web</h2>
+                            <h2>Tiendas Online</h2>
                         </div>
                     </div>
                 </div>
@@ -18,12 +19,7 @@
         <!-- .wpo-project-details-area start -->
         <div class="wpo-project-details-area section-padding">
             <div style="text-align:center;">
-                <h2>PAQUETES DE DISEÑO WEB</h2>
-            </div><br/>
-            <div style="text-align:center;">
-                <div>
-                    <p style="font-size: 30px; color:#f3ab41" class="lineasSubtitulo" >Genera más clientes con la creación de tu página web</p>
-                </div>
+                <h2>Paquetes de E-commerce</h2>
             </div>
             <div class="container">
                 <div class="row">
@@ -41,16 +37,25 @@
                             </div><br/>
                             <div class="cohete">
                                 <ul>
-                                    <li>02 Páginas Internas con 4 a 6 secciones.</li>
-                                    <li>05 Correos corporativos.</li>
-                                    <li>01 año de Dominio.Com + Hosting</li>
-                                    <li>Certificado de Seguridad.</li>
+                                    <li>Hasta 150 Productos.</li>
+                                    <li>05 Correos Corporativos.</li>
+                                    <li>01 Usuario</li>
+                                    <li>Dominio.COM</li>
+                                    <li>Posicionamiento SEO Básico.</li>
+                                    <li>02 meses de soporte por Correo.</li>
                                     <li>Panel Administrable.</li>
+                                    <li>Pasarela de Pago.</li>
                                     <li>Diseño Responsible: Diseño adaptable a diferentes equipos.</li>
-                                    <li>Optimización para SEO.</li>
-                                    <li>Diseño UI / UX</li>
+                                    <li>Diseño UI/UX.</li>
                                     <li>Backups Automáticos.</li>
-                                    <li>Capacitación.</li>
+                                    <li>Google Analytics.</li>
+                                    <li>Facebook Pixel.</li>
+                                    <li>Certificado de Seguridad.</li>
+                                    <li>Categorías Ilimitadas.</li>
+                                    <li>Métodos de Pago Configurables.</li>
+                                    <li>Creación de Páginas Informavitas.</li>
+                                    <li>Link de QR de Pagos.</li>
+                                    <li>Ventas Ilimitadas.</li>
                                 </ul>
                             </div><br/>
                             
@@ -60,7 +65,7 @@
                                         <h6>Costo del Servicio</h6>
                                     </div>
                                     <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 485.00 + IGV</a>
+                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 900.00 + IGV</a>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -79,19 +84,26 @@
                             </div><br/>
                             <div class="cohete">
                                 <ul>
-                                    <li>Hasta 08 Páginas Internas incluyendo secciones respectivas por página.</li>
-                                    <li>Correos corporativos ilimitados.</li>
-                                    <li>01 año de Dominio.Com + Hosting</li>
-                                    <li>Certificado de Seguridad.</li>
+                                    <li>Hasta 500 Productos.</li>
+                                    <li>20 Correos Corporativos.</li>
+                                    <li>Múltiples Usuarios.</li>
+                                    <li>Dominio.COM</li>
+                                    <li>Posicionamiento SEO Profesional.</li>
+                                    <li>02 meses de soporte por Correo/Llamada.</li>
                                     <li>Panel Administrable.</li>
+                                    <li>Pasarela de Pago.</li>
                                     <li>Diseño Responsible: Diseño adaptable a diferentes equipos.</li>
-                                    <li>Optimización para SEO.</li>
-                                    <li>Diseño UI / UX</li>
+                                    <li>Diseño UI/UX.</li>
                                     <li>Backups Automáticos.</li>
-                                    <li>Integración con Redes Sociales.</li>
-                                    <li>Modulo de Chat en vivo/Whatsapp</li>
                                     <li>Google Analytics.</li>
-                                    <li>Pasarela de Pago.</li>       
+                                    <li>Facebook Pixel.</li>
+                                    <li>Certificado de Seguridad.</li>
+                                    <li>Categorías Ilimitadas.</li>
+                                    <li>Métodos de Pago Configurables.</li>
+                                    <li>Creación de Páginas Informavitas.</li>
+                                    <li>Link de QR de Pagos.</li>
+                                    <li>Ventas Ilimitadas.</li>
+                                    <li>Descarga de Reportes en EXCEL.</li>       
                                 </ul>
                             </div>
                             
@@ -102,7 +114,7 @@
                                         <h6>Costo del Servicio</h6>
                                     </div>
                                     <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 985.00 + IGV</a>
+                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 1 500.00 + IGV</a>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -121,24 +133,29 @@
                             </div><br/>
                             <div class="cohete">
                                 <ul>
-                                    <li>Hasta 20 Páginas Internas incluyendo secciones respectivas por página.</li>
-                                    <li>Correos corporativos ilimitados.</li>
-                                    <li>01 año de Dominio.Com + Hosting</li>
-                                    <li>Certificado de Seguridad.</li>
+                                    <li>Productos Ilimitados.</li>
+                                    <li>Correos Corporativos Ilimitados.</li>
+                                    <li>Múltiples Usuarios.</li>
+                                    <li>Dominio.COM</li>
+                                    <li>Posicionamiento SEO Profesional.</li>
+                                    <li>03 meses de soporte por Correo/Llamada.</li>
+                                    <li>Conexión Zapier.</li>
                                     <li>Panel Administrable.</li>
-                                    <li>Diseño Responsible: Diseño adaptable a diferentes equipos.</li>
-                                    <li>Optimización para SEO.</li>
-                                    <li>Diseño UI / UX</li>
-                                    <li>Backups Automáticos.</li>
-                                    <li>Integración con Redes Sociales.</li>
-                                    <li>Modulo de Chat en vivo/Whatsapp.</li>
-                                    <li>Envíos de Correo Masivo.</li>
-                                    <li>Google Mi Negocio.</li>
-                                    <li>Google Analytics.</li>
-                                    <li>Google AdWords.</li>
-                                    <li>Diseño de Firmas: Especialmente para correos.</li>
-                                    <li>Ecommerce</li>
                                     <li>Pasarela de Pago.</li>
+                                    <li>Diseño Responsible: Diseño adaptable a diferentes equipos.</li>
+                                    <li>Diseño UI/UX.</li>
+                                    <li>Backups Automáticos.</li>
+                                    <li>Google Analytics.</li>
+                                    <li>Facebook Pixel.</li>
+                                    <li>Certificado de Seguridad.</li>
+                                    <li>Categorías Ilimitadas.</li>
+                                    <li>Métodos de Pago Configurables.</li>
+                                    <li>Creación de Páginas Informavitas.</li>
+                                    <li>Link de QR de Pagos.</li>
+                                    <li>Ventas Ilimitadas.</li>
+                                    <li>Módulo de estadísticas.</li>
+                                    <li>Códigos de descuento.</li>
+                                    <li>Descarga de Reportes en EXCEL.</li> 
                                 </ul>
                             </div>
                             <br/>
@@ -148,14 +165,14 @@
                                         <h6>Costo del Servicio</h6>
                                     </div>
                                     <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 1 995.00 + IGV</a>
+                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 3 000.00 + IGV</a>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
                             </div>
                             <br/>
                             <br/>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
                 
@@ -174,22 +191,34 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row"># Número de Páginas Internas</th>
-                                <td style="styleColor">02 Páginas Internas con 4 a 6 secciones</td>
-                                <td style="styleColor">Hasta 08 Páginas Internas con Secciones Respectivas por Página</td>
-                                <td style="styleColor">Hasta 20 Páginas Internas con Secciones Respectivas por Página</td>
+                                <th scope="row"># Número de Productos</th>
+                                <td>Hasta 150 Productos</td>
+                                <td>Hasta 500 Productos</td>
+                                <td>Productos Ilimitados</td>
                             </tr>
                             <tr>
-                                <th scope="row">Hosting y Dominio.COM</th>
-                                <td>Hosting + Dominio.COM 1 año</td>
-                                <td>Hosting + Dominio.COM 1 año</td>
-                                <td>Hosting + Dominio.COM 1 año</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Correos Corporativos</th>
+                                <th scope="row"># Número de Correos Corporativos</th>
                                 <td>05 Correos Corporativos</td>
+                                <td>20 Correos Corporativos</td>
                                 <td>Correos Ilimitados</td>
-                                <td>Correos Ilimitados</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"># Número de Usuarios</th>
+                                <td>01 Usuario</td>
+                                <td>Múltiples Usuarios</td>
+                                <td>Múltiples Usuarios</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"># Número de Ventas</th>
+                                <td>Ilimitadas</td>
+                                <td>Ilimitadas</td>
+                                <td>Ilimitadas</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Dominio.COM</th>
+                                <td>✔</td>
+                                <td>✔</td>
+                                <td>✔</td>
                             </tr>
                             <tr>
                                 <th scope="row">Diseño Responsible</th>
@@ -211,92 +240,89 @@
                             </tr>
                             <tr>
                                 <th scope="row">Optimización para SEO</th>
+                                <td>Básico</td>
+                                <td>Profesional</td>
+                                <td>Empresarial</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Categorías Ilimitadas</th>
                                 <td>✔</td>
                                 <td>✔</td>
                                 <td>✔</td>
                             </tr>
                             <tr>
-                                <th scope="row">Diseño UI/UX</th>
+                                <th scope="row">Métodos de Pago Configurables</th>
                                 <td>✔</td>
                                 <td>✔</td>
                                 <td>✔</td>
                             </tr>
                             <tr>
-                                <th scope="row">Backups Automáticos</th>
+                                <th scope="row">Creación de Páginas Configurables</th>
                                 <td>✔</td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Integración con Redes Sociales</th>
-                                <td></td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Módulo de Chat en Vivo/Whatssap</th>
-                                <td></td>
                                 <td>✔</td>
                                 <td>✔</td>
                             </tr>
                             <tr>
                                 <th scope="row">Google Analytics</th>
-                                <td></td>
                                 <td>✔</td>
                                 <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Google AdWords</th>
-                                <td></td>
-                                <td></td>
                                 <td>✔</td>
                             </tr>
                             <tr>
-                                <th scope="row">Google Mi Negocio</th>
+                                <th scope="row">Conexión Zapier</th>
                                 <td></td>
                                 <td></td>
                                 <td>✔</td>
-                            </tr>
+                                </tr>
                             <tr>
-                                <th scope="row">Diseño de Firmas (Para correo)</th>
+                                <th scope="row">Módulo de Estadísticas</th>
                                 <td></td>
                                 <td></td>
                                 <td>✔</td>
                             </tr>
                             <tr>
-                                <th scope="row">E-commerce</th>
+                                <th scope="row">Facebook Pixel</th>
+                                <td>✔</td>
+                                <td></td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Link de QR de Pago</th>
+                                <td>✔</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Descarga de Reportes en Excel</th>
+                                <td></td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Códigos de Descuento</th>
                                 <td></td>
                                 <td></td>
                                 <td>✔</td>
                             </tr>
                             <tr>
                                 <th scope="row">Pasarela de Pago</th>
-                                <td></td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Capacitación</th>
                                 <td>✔</td>
                                 <td>✔</td>
                                 <td>✔</td>
                             </tr>
                             <tr style="text-align:center;" class="table-yellow">
                                 <th scope="row">COSTOS</th>
-                                <td>
-                                    <b>S/. 485.00</b>
+                                <td><b>S/. 500.00</b>
                                     <div>
                                         <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
                                     </div>
                                 </td>
-                                <td>
-                                    <b>S/. 985.00</b>
+                                <td><b>S/. 1 500.00</b>
                                     <div>
                                         <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
                                     </div>
                                 </td>
-                                <td>
-                                    <b>S/. 1 995.00</b>
+                                <td><b>S/. 3 000.00</b>
                                     <div>
                                         <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
                                     </div>
@@ -309,28 +335,24 @@
             </div>
         </div>
         <FooterPrincipal />
-  </div>
+    </div>
 </template>
-
 <script>
-    const styleColor = "color:#af9e06";
-    import FooterPrincipal from "../../components/Footer.vue";
-    import MenuPrincipal from "../../components/Menu.vue";
+import FooterPrincipal from "../../components/Footer.vue";
+import MenuPrincipal from "../../components/Menu.vue";
 export default {
-name:'PageWeb',
-data(){
+    name:'E-Comerce',
+    data(){
     return{
         
     }
-},
-components: {
-    MenuPrincipal,
-    FooterPrincipal,
-},
-methods:{}
+    },
+    components: {
+        FooterPrincipal,
+        MenuPrincipal,
+    },
 }
 </script>
-
 <style>
-
+    
 </style>
