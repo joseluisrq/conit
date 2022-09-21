@@ -15381,7 +15381,7 @@ function updateLink (link, options, obj) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(19);
-module.exports = __webpack_require__(100);
+module.exports = __webpack_require__(101);
 
 
 /***/ }),
@@ -15407,11 +15407,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_services_PageWeb_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__pages_services_PageWeb_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_Home_vue__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_Home_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__pages_Home_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_services_E_Comerce_vue__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_services_E_Comerce_vue__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_services_E_Comerce_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__pages_services_E_Comerce_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_services_SocialMedia_vue__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_services_SocialMedia_vue__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_services_SocialMedia_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__pages_services_SocialMedia_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_services_CRM_vue__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_services_CRM_vue__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_services_CRM_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__pages_services_CRM_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_vue__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_vue__);
@@ -53750,7 +53750,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n.colorfila{\r\n    color:#f3ab41;\n}\r\n\r\n\r\n", ""]);
 
 // exports
 
@@ -54079,8 +54079,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
-var styleColor = "color:#af9e06";
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -54812,7 +54819,92 @@ var render = function() {
       _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
-      _vm._m(1),
+      _c("div", { staticClass: "wpo-project-details-area section-padding" }, [
+        _vm._m(1),
+        _c("br"),
+        _vm._v(" "),
+        _vm._m(2),
+        _vm._v(" "),
+        _vm._m(3),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticStyle: { "text-align": "center" } }, [
+            _c("div", { staticClass: "table-responsive" }, [
+              _c("table", { staticClass: "table" }, [
+                _vm._m(4),
+                _vm._v(" "),
+                _c("tbody", [
+                  _c(
+                    "tr",
+                    [
+                      _c("th", { attrs: { scope: "row" } }, [
+                        _vm._v("# Número de Páginas Internas")
+                      ]),
+                      _vm._v(" "),
+                      [
+                        _c("td", { staticClass: "colorfila" }, [
+                          _vm._v("02 Páginas Internas con 4 a 6 secciones")
+                        ]),
+                        _vm._v(" "),
+                        _c("td", { staticClass: "colorfila" }, [
+                          _vm._v(
+                            "Hasta 08 Páginas Internas con Secciones Respectivas por Página"
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("td", { staticClass: "colorfila" }, [
+                          _vm._v(
+                            "Hasta 20 Páginas Internas con Secciones Respectivas por Página"
+                          )
+                        ])
+                      ]
+                    ],
+                    2
+                  ),
+                  _vm._v(" "),
+                  _vm._m(5),
+                  _vm._v(" "),
+                  _vm._m(6),
+                  _vm._v(" "),
+                  _vm._m(7),
+                  _vm._v(" "),
+                  _vm._m(8),
+                  _vm._v(" "),
+                  _vm._m(9),
+                  _vm._v(" "),
+                  _vm._m(10),
+                  _vm._v(" "),
+                  _vm._m(11),
+                  _vm._v(" "),
+                  _vm._m(12),
+                  _vm._v(" "),
+                  _vm._m(13),
+                  _vm._v(" "),
+                  _vm._m(14),
+                  _vm._v(" "),
+                  _vm._m(15),
+                  _vm._v(" "),
+                  _vm._m(16),
+                  _vm._v(" "),
+                  _vm._m(17),
+                  _vm._v(" "),
+                  _vm._m(18),
+                  _vm._v(" "),
+                  _vm._m(19),
+                  _vm._v(" "),
+                  _vm._m(20),
+                  _vm._v(" "),
+                  _vm._m(21),
+                  _vm._v(" "),
+                  _vm._m(22)
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
       _vm._v(" "),
       _c("FooterPrincipal")
     ],
@@ -54840,602 +54932,593 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "wpo-project-details-area section-padding" },
-      [
-        _c("div", { staticStyle: { "text-align": "center" } }, [
-          _c("h2", [_vm._v("PAQUETES DE DISEÑO WEB")])
-        ]),
-        _c("br"),
-        _vm._v(" "),
-        _c("div", { staticStyle: { "text-align": "center" } }, [
-          _c("div", [
-            _c(
-              "p",
-              {
-                staticClass: "lineasSubtitulo",
-                staticStyle: { "font-size": "30px", color: "#f3ab41" }
-              },
-              [_vm._v("Genera más clientes con la creación de tu página web")]
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-8 col-12" }, [
-              _c("div", { staticClass: "wpo-p-details-section" }, [
-                _c("h5", [_vm._v("Paquete Básico")]),
-                _vm._v(" "),
-                _c("div", { staticClass: "wpo-project-details-list" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c(
-                      "div",
-                      { staticClass: "col co-l-lg-4 col-md-9 col-sm-6 col-12" },
-                      [
-                        _c(
-                          "div",
-                          { staticClass: "wpo-project-details-text-3" },
-                          [_c("span", [_vm._v("Descripción...")])]
-                        )
-                      ]
-                    )
-                  ])
-                ]),
-                _c("br"),
-                _vm._v(" "),
-                _c("div", { staticClass: "cohete" }, [
-                  _c("ul", [
-                    _c("li", [
-                      _vm._v("02 Páginas Internas con 4 a 6 secciones.")
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("05 Correos corporativos.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("01 año de Dominio.Com + Hosting")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Certificado de Seguridad.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Panel Administrable.")]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _vm._v(
-                        "Diseño Responsible: Diseño adaptable a diferentes equipos."
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Optimización para SEO.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Diseño UI / UX")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Backups Automáticos.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Capacitación.")])
-                  ])
-                ]),
-                _c("br"),
-                _vm._v(" "),
-                _c("div", { staticClass: "col col-xs-12" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c("h6", [_vm._v("Costo del Servicio")])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-amarillo",
-                          attrs: { href: "#", target: "_blank" }
-                        },
-                        [_vm._v("S/. 485.00 + IGV")]
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v("*Contáctanos si deseas un paquete personalizado")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("br"),
-                _vm._v(" "),
-                _c("br"),
-                _vm._v(" "),
-                _c("h5", [_vm._v("Paquete Ideal")]),
-                _vm._v(" "),
-                _c("div", { staticClass: "wpo-project-details-list" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c(
-                      "div",
-                      { staticClass: "col co-l-lg-4 col-md-9 col-sm-6 col-12" },
-                      [
-                        _c(
-                          "div",
-                          { staticClass: "wpo-project-details-text-3" },
-                          [_c("span", [_vm._v("Descripción...")])]
-                        )
-                      ]
-                    )
-                  ])
-                ]),
-                _c("br"),
-                _vm._v(" "),
-                _c("div", { staticClass: "cohete" }, [
-                  _c("ul", [
-                    _c("li", [
-                      _vm._v(
-                        "Hasta 08 Páginas Internas incluyendo secciones respectivas por página."
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Correos corporativos ilimitados.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("01 año de Dominio.Com + Hosting")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Certificado de Seguridad.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Panel Administrable.")]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _vm._v(
-                        "Diseño Responsible: Diseño adaptable a diferentes equipos."
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Optimización para SEO.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Diseño UI / UX")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Backups Automáticos.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Integración con Redes Sociales.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Modulo de Chat en vivo/Whatsapp")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Google Analytics.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Pasarela de Pago.")])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("br"),
-                _vm._v(" "),
-                _c("div", { staticClass: "col col-xs-12" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c("h6", [_vm._v("Costo del Servicio")])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-amarillo",
-                          attrs: { href: "#", target: "_blank" }
-                        },
-                        [_vm._v("S/. 985.00 + IGV")]
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v("*Contáctanos si deseas un paquete personalizado")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("br"),
-                _vm._v(" "),
-                _c("br"),
-                _vm._v(" "),
-                _c("h5", [_vm._v("Paquete Profesional")]),
-                _vm._v(" "),
-                _c("div", { staticClass: "wpo-project-details-list" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c(
-                      "div",
-                      { staticClass: "col co-l-lg-4 col-md-9 col-sm-6 col-12" },
-                      [
-                        _c(
-                          "div",
-                          { staticClass: "wpo-project-details-text-3" },
-                          [_c("span", [_vm._v("Descripción...")])]
-                        )
-                      ]
-                    )
-                  ])
-                ]),
-                _c("br"),
-                _vm._v(" "),
-                _c("div", { staticClass: "cohete" }, [
-                  _c("ul", [
-                    _c("li", [
-                      _vm._v(
-                        "Hasta 20 Páginas Internas incluyendo secciones respectivas por página."
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Correos corporativos ilimitados.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("01 año de Dominio.Com + Hosting")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Certificado de Seguridad.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Panel Administrable.")]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _vm._v(
-                        "Diseño Responsible: Diseño adaptable a diferentes equipos."
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Optimización para SEO.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Diseño UI / UX")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Backups Automáticos.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Integración con Redes Sociales.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Modulo de Chat en vivo/Whatsapp.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Envíos de Correo Masivo.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Google Mi Negocio.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Google Analytics.")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Google AdWords.")]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _vm._v("Diseño de Firmas: Especialmente para correos.")
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Ecommerce")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Pasarela de Pago.")])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("br"),
-                _vm._v(" "),
-                _c("div", { staticClass: "col col-xs-12" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c("h6", [_vm._v("Costo del Servicio")])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-amarillo",
-                          attrs: { href: "#", target: "_blank" }
-                        },
-                        [_vm._v("S/. 1 995.00 + IGV")]
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v("*Contáctanos si deseas un paquete personalizado")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("br"),
-                _vm._v(" "),
-                _c("br")
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticStyle: { "text-align": "center" } }, [
-            _c("table", { staticClass: "table" }, [
-              _c("thead", { staticClass: "thead-dark" }, [
-                _c("tr", [
-                  _c("th"),
-                  _vm._v(" "),
-                  _c("th", { attrs: { scope: "col" } }, [
-                    _vm._v("PAQUETE BASICO")
-                  ]),
-                  _vm._v(" "),
-                  _c("th", { attrs: { scope: "col" } }, [
-                    _vm._v("PAQUETE IDEAL")
-                  ]),
-                  _vm._v(" "),
-                  _c("th", { attrs: { scope: "col" } }, [
-                    _vm._v("PAQUETE PROFESIONAL")
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("tbody", [
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("# Número de Páginas Internas")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", { staticStyle: {} }, [
-                    _vm._v("02 Páginas Internas con 4 a 6 secciones")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", { staticStyle: {} }, [
-                    _vm._v(
-                      "Hasta 08 Páginas Internas con Secciones Respectivas por Página"
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("td", { staticStyle: {} }, [
-                    _vm._v(
-                      "Hasta 20 Páginas Internas con Secciones Respectivas por Página"
-                    )
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Hosting y Dominio.COM")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Hosting + Dominio.COM 1 año")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Hosting + Dominio.COM 1 año")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Hosting + Dominio.COM 1 año")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Correos Corporativos")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("05 Correos Corporativos")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Correos Ilimitados")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Correos Ilimitados")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Diseño Responsible")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Panel Administrable")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Certificación de Seguridad")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Optimización para SEO")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Diseño UI/UX")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Backups Automáticos")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Integración con Redes Sociales")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Módulo de Chat en Vivo/Whatssap")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Google Analytics")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Google AdWords")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Google Mi Negocio")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Diseño de Firmas (Para correo)")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [_vm._v("E-commerce")]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Pasarela de Pago")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Capacitación")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
+    return _c("div", { staticStyle: { "text-align": "center" } }, [
+      _c("h2", [_vm._v("PAQUETES DE DISEÑO WEB")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticStyle: { "text-align": "center" } }, [
+      _c("div", [
+        _c(
+          "p",
+          {
+            staticClass: "lineasSubtitulo",
+            staticStyle: { "font-size": "30px", color: "#f3ab41" }
+          },
+          [_vm._v("Genera más clientes con la creación de tu página web")]
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-lg-8 col-12" }, [
+          _c("div", { staticClass: "wpo-p-details-section" }, [
+            _c("h5", [_vm._v("Paquete Básico")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "wpo-project-details-list" }, [
+              _c("div", { staticClass: "row" }, [
                 _c(
-                  "tr",
-                  {
-                    staticClass: "table-yellow",
-                    staticStyle: { "text-align": "center" }
-                  },
+                  "div",
+                  { staticClass: "col co-l-lg-4 col-md-9 col-sm-6 col-12" },
                   [
-                    _c("th", { attrs: { scope: "row" } }, [_vm._v("COSTOS")]),
-                    _vm._v(" "),
-                    _c("td", [
-                      _c("b", [_vm._v("S/. 485.00")]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c(
-                          "a",
-                          {
-                            staticClass: "btn btn-dark",
-                            attrs: { href: "#", target: "_blank" }
-                          },
-                          [_vm._v("Cotizar")]
-                        )
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("td", [
-                      _c("b", [_vm._v("S/. 985.00")]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c(
-                          "a",
-                          {
-                            staticClass: "btn btn-dark",
-                            attrs: { href: "#", target: "_blank" }
-                          },
-                          [_vm._v("Cotizar")]
-                        )
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("td", [
-                      _c("b", [_vm._v("S/. 1 995.00")]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c(
-                          "a",
-                          {
-                            staticClass: "btn btn-dark",
-                            attrs: { href: "#", target: "_blank" }
-                          },
-                          [_vm._v("Cotizar")]
-                        )
-                      ])
+                    _c("div", { staticClass: "wpo-project-details-text-3" }, [
+                      _c("span", [_vm._v("Descripción...")])
                     ])
                   ]
                 )
               ])
-            ])
+            ]),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", { staticClass: "cohete" }, [
+              _c("ul", [
+                _c("li", [_vm._v("02 Páginas Internas con 4 a 6 secciones.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("05 Correos corporativos.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("01 año de Dominio.Com + Hosting")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Certificado de Seguridad.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Panel Administrable.")]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "Diseño Responsive: Diseño adaptable a diferentes equipos."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Optimización para SEO.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Diseño UI / UX")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Backups Automáticos.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Capacitación.")])
+              ])
+            ]),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", {}, [
+              _c("div", { staticClass: "col col-xs-12" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-4 centrar" }, [
+                    _c("h6", [_vm._v("Costo del Servicio")])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-4" }, [
+                    _c("button", { staticClass: "btn btn-amarillo" }, [
+                      _vm._v("S/. 485.00 + IGV")
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("*Contáctanos si deseas un paquete personalizado")
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("h5", [_vm._v("Paquete Ideal")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "wpo-project-details-list" }, [
+              _c("div", { staticClass: "row" }, [
+                _c(
+                  "div",
+                  { staticClass: "col co-l-lg-4 col-md-9 col-sm-6 col-12" },
+                  [
+                    _c("div", { staticClass: "wpo-project-details-text-3" }, [
+                      _c("span", [_vm._v("Descripción...")])
+                    ])
+                  ]
+                )
+              ])
+            ]),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", { staticClass: "cohete" }, [
+              _c("ul", [
+                _c("li", [
+                  _vm._v(
+                    "Hasta 08 Páginas Internas incluyendo secciones respectivas por página."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Correos corporativos ilimitados.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("01 año de Dominio.Com + Hosting")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Certificado de Seguridad.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Panel Administrable.")]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "Diseño Responsive: Diseño adaptable a diferentes equipos."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Optimización para SEO.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Diseño UI / UX")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Backups Automáticos.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Integración con Redes Sociales.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Modulo de Chat en vivo/Whatsapp")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Google Analytics.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Pasarela de Pago.")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", { staticClass: "col col-xs-12" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-4 centrar" }, [
+                  _c("h6", [_vm._v("Costo del Servicio")])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-md-4" }, [
+                  _c("button", { staticClass: "btn btn-amarillo" }, [
+                    _vm._v("S/. 985.00 + IGV")
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v("*Contáctanos si deseas un paquete personalizado")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("h5", [_vm._v("Paquete Profesional")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "wpo-project-details-list" }, [
+              _c("div", { staticClass: "row" }, [
+                _c(
+                  "div",
+                  { staticClass: "col co-l-lg-4 col-md-9 col-sm-6 col-12" },
+                  [
+                    _c("div", { staticClass: "wpo-project-details-text-3" }, [
+                      _c("span", [_vm._v("Descripción...")])
+                    ])
+                  ]
+                )
+              ])
+            ]),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", { staticClass: "cohete" }, [
+              _c("ul", [
+                _c("li", [
+                  _vm._v(
+                    "Hasta 20 Páginas Internas incluyendo secciones respectivas por página."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Correos corporativos ilimitados.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("01 año de Dominio.Com + Hosting")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Certificado de Seguridad.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Panel Administrable.")]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "Diseño Responsive: Diseño adaptable a diferentes equipos."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Optimización para SEO.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Diseño UI / UX")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Backups Automáticos.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Integración con Redes Sociales.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Modulo de Chat en vivo/Whatsapp.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Envíos de Correo Masivo.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Google Mi Negocio.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Google Analytics.")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Google AdWords.")]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v("Diseño de Firmas: Especialmente para correos.")
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Ecommerce")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Pasarela de Pago.")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", { staticClass: "col col-xs-12" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-4 centrar" }, [
+                  _c("h6", [_vm._v("Costo del Servicio")])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-md-4" }, [
+                  _c("button", { staticClass: "btn btn-amarillo" }, [
+                    _vm._v("S/. 1 995.00 + IGV")
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v("*Contáctanos si deseas un paquete personalizado")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("br")
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", { staticClass: "thead-dark" }, [
+      _c("tr", [
+        _c("th"),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("PAQUETE BASICO")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("PAQUETE IDEAL")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("PAQUETE PROFESIONAL")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("Hosting y Dominio.COM")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("Hosting + Dominio.COM 1 año")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("Hosting + Dominio.COM 1 año")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("Hosting + Dominio.COM 1 año")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("Correos Corporativos")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("05 Correos Corporativos")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("Correos Ilimitados")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("Correos Ilimitados")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("Diseño Responsive")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("Panel Administrable")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [
+        _vm._v("Certificación de Seguridad")
+      ]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("Optimización para SEO")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("Diseño UI/UX")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("Backups Automáticos")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [
+        _vm._v("Integración con Redes Sociales")
+      ]),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [
+        _vm._v("Módulo de Chat en Vivo/Whatssap")
+      ]),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("Google Analytics")]),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("Google AdWords")]),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("Google Mi Negocio")]),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [
+        _vm._v("Diseño de Firmas (Para correo)")
+      ]),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("E-commerce")]),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("Pasarela de Pago")]),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", { attrs: { scope: "row" } }, [_vm._v("Capacitación")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")]),
+      _vm._v(" "),
+      _c("td", [_vm._v("✔")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "tr",
+      { staticClass: "table-yellow", staticStyle: { "text-align": "center" } },
+      [
+        _c("th", { attrs: { scope: "row" } }, [_vm._v("COSTOS")]),
+        _vm._v(" "),
+        _c("td", [
+          _c("b", [_vm._v("S/. 485.00")]),
+          _vm._v(" "),
+          _c("div", [
+            _c(
+              "a",
+              {
+                staticClass: "btn btn-dark",
+                attrs: { href: "#", target: "_blank" }
+              },
+              [_vm._v("Cotizar")]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("td", [
+          _c("b", [_vm._v("S/. 985.00")]),
+          _vm._v(" "),
+          _c("div", [
+            _c(
+              "a",
+              {
+                staticClass: "btn btn-dark",
+                attrs: { href: "#", target: "_blank" }
+              },
+              [_vm._v("Cotizar")]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("td", [
+          _c("b", [_vm._v("S/. 1 995.00")]),
+          _vm._v(" "),
+          _c("div", [
+            _c(
+              "a",
+              {
+                staticClass: "btn btn-dark",
+                attrs: { href: "#", target: "_blank" }
+              },
+              [_vm._v("Cotizar")]
+            )
           ])
         ])
       ]
@@ -55464,7 +55547,7 @@ var normalizeComponent = __webpack_require__(2)
 /* script */
 var __vue_script__ = __webpack_require__(78)
 /* template */
-var __vue_template__ = __webpack_require__(84)
+var __vue_template__ = __webpack_require__(85)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -55537,7 +55620,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -55554,7 +55637,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_Menu_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Servicio_vue__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Servicio_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_Servicio_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_services_js__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_services_js__ = __webpack_require__(84);
 //
 //
 //
@@ -55865,6 +55948,35 @@ if (false) {
 
 /***/ }),
 /* 84 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var servicios = [{
+    titulo: "Páginas Web",
+    subtitulo: "Te van a contactar",
+    imagen: "web_01.png",
+    ruta: "paginasweb"
+}, {
+    titulo: "Tiendas Online",
+    subtitulo: "Te van a comprar",
+    imagen: "store_01.png",
+    ruta: "tiendaonline"
+}, {
+    titulo: "Social Media",
+    subtitulo: "Te van a ver",
+    imagen: "social_01.png",
+    ruta: "socialmedia"
+}, {
+    titulo: "CRM",
+    subtitulo: "Controla tus leads",
+    imagen: "crm_01.png",
+    ruta: "crm"
+}];
+
+/* harmony default export */ __webpack_exports__["a"] = (servicios);
+
+/***/ }),
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -56040,19 +56152,19 @@ if (false) {
 }
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(86)
+  __webpack_require__(87)
 }
 var normalizeComponent = __webpack_require__(2)
 /* script */
-var __vue_script__ = __webpack_require__(88)
+var __vue_script__ = __webpack_require__(89)
 /* template */
-var __vue_template__ = __webpack_require__(89)
+var __vue_template__ = __webpack_require__(90)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -56091,13 +56203,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(87);
+var content = __webpack_require__(88);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -56117,7 +56229,7 @@ if(false) {
 }
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -56125,13 +56237,13 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56140,6 +56252,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_Footer_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Menu_vue__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_Menu_vue__);
+//
+//
 //
 //
 //
@@ -56495,7 +56609,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -56589,7 +56703,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("li", [
                       _vm._v(
-                        "Diseño Responsible: Diseño adaptable a diferentes equipos."
+                        "Diseño Responsive: Diseño adaptable a diferentes equipos."
                       )
                     ]),
                     _vm._v(" "),
@@ -56618,19 +56732,14 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "col col-xs-12" }, [
                   _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
+                    _c("div", { staticClass: "col-md-4 centrar" }, [
                       _c("h6", [_vm._v("Costo del Servicio")])
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-amarillo",
-                          attrs: { href: "#", target: "_blank" }
-                        },
-                        [_vm._v("S/. 900.00 + IGV")]
-                      )
+                    _c("div", { staticClass: "col-md-4" }, [
+                      _c("button", { staticClass: "btn btn-amarillo" }, [
+                        _vm._v("S/. 900.00 + IGV")
+                      ])
                     ])
                   ]),
                   _vm._v(" "),
@@ -56684,7 +56793,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("li", [
                       _vm._v(
-                        "Diseño Responsible: Diseño adaptable a diferentes equipos."
+                        "Diseño Responsive: Diseño adaptable a diferentes equipos."
                       )
                     ]),
                     _vm._v(" "),
@@ -56716,19 +56825,14 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "col col-xs-12" }, [
                   _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
+                    _c("div", { staticClass: "col-md-4 centrar" }, [
                       _c("h6", [_vm._v("Costo del Servicio")])
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-amarillo",
-                          attrs: { href: "#", target: "_blank" }
-                        },
-                        [_vm._v("S/. 1 500.00 + IGV")]
-                      )
+                    _c("div", { staticClass: "col-md-4" }, [
+                      _c("button", { staticClass: "btn btn-amarillo" }, [
+                        _vm._v("S/. 1 500.00 + IGV")
+                      ])
                     ])
                   ]),
                   _vm._v(" "),
@@ -56784,7 +56888,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("li", [
                       _vm._v(
-                        "Diseño Responsible: Diseño adaptable a diferentes equipos."
+                        "Diseño Responsive: Diseño adaptable a diferentes equipos."
                       )
                     ]),
                     _vm._v(" "),
@@ -56820,19 +56924,14 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "col col-xs-12" }, [
                   _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
+                    _c("div", { staticClass: "col-md-4 centrar" }, [
                       _c("h6", [_vm._v("Costo del Servicio")])
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-amarillo",
-                          attrs: { href: "#", target: "_blank" }
-                        },
-                        [_vm._v("S/. 3 000.00 + IGV")]
-                      )
+                    _c("div", { staticClass: "col-md-4" }, [
+                      _c("button", { staticClass: "btn btn-amarillo" }, [
+                        _vm._v("S/. 3 000.00 + IGV")
+                      ])
                     ])
                   ]),
                   _vm._v(" "),
@@ -56853,321 +56952,323 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "container" }, [
           _c("div", { staticStyle: { "text-align": "center" } }, [
-            _c("table", { staticClass: "table" }, [
-              _c("thead", { staticClass: "thead-dark" }, [
-                _c("tr", [
-                  _c("th"),
-                  _vm._v(" "),
-                  _c("th", { attrs: { scope: "col" } }, [
-                    _vm._v("PAQUETE BASICO")
-                  ]),
-                  _vm._v(" "),
-                  _c("th", { attrs: { scope: "col" } }, [
-                    _vm._v("PAQUETE IDEAL")
-                  ]),
-                  _vm._v(" "),
-                  _c("th", { attrs: { scope: "col" } }, [
-                    _vm._v("PAQUETE PROFESIONAL")
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("tbody", [
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("# Número de Productos")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Hasta 150 Productos")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Hasta 500 Productos")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Productos Ilimitados")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("# Número de Correos Corporativos")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("05 Correos Corporativos")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("20 Correos Corporativos")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Correos Ilimitados")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("# Número de Usuarios")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("01 Usuario")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Múltiples Usuarios")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Múltiples Usuarios")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("# Número de Ventas")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Ilimitadas")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Ilimitadas")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Ilimitadas")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Dominio.COM")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Diseño Responsible")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Panel Administrable")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Certificación de Seguridad")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Optimización para SEO")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Básico")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Profesional")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Empresarial")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Categorías Ilimitadas")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Métodos de Pago Configurables")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Creación de Páginas Configurables")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Google Analytics")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Conexión Zapier")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Módulo de Estadísticas")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Facebook Pixel")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Link de QR de Pago")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Descarga de Reportes en Excel")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Códigos de Descuento")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Pasarela de Pago")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c(
-                  "tr",
-                  {
-                    staticClass: "table-yellow",
-                    staticStyle: { "text-align": "center" }
-                  },
-                  [
-                    _c("th", { attrs: { scope: "row" } }, [_vm._v("COSTOS")]),
+            _c("div", { staticClass: "table-responsive" }, [
+              _c("table", { staticClass: "table" }, [
+                _c("thead", { staticClass: "thead-dark" }, [
+                  _c("tr", [
+                    _c("th"),
                     _vm._v(" "),
-                    _c("td", [
-                      _c("b", [_vm._v("S/. 500.00")]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c(
-                          "a",
-                          {
-                            staticClass: "btn btn-dark",
-                            attrs: { href: "#", target: "_blank" }
-                          },
-                          [_vm._v("Cotizar")]
-                        )
-                      ])
+                    _c("th", { attrs: { scope: "col" } }, [
+                      _vm._v("PAQUETE BASICO")
                     ]),
                     _vm._v(" "),
-                    _c("td", [
-                      _c("b", [_vm._v("S/. 1 500.00")]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c(
-                          "a",
-                          {
-                            staticClass: "btn btn-dark",
-                            attrs: { href: "#", target: "_blank" }
-                          },
-                          [_vm._v("Cotizar")]
-                        )
-                      ])
+                    _c("th", { attrs: { scope: "col" } }, [
+                      _vm._v("PAQUETE IDEAL")
                     ]),
                     _vm._v(" "),
-                    _c("td", [
-                      _c("b", [_vm._v("S/. 3 000.00")]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c(
-                          "a",
-                          {
-                            staticClass: "btn btn-dark",
-                            attrs: { href: "#", target: "_blank" }
-                          },
-                          [_vm._v("Cotizar")]
-                        )
-                      ])
+                    _c("th", { attrs: { scope: "col" } }, [
+                      _vm._v("PAQUETE PROFESIONAL")
                     ])
-                  ]
-                )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("tbody", [
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("# Número de Productos")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Hasta 150 Productos")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Hasta 500 Productos")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Productos Ilimitados")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("# Número de Correos Corporativos")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("05 Correos Corporativos")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("20 Correos Corporativos")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Correos Ilimitados")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("# Número de Usuarios")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("01 Usuario")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Múltiples Usuarios")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Múltiples Usuarios")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("# Número de Ventas")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Ilimitadas")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Ilimitadas")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Ilimitadas")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Dominio.COM")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Diseño Responsive")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Panel Administrable")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Certificación de Seguridad")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Optimización para SEO")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Básico")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Profesional")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Empresarial")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Categorías Ilimitadas")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Métodos de Pago Configurables")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Creación de Páginas Configurables")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Google Analytics")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Conexión Zapier")
+                    ]),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Módulo de Estadísticas")
+                    ]),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Facebook Pixel")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Link de QR de Pago")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Descarga de Reportes en Excel")
+                    ]),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Códigos de Descuento")
+                    ]),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Pasarela de Pago")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "tr",
+                    {
+                      staticClass: "table-yellow",
+                      staticStyle: { "text-align": "center" }
+                    },
+                    [
+                      _c("th", { attrs: { scope: "row" } }, [_vm._v("COSTOS")]),
+                      _vm._v(" "),
+                      _c("td", [
+                        _c("b", [_vm._v("S/. 500.00")]),
+                        _vm._v(" "),
+                        _c("div", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-dark",
+                              attrs: { href: "#", target: "_blank" }
+                            },
+                            [_vm._v("Cotizar")]
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("td", [
+                        _c("b", [_vm._v("S/. 1 500.00")]),
+                        _vm._v(" "),
+                        _c("div", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-dark",
+                              attrs: { href: "#", target: "_blank" }
+                            },
+                            [_vm._v("Cotizar")]
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("td", [
+                        _c("b", [_vm._v("S/. 3 000.00")]),
+                        _vm._v(" "),
+                        _c("div", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-dark",
+                              attrs: { href: "#", target: "_blank" }
+                            },
+                            [_vm._v("Cotizar")]
+                          )
+                        ])
+                      ])
+                    ]
+                  )
+                ])
               ])
             ])
           ])
@@ -57186,19 +57287,19 @@ if (false) {
 }
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(91)
+  __webpack_require__(92)
 }
 var normalizeComponent = __webpack_require__(2)
 /* script */
-var __vue_script__ = __webpack_require__(93)
+var __vue_script__ = __webpack_require__(94)
 /* template */
-var __vue_template__ = __webpack_require__(94)
+var __vue_template__ = __webpack_require__(95)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -57237,13 +57338,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(92);
+var content = __webpack_require__(93);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -57263,7 +57364,7 @@ if(false) {
 }
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -57277,7 +57378,7 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57603,7 +57704,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -57709,19 +57810,14 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "col col-xs-12" }, [
                   _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
+                    _c("div", { staticClass: "col-md-4 centrar" }, [
                       _c("h6", [_vm._v("Costo del Servicio")])
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-amarillo",
-                          attrs: { href: "#", target: "_blank" }
-                        },
-                        [_vm._v("S/. 120.00 + IGV")]
-                      )
+                    _c("div", { staticClass: "col-md-4" }, [
+                      _c("button", { staticClass: "btn btn-amarillo" }, [
+                        _vm._v("S/. 120.00 + IGV")
+                      ])
                     ])
                   ]),
                   _vm._v(" "),
@@ -57788,19 +57884,14 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "col col-xs-12" }, [
                   _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
+                    _c("div", { staticClass: "col-md-4 centrar" }, [
                       _c("h6", [_vm._v("Costo del Servicio")])
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-amarillo",
-                          attrs: { href: "#", target: "_blank" }
-                        },
-                        [_vm._v("S/. 200.00 + IGV")]
-                      )
+                    _c("div", { staticClass: "col-md-4" }, [
+                      _c("button", { staticClass: "btn btn-amarillo" }, [
+                        _vm._v("S/. 200.00 + IGV")
+                      ])
                     ])
                   ]),
                   _vm._v(" "),
@@ -57881,19 +57972,14 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "col col-xs-12" }, [
                   _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
+                    _c("div", { staticClass: "col-md-4 centrar" }, [
                       _c("h6", [_vm._v("Costo del Servicio")])
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-amarillo",
-                          attrs: { href: "#", target: "_blank" }
-                        },
-                        [_vm._v("S/. 480.00 + IGV")]
-                      )
+                    _c("div", { staticClass: "col-md-4" }, [
+                      _c("button", { staticClass: "btn btn-amarillo" }, [
+                        _vm._v("S/. 480.00 + IGV")
+                      ])
                     ])
                   ]),
                   _vm._v(" "),
@@ -57972,19 +58058,14 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "col col-xs-12" }, [
                   _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
+                    _c("div", { staticClass: "col-md-4 centrar" }, [
                       _c("h6", [_vm._v("Costo del Servicio")])
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-amarillo",
-                          attrs: { href: "#", target: "_blank" }
-                        },
-                        [_vm._v("S/. 920.00 + IGV")]
-                      )
+                    _c("div", { staticClass: "col-md-4" }, [
+                      _c("button", { staticClass: "btn btn-amarillo" }, [
+                        _vm._v("S/. 920.00 + IGV")
+                      ])
                     ])
                   ]),
                   _vm._v(" "),
@@ -58019,227 +58100,233 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "container" }, [
           _c("div", { staticStyle: { "text-align": "center" } }, [
-            _c("table", { staticClass: "table" }, [
-              _c("thead", { staticClass: "thead-dark" }, [
-                _c("tr", [
-                  _c("th"),
-                  _vm._v(" "),
-                  _c("th", { attrs: { scope: "col" } }, [
-                    _vm._v("PAQUETE BASICO")
-                  ]),
-                  _vm._v(" "),
-                  _c("th", { attrs: { scope: "col" } }, [
-                    _vm._v("PAQUETE IDEAL")
-                  ]),
-                  _vm._v(" "),
-                  _c("th", { attrs: { scope: "col" } }, [
-                    _vm._v("PAQUETE PROFESIONAL")
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("tbody", [
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("# Número de Redes Sociales")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("02 Redes Sociales: Facebook e Instagram")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("02 Redes Sociales: Facebook e Instagram")]),
-                  _vm._v(" "),
-                  _c("td", [
-                    _vm._v(
-                      "04 Redes Sociales: Facebook, Instagram, Linkedin y Youtube"
-                    )
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("# Número de publicaciones al mes")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("05 publicaciones al mes")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("02 publicaciones semanales")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("24 publicaciones al mes")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("# Número de portadas al mes")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("01 Portada al mes")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("01 portada al mes")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("02 portadas al mes")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("# Número de campañas")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("01 campaña publicitaria")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("03 campañas publicitarias")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Campañas publicitarias, las necesarias")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Configuración del negocio")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Estrategias de contenido")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Mensuales")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Quincenales")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Semanales")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Respuestas automáticas")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Diseño y estructura de cada red social")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Implementación de segmentaciones")
-                  ]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Informe de resultados por campaña")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [_vm._v("Asesoría")]),
-                  _vm._v(" "),
-                  _c("td"),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("✔")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("th", { attrs: { scope: "row" } }, [
-                    _vm._v("Presupuesto e Inversión de pauta publicitaria")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Incluye Básico")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Incluye")]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Incluye")])
-                ]),
-                _vm._v(" "),
-                _c(
-                  "tr",
-                  {
-                    staticClass: "table-yellow",
-                    staticStyle: { "text-align": "center" }
-                  },
-                  [
-                    _c("th", { attrs: { scope: "row" } }, [_vm._v("COSTOS")]),
+            _c("div", { staticClass: "table-responsive" }, [
+              _c("table", { staticClass: "table" }, [
+                _c("thead", { staticClass: "thead-dark" }, [
+                  _c("tr", [
+                    _c("th"),
                     _vm._v(" "),
-                    _c("td", [
-                      _c("b", [_vm._v("S/. 200.00")]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c(
-                          "a",
-                          {
-                            staticClass: "btn btn-dark",
-                            attrs: { href: "#", target: "_blank" }
-                          },
-                          [_vm._v("Cotizar")]
-                        )
-                      ])
+                    _c("th", { attrs: { scope: "col" } }, [
+                      _vm._v("PAQUETE BASICO")
                     ]),
                     _vm._v(" "),
-                    _c("td", [
-                      _c("b", [_vm._v("S/. 480.00")]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c(
-                          "a",
-                          {
-                            staticClass: "btn btn-dark",
-                            attrs: { href: "#", target: "_blank" }
-                          },
-                          [_vm._v("Cotizar")]
-                        )
-                      ])
+                    _c("th", { attrs: { scope: "col" } }, [
+                      _vm._v("PAQUETE IDEAL")
                     ]),
                     _vm._v(" "),
-                    _c("td", [
-                      _c("b", [_vm._v("S/. 920.00")]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c(
-                          "a",
-                          {
-                            staticClass: "btn btn-dark",
-                            attrs: { href: "#", target: "_blank" }
-                          },
-                          [_vm._v("Cotizar")]
-                        )
-                      ])
+                    _c("th", { attrs: { scope: "col" } }, [
+                      _vm._v("PAQUETE PROFESIONAL")
                     ])
-                  ]
-                )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("tbody", [
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("# Número de Redes Sociales")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [
+                      _vm._v("02 Redes Sociales: Facebook e Instagram")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [
+                      _vm._v("02 Redes Sociales: Facebook e Instagram")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [
+                      _vm._v(
+                        "04 Redes Sociales: Facebook, Instagram, Linkedin y Youtube"
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("# Número de publicaciones al mes")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("05 publicaciones al mes")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("02 publicaciones semanales")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("24 publicaciones al mes")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("# Número de portadas al mes")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("01 Portada al mes")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("01 portada al mes")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("02 portadas al mes")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("# Número de campañas")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("01 campaña publicitaria")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("03 campañas publicitarias")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Campañas publicitarias, las necesarias")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Configuración del negocio")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Estrategias de contenido")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Mensuales")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Quincenales")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Semanales")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Respuestas automáticas")
+                    ]),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Diseño y estructura de cada red social")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Implementación de segmentaciones")
+                    ]),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Informe de resultados por campaña")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [_vm._v("Asesoría")]),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("✔")])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "row" } }, [
+                      _vm._v("Presupuesto e Inversión de pauta publicitaria")
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Incluye Básico")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Incluye")]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v("Incluye")])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "tr",
+                    {
+                      staticClass: "table-yellow",
+                      staticStyle: { "text-align": "center" }
+                    },
+                    [
+                      _c("th", { attrs: { scope: "row" } }, [_vm._v("COSTOS")]),
+                      _vm._v(" "),
+                      _c("td", [
+                        _c("b", [_vm._v("S/. 200.00")]),
+                        _vm._v(" "),
+                        _c("div", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-dark",
+                              attrs: { href: "#", target: "_blank" }
+                            },
+                            [_vm._v("Cotizar")]
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("td", [
+                        _c("b", [_vm._v("S/. 480.00")]),
+                        _vm._v(" "),
+                        _c("div", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-dark",
+                              attrs: { href: "#", target: "_blank" }
+                            },
+                            [_vm._v("Cotizar")]
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("td", [
+                        _c("b", [_vm._v("S/. 920.00")]),
+                        _vm._v(" "),
+                        _c("div", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn btn-dark",
+                              attrs: { href: "#", target: "_blank" }
+                            },
+                            [_vm._v("Cotizar")]
+                          )
+                        ])
+                      ])
+                    ]
+                  )
+                ])
               ])
             ])
           ])
@@ -58258,19 +58345,19 @@ if (false) {
 }
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(96)
+  __webpack_require__(97)
 }
 var normalizeComponent = __webpack_require__(2)
 /* script */
-var __vue_script__ = __webpack_require__(98)
+var __vue_script__ = __webpack_require__(99)
 /* template */
-var __vue_template__ = __webpack_require__(99)
+var __vue_template__ = __webpack_require__(100)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -58309,13 +58396,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(97);
+var content = __webpack_require__(98);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -58335,7 +58422,7 @@ if(false) {
 }
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -58343,13 +58430,13 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n.espacio{\r\nmargin-top: 9.0rem !important;\n}\n@media(max-width: 991px){\n.espacio{\r\n        margin-top: 0.0rem !important;\n}\n}\n.centrar{\r\n    display:grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58358,6 +58445,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_Footer_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Menu_vue__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_Menu_vue__);
+//
+//
+//
 //
 //
 //
@@ -58682,7 +58772,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -58759,24 +58849,19 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-lg-6" }, [
-              _c(
-                "div",
-                {
-                  staticClass: "about-content",
-                  staticStyle: { "margin-top": "9.0rem !important" }
-                },
-                [
+              _c("div", { staticClass: "espacio" }, [
+                _c("div", { staticClass: "about-content" }, [
                   _c("p", [
                     _vm._v(
-                      "El CRM Odoon es una herramienta de gestión enfocada en el proceso de compra del\n                            cliente."
+                      "El CRM Odoon es una herramienta de gestión enfocada en el proceso de compra del\n                                cliente."
                     ),
                     _c("br"),
                     _vm._v(
-                      "Con ella podrás hacer seguimiento a los leads que objtengas, cerrar las\n                            oportunidades presentadas y conseguir pronóstico precisos."
+                      "Con ella podrás hacer seguimiento a los leads que objtengas, cerrar las\n                                oportunidades presentadas y conseguir pronóstico precisos."
                     )
                   ])
-                ]
-              )
+                ])
+              ])
             ])
           ]
         )
@@ -58804,120 +58889,141 @@ var staticRenderFns = [
             staticStyle: { "margin-top": "4.5rem !important" }
           },
           [
-            _c("div", { staticClass: "col-md-4" }, [
-              _c(
-                "div",
-                {
-                  staticClass: "card cuadroNaranja",
-                  staticStyle: { width: "14rem" }
-                },
-                [
-                  _c(
-                    "div",
-                    {
-                      staticClass: "card-header",
-                      staticStyle: { height: "10rem" }
-                    },
-                    [
-                      _c(
-                        "h5",
-                        {
-                          staticClass: "card-title text-center",
-                          staticStyle: { color: "#fff" }
-                        },
-                        [
-                          _vm._v("Hacer un"),
-                          _c("br"),
-                          _vm._v("seguimiento de"),
-                          _c("br"),
-                          _vm._v(
-                            "clientes desde\n                                el"
-                          ),
-                          _c("br"),
-                          _vm._v("comienzo hasta el"),
-                          _c("br"),
-                          _vm._v("final")
-                        ]
-                      )
-                    ]
-                  )
-                ]
-              )
-            ]),
+            _c(
+              "div",
+              {
+                staticClass: "col-md-4",
+                staticStyle: { "margin-top": "3.0rem !important" }
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "card cuadroNaranja",
+                    staticStyle: { width: "14rem" }
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "card-header centrar",
+                        staticStyle: { height: "10rem" }
+                      },
+                      [
+                        _c(
+                          "h5",
+                          {
+                            staticClass: "card-title text-center",
+                            staticStyle: { color: "#fff" }
+                          },
+                          [
+                            _vm._v("Hacer un"),
+                            _c("br"),
+                            _vm._v("seguimiento de"),
+                            _c("br"),
+                            _vm._v(
+                              "clientes desde\n                                el"
+                            ),
+                            _c("br"),
+                            _vm._v("comienzo hasta el"),
+                            _c("br"),
+                            _vm._v("final")
+                          ]
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "col-md-4" }, [
-              _c(
-                "div",
-                {
-                  staticClass: "card cuadroAzul",
-                  staticStyle: { width: "14rem" }
-                },
-                [
-                  _c(
-                    "div",
-                    {
-                      staticClass: "card-header",
-                      staticStyle: { height: "10rem" }
-                    },
-                    [
-                      _c(
-                        "h5",
-                        {
-                          staticClass: "card-title text-center",
-                          staticStyle: { color: "#fff" }
-                        },
-                        [
-                          _vm._v("Obtener"),
-                          _c("br"),
-                          _vm._v("previsiones"),
-                          _c("br"),
-                          _vm._v("de ventas")
-                        ]
-                      )
-                    ]
-                  )
-                ]
-              )
-            ]),
+            _c(
+              "div",
+              {
+                staticClass: "col-md-4",
+                staticStyle: { "margin-top": "3.0rem !important" }
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "card cuadroAzul",
+                    staticStyle: { width: "14rem" }
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "card-header centrar",
+                        staticStyle: { height: "10rem" }
+                      },
+                      [
+                        _c(
+                          "h5",
+                          {
+                            staticClass: "card-title text-center",
+                            staticStyle: { color: "#fff" }
+                          },
+                          [
+                            _vm._v("Obtener"),
+                            _c("br"),
+                            _vm._v("previsiones"),
+                            _c("br"),
+                            _vm._v("de ventas")
+                          ]
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "col-md-4" }, [
-              _c(
-                "div",
-                {
-                  staticClass: "card cuadroNaranja",
-                  staticStyle: { width: "14rem" }
-                },
-                [
-                  _c(
-                    "div",
-                    {
-                      staticClass: "card-header",
-                      staticStyle: { height: "10rem" }
-                    },
-                    [
-                      _c(
-                        "h5",
-                        {
-                          staticClass: "card-title text-center",
-                          staticStyle: { color: "#fff" }
-                        },
-                        [
-                          _vm._v("Programas"),
-                          _c("br"),
-                          _vm._v("actividades y"),
-                          _c("br"),
-                          _vm._v(
-                            "gestionarás\n                                en"
-                          ),
-                          _c("br"),
-                          _vm._v("tiempo real")
-                        ]
-                      )
-                    ]
-                  )
-                ]
-              )
-            ])
+            _c(
+              "div",
+              {
+                staticClass: "col-md-4",
+                staticStyle: { "margin-top": "3.0rem !important" }
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "card cuadroNaranja",
+                    staticStyle: { width: "14rem" }
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "card-header centrar",
+                        staticStyle: { height: "10rem" }
+                      },
+                      [
+                        _c(
+                          "h5",
+                          {
+                            staticClass: "card-title text-center",
+                            staticStyle: { color: "#fff" }
+                          },
+                          [
+                            _vm._v("Programas"),
+                            _c("br"),
+                            _vm._v("actividades y"),
+                            _c("br"),
+                            _vm._v(
+                              "gestionarás\n                                en"
+                            ),
+                            _c("br"),
+                            _vm._v("tiempo real")
+                          ]
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ]
+            )
           ]
         )
       ])
@@ -59315,41 +59421,10 @@ if (false) {
 }
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 101 */,
-/* 102 */,
-/* 103 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var servicios = [{
-    titulo: "Páginas Web",
-    subtitulo: "Te van a contactar",
-    imagen: "web_01.png",
-    ruta: "paginasweb"
-}, {
-    titulo: "Tiendas Online",
-    subtitulo: "Te van a comprar",
-    imagen: "store_01.png",
-    ruta: "tiendaonline"
-}, {
-    titulo: "Social Media",
-    subtitulo: "Te van a ver",
-    imagen: "social_01.png",
-    ruta: "socialmedia"
-}, {
-    titulo: "CRM",
-    subtitulo: "Controla tus leads",
-    imagen: "crm_01.png",
-    ruta: "crm"
-}];
-
-/* harmony default export */ __webpack_exports__["a"] = (servicios);
 
 /***/ })
 /******/ ]);

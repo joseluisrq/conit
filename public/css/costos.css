@@ -7,15 +7,24 @@ h6{
     color:darkorange;
     font-family: 'Poppins', sans-serif;
 }
-
 h6::after{
     content:"";
     position:absolute;
-    width:205px;
+    width:75px;
     height:3px;
     background-color:currentColor;
     top:0.6em;
-    right:-210px;
+    right:-20px;
+}
+@media (max-width: 991px) {
+h6::after{
+    width:0px;
+    height:0px;
+  
+}}
+.centrar{
+    display:grid;
+    align-items: center;
 }
 
 

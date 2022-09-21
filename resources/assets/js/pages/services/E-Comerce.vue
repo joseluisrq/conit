@@ -45,7 +45,7 @@
                                     <li>02 meses de soporte por Correo.</li>
                                     <li>Panel Administrable.</li>
                                     <li>Pasarela de Pago.</li>
-                                    <li>Diseño Responsible: Diseño adaptable a diferentes equipos.</li>
+                                    <li>Diseño Responsive: Diseño adaptable a diferentes equipos.</li>
                                     <li>Diseño UI/UX.</li>
                                     <li>Backups Automáticos.</li>
                                     <li>Google Analytics.</li>
@@ -61,11 +61,11 @@
                             
                             <div class="col col-xs-12">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4 centrar">
                                         <h6>Costo del Servicio</h6>
                                     </div>
-                                    <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 900.00 + IGV</a>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-amarillo">S/. 900.00 + IGV</button>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -92,7 +92,7 @@
                                     <li>02 meses de soporte por Correo/Llamada.</li>
                                     <li>Panel Administrable.</li>
                                     <li>Pasarela de Pago.</li>
-                                    <li>Diseño Responsible: Diseño adaptable a diferentes equipos.</li>
+                                    <li>Diseño Responsive: Diseño adaptable a diferentes equipos.</li>
                                     <li>Diseño UI/UX.</li>
                                     <li>Backups Automáticos.</li>
                                     <li>Google Analytics.</li>
@@ -110,11 +110,11 @@
                             <br/>
                             <div class="col col-xs-12">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4 centrar">
                                         <h6>Costo del Servicio</h6>
                                     </div>
-                                    <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 1 500.00 + IGV</a>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-amarillo">S/. 1 500.00 + IGV</button>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -142,7 +142,7 @@
                                     <li>Conexión Zapier.</li>
                                     <li>Panel Administrable.</li>
                                     <li>Pasarela de Pago.</li>
-                                    <li>Diseño Responsible: Diseño adaptable a diferentes equipos.</li>
+                                    <li>Diseño Responsive: Diseño adaptable a diferentes equipos.</li>
                                     <li>Diseño UI/UX.</li>
                                     <li>Backups Automáticos.</li>
                                     <li>Google Analytics.</li>
@@ -161,11 +161,11 @@
                             <br/>
                             <div class="col col-xs-12">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4 centrar">
                                         <h6>Costo del Servicio</h6>
                                     </div>
-                                    <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 3 000.00 + IGV</a>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-amarillo">S/. 3 000.00 + IGV</button>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -180,7 +180,8 @@
             <br/>
             <div class="container">
                 <div style="text-align:center;">
-                    <table class="table">
+                    <div class="table-responsive">
+                        <table class="table">
                         <thead class="thead-dark">
                             <tr>
                                 <th></th>
@@ -221,7 +222,7 @@
                                 <td>✔</td>
                             </tr>
                             <tr>
-                                <th scope="row">Diseño Responsible</th>
+                                <th scope="row">Diseño Responsive</th>
                                 <td>✔</td>
                                 <td>✔</td>
                                 <td>✔</td>
@@ -330,7 +331,8 @@
                             </tr>
                             
                         </tbody>
-                        </table>                                 
+                        </table> 
+                    </div>                                  
                 </div>
             </div>
         </div>

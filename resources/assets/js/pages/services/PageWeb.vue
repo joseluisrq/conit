@@ -46,7 +46,7 @@
                                     <li>01 año de Dominio.Com + Hosting</li>
                                     <li>Certificado de Seguridad.</li>
                                     <li>Panel Administrable.</li>
-                                    <li>Diseño Responsible: Diseño adaptable a diferentes equipos.</li>
+                                    <li>Diseño Responsive: Diseño adaptable a diferentes equipos.</li>
                                     <li>Optimización para SEO.</li>
                                     <li>Diseño UI / UX</li>
                                     <li>Backups Automáticos.</li>
@@ -54,17 +54,20 @@
                                 </ul>
                             </div><br/>
                             
-                            <div class="col col-xs-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h6>Costo del Servicio</h6>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 485.00 + IGV</a>
-                                    </div>
-                                </div>
+                            <div class="">
+                                <div class="col col-xs-12">
+                                    <div class="row">
+                                            <div class="col-md-4 centrar">
+                                                <h6>Costo del Servicio</h6> 
+                                            </div>
+                                            <div class="col-md-4">
+                                                <button class="btn btn-amarillo">S/. 485.00 + IGV</button>
+                                            </div>
+                                        </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
+                                </div>
                             </div>
+                            
                             <br/>
                             <br/>
                             <h5>Paquete Ideal</h5>
@@ -84,7 +87,7 @@
                                     <li>01 año de Dominio.Com + Hosting</li>
                                     <li>Certificado de Seguridad.</li>
                                     <li>Panel Administrable.</li>
-                                    <li>Diseño Responsible: Diseño adaptable a diferentes equipos.</li>
+                                    <li>Diseño Responsive: Diseño adaptable a diferentes equipos.</li>
                                     <li>Optimización para SEO.</li>
                                     <li>Diseño UI / UX</li>
                                     <li>Backups Automáticos.</li>
@@ -98,11 +101,11 @@
                             <br/>
                             <div class="col col-xs-12">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4 centrar">
                                         <h6>Costo del Servicio</h6>
                                     </div>
-                                    <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 985.00 + IGV</a>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-amarillo">S/. 985.00 + IGV</button>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -126,7 +129,7 @@
                                     <li>01 año de Dominio.Com + Hosting</li>
                                     <li>Certificado de Seguridad.</li>
                                     <li>Panel Administrable.</li>
-                                    <li>Diseño Responsible: Diseño adaptable a diferentes equipos.</li>
+                                    <li>Diseño Responsive: Diseño adaptable a diferentes equipos.</li>
                                     <li>Optimización para SEO.</li>
                                     <li>Diseño UI / UX</li>
                                     <li>Backups Automáticos.</li>
@@ -144,11 +147,11 @@
                             <br/>
                             <div class="col col-xs-12">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4 centrar">
                                         <h6>Costo del Servicio</h6>
                                     </div>
-                                    <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 1 995.00 + IGV</a>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-amarillo">S/. 1 995.00 + IGV</button>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -163,148 +166,152 @@
             <br/>
             <div class="container">
                 <div style="text-align:center;">
-                    <table class="table">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th></th>
-                                <th scope="col">PAQUETE BASICO</th>
-                                <th scope="col">PAQUETE IDEAL</th>
-                                <th scope="col">PAQUETE PROFESIONAL</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row"># Número de Páginas Internas</th>
-                                <td style="styleColor">02 Páginas Internas con 4 a 6 secciones</td>
-                                <td style="styleColor">Hasta 08 Páginas Internas con Secciones Respectivas por Página</td>
-                                <td style="styleColor">Hasta 20 Páginas Internas con Secciones Respectivas por Página</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Hosting y Dominio.COM</th>
-                                <td>Hosting + Dominio.COM 1 año</td>
-                                <td>Hosting + Dominio.COM 1 año</td>
-                                <td>Hosting + Dominio.COM 1 año</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Correos Corporativos</th>
-                                <td>05 Correos Corporativos</td>
-                                <td>Correos Ilimitados</td>
-                                <td>Correos Ilimitados</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Diseño Responsible</th>
-                                <td>✔</td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Panel Administrable</th>
-                                <td>✔</td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Certificación de Seguridad</th>
-                                <td>✔</td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Optimización para SEO</th>
-                                <td>✔</td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Diseño UI/UX</th>
-                                <td>✔</td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Backups Automáticos</th>
-                                <td>✔</td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Integración con Redes Sociales</th>
-                                <td></td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Módulo de Chat en Vivo/Whatssap</th>
-                                <td></td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Google Analytics</th>
-                                <td></td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Google AdWords</th>
-                                <td></td>
-                                <td></td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Google Mi Negocio</th>
-                                <td></td>
-                                <td></td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Diseño de Firmas (Para correo)</th>
-                                <td></td>
-                                <td></td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">E-commerce</th>
-                                <td></td>
-                                <td></td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Pasarela de Pago</th>
-                                <td></td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Capacitación</th>
-                                <td>✔</td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr style="text-align:center;" class="table-yellow">
-                                <th scope="row">COSTOS</th>
-                                <td>
-                                    <b>S/. 485.00</b>
-                                    <div>
-                                        <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
-                                    </div>
-                                </td>
-                                <td>
-                                    <b>S/. 985.00</b>
-                                    <div>
-                                        <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
-                                    </div>
-                                </td>
-                                <td>
-                                    <b>S/. 1 995.00</b>
-                                    <div>
-                                        <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
-                                    </div>
-                                </td>
-                            </tr>
-                            
-                        </tbody>
-                        </table>                                 
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th></th>
+                                    <th scope="col">PAQUETE BASICO</th>
+                                    <th scope="col">PAQUETE IDEAL</th>
+                                    <th scope="col">PAQUETE PROFESIONAL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"># Número de Páginas Internas</th>
+                                    <template>
+                                        <td class="colorfila">02 Páginas Internas con 4 a 6 secciones</td>
+                                        <td class="colorfila">Hasta 08 Páginas Internas con Secciones Respectivas por Página</td>
+                                        <td class="colorfila">Hasta 20 Páginas Internas con Secciones Respectivas por Página</td>
+                                    </template>
+                                    
+                                </tr>
+                                <tr>
+                                    <th scope="row">Hosting y Dominio.COM</th>
+                                    <td>Hosting + Dominio.COM 1 año</td>
+                                    <td>Hosting + Dominio.COM 1 año</td>
+                                    <td>Hosting + Dominio.COM 1 año</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Correos Corporativos</th>
+                                    <td>05 Correos Corporativos</td>
+                                    <td>Correos Ilimitados</td>
+                                    <td>Correos Ilimitados</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Diseño Responsive</th>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Panel Administrable</th>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Certificación de Seguridad</th>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Optimización para SEO</th>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Diseño UI/UX</th>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Backups Automáticos</th>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Integración con Redes Sociales</th>
+                                    <td></td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Módulo de Chat en Vivo/Whatssap</th>
+                                    <td></td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Google Analytics</th>
+                                    <td></td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Google AdWords</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Google Mi Negocio</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Diseño de Firmas (Para correo)</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">E-commerce</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Pasarela de Pago</th>
+                                    <td></td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Capacitación</th>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr style="text-align:center;" class="table-yellow">
+                                    <th scope="row">COSTOS</th>
+                                    <td>
+                                        <b>S/. 485.00</b>
+                                        <div>
+                                            <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <b>S/. 985.00</b>
+                                        <div>
+                                            <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <b>S/. 1 995.00</b>
+                                        <div>
+                                            <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table> 
+                    </div>                                
                 </div>
             </div>
         </div>
@@ -313,7 +320,7 @@
 </template>
 
 <script>
-    const styleColor = "color:#af9e06";
+    
     import FooterPrincipal from "../../components/Footer.vue";
     import MenuPrincipal from "../../components/Menu.vue";
 export default {
@@ -332,5 +339,9 @@ methods:{}
 </script>
 
 <style>
+.colorfila{
+    color:#f3ab41;
+}
+
 
 </style>

@@ -48,11 +48,14 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="about-content" style="margin-top: 9.0rem !important;">
-                            <p>El CRM Odoon es una herramienta de gestión enfocada en el proceso de compra del
-                                cliente.<br />Con ella podrás hacer seguimiento a los leads que objtengas, cerrar las
-                                oportunidades presentadas y conseguir pronóstico precisos.</p>
+                        <div class="espacio">
+                            <div class="about-content">
+                                <p>El CRM Odoon es una herramienta de gestión enfocada en el proceso de compra del
+                                    cliente.<br />Con ella podrás hacer seguimiento a los leads que objtengas, cerrar las
+                                    oportunidades presentadas y conseguir pronóstico precisos.</p>
+                            </div>
                         </div>
+                        
                     </div> 
                 </div>
             </div>
@@ -67,24 +70,24 @@
     
             <div class="container">
                 <div class="row" style="margin-top: 4.5rem !important;">
-                    <div class="col-md-4">
+                    <div class="col-md-4" style="margin-top: 3.0rem !important;">
                         <div class="card cuadroNaranja" style="width: 14rem;">
-                            <div class="card-header" style=height:10rem;>
-                                <h5 class="card-title text-center" style="color: #fff">Hacer un<br />seguimiento de<br />clientes desde
-                                    el<br />comienzo hasta el<br />final</h5>
+                            <div class="card-header centrar" style="height:10rem;">
+                                <h5 class="card-title text-center" style="color: #fff">Hacer un<br/>seguimiento de<br/>clientes desde
+                                    el<br/>comienzo hasta el<br/>final</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" style="margin-top: 3.0rem !important;">
                         <div class="card cuadroAzul" style="width: 14rem;">
-                            <div class="card-header" style=height:10rem;>
+                            <div class="card-header centrar" style="height:10rem;">
                                 <h5 class="card-title text-center" style="color: #fff">Obtener<br />previsiones<br />de ventas</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" style="margin-top: 3.0rem !important;">
                         <div class="card cuadroNaranja" style="width: 14rem;">
-                            <div class="card-header" style=height:10rem;>
+                            <div class="card-header centrar" style="height:10rem;">
                                 <h5 class="card-title text-center" style="color: #fff">Programas<br />actividades y<br />gestionarás
                                     en<br />tiempo real</h5>
                             </div>
@@ -323,5 +326,19 @@ components: {
 }
 </script>
 <style>
-    
+
+.espacio{
+margin-top: 9.0rem !important;
+}
+@media(max-width: 991px){
+    .espacio{
+        margin-top: 0.0rem !important;
+    }
+}
+
+.centrar{
+    display:grid;
+    align-items: center;
+    justify-items: center;
+}
 </style>

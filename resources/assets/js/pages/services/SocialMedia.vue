@@ -57,15 +57,12 @@
                             
                             <div class="col col-xs-12">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4 centrar">
                                         <h6>Costo del Servicio</h6>
-                                        
                                     </div>
-                                    <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo" >S/. 120.00 + IGV</a>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-amarillo">S/. 120.00 + IGV</button>
                                     </div>
-                                    
-                                    
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
                             </div>
@@ -91,11 +88,11 @@
                             <br/>
                             <div class="col col-xs-12">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4 centrar">
                                         <h6>Costo del Servicio</h6>
                                     </div>
-                                    <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 200.00 + IGV</a>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-amarillo">S/. 200.00 + IGV</button>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -125,11 +122,11 @@
                             <br/>
                             <div class="col col-xs-12">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4 centrar">
                                         <h6>Costo del Servicio</h6>
                                     </div>
-                                    <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 480.00 + IGV</a>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-amarillo">S/. 480.00 + IGV</button>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -159,11 +156,11 @@
                             <br/>
                             <div class="col col-xs-12">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4 centrar">
                                         <h6>Costo del Servicio</h6>
                                     </div>
-                                    <div class="col-md-6">
-                                        <a href="#" target="_blank" class="btn btn-amarillo">S/. 920.00 + IGV</a>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-amarillo">S/. 920.00 + IGV</button>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -188,7 +185,8 @@
             <br/>
             <div class="container">
                 <div style="text-align:center;">
-                    <table class="table">
+                    <div class="table-responsive">
+                        <table class="table">
                         <thead class="thead-dark">
                             <tr>
                                 <th></th>
@@ -290,7 +288,9 @@
                                 </td>
                             </tr>  
                         </tbody>
-                    </table>                                 
+                        </table>
+                    </div>
+                                                     
                 </div>
             </div>
         </div>
