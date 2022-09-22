@@ -31,12 +31,10 @@
                                     <h3>Servicios</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="service-single.html">Diseño Gráfico</a></li>
-                                    <li><a href="service-single.html">Diseño Web</a></li>
-                                    <li><a href="service-single.html">Community Manager</a></li>
-                                    <li><a href="service-single.html">E - Commerce</a></li>
-                                    <li><a href="service-single.html">Apps Móviles</a></li>
-                                    <li><a href="service-single.html">Sistemas Empresariales</a></li>
+                                    <li v-for="(s,index) in servicios" :key="index">
+                                        <router-link :to="{ name: s.ruta}">{{s.titulo}}</router-link>
+                                    </li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -87,8 +85,14 @@
 </template>
 
 <script>
+    import servicios from '../data/services';
 export default {
-name:'FooterPrincipal'
+name:'FooterPrincipal',
+ data(){
+    return{
+        servicios : servicios
+    }
+ }
 }
 </script>
 

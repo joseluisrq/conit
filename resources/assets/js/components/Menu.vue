@@ -15,19 +15,24 @@
           </div>
           <div class="col-lg-3 col-md-6 col-6">
             <div class="navbar-header">
-              <a class="navbar-brand" href="index.html"
+              <router-link to="/">
+                <a class="navbar-brand" href="#"
                 ><img src="img/logo_blanco_400_120.png" alt=""
               /></a>
+              </router-link>
             </div>
           </div>
           <div class="col-lg-6 col-md-1 col-1">
             <div id="navbar" class="collapse navbar-collapse navigation-holder">
               <button class="menu-close"><i class="ti-close"></i></button>
               <ul class="nav navbar-nav mb-2 mb-lg-0">
-                <li><a class="active" href="about.html">Servicios</a></li>
+                <li><router-link to="/#servicios">Servicios</router-link></li>
                 <li><a href="contact.html">Proyectos</a></li>
                 <li><a href="about.html">Nosotros</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><router-link to="/contacto">Contacto</router-link></li>
+                  
+                
+                
                 <li style="padding: 35px 20px">
                   <span
                     ><a href="contact.html"
@@ -45,31 +50,6 @@
               </ul>
             </div>
             <!-- end of nav-collapse -->
-          </div>
-          <div class="col-lg-3 col-md-2 col-2">
-            <div class="header-right">
-              <div class="header-search-form-wrapper">
-                <div class="cart-search-contact">
-                  <button class="search-toggle-btn">
-                    <i class="fi flaticon-magnifiying-glass"></i>
-                  </button>
-                  <div class="header-search-form">
-                    <form>
-                      <div>
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Search here..."
-                        />
-                        <button type="submit">
-                          <i class="fi flaticon-magnifiying-glass"></i>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

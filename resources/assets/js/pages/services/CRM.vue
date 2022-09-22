@@ -131,7 +131,8 @@
                 </div>
             </div>
             
-            <div class="col-md-12">
+            <div class="container-fluid">
+                <div class="col-md-12">
                 <div class="row" style="margin-top: 4.5rem !important;">
                     <div class="col-md-4">
                         <div class="card cuadroNaranja">
@@ -265,6 +266,8 @@
 
                 </div>
             </div>
+            </div>
+            
         </section><br/><br/><br/>
 
         <section class="wpo-conditions-section">
@@ -273,31 +276,43 @@
                     <span class="tituloI">CONDICIONES DEL SERVICIO</span>
                 </div>
             </div>
-            
-            <div class="container">
-                <div class="row" style="margin-top: 4.5rem !important;">
-                    <div class="col-md-12">
-                        <div class="cuadroGrande">
-                            <h5 style="color: #fff">INCLUYE</h5>
-                                <div class="container">
-                                    <div class="cohete">
-                                        <ul>
-                                            <li>Instalación, Configuración y Capacitación.</li>
-                                            <li>Actualización gratuita de nuevas versiones.</li>
-                                            <li>Soporte técnico por correo y celular.</li>
-                                        </ul>
-                                    </div>
+            <!--  -->
+
+            <div class="container-fluid">
+                <div class="col-md-12">
+                    <div class="row" style="margin-top: 4.5rem !important;">
+                        <div class="col-md-6">
+                            <div class="card cuadroNaranja">
+                                <div class="card-header">
+                                    <h5 class="card-title text-center" style="color: #fff">INCLUYE</h5>
                                 </div>
+                            </div>
                             <br/>
-                            
-                            <h5 style="color: #fff">FORMAS DE PAGO</h5>
-                            <div class="container">
+                            <div class="container centrar">
                                 <div class="cohete">
                                     <ul>
-                                        <li>100% al iniciar el servicio</li>
-                                        <li>Precio no invluye IGV</li>
-                                        <li>Tarifa Mensual</li>
-                                        <li>Pago por número de usuarios</li>
+                                        <li>Instalación, Configuración y Capacitación.</li>
+                                        <li>Actualización gratuita de nuevas versiones.</li>
+                                        <li>Soporte técnico por correo y celular.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </div>
+                            <br/>
+                            <div class="col-md-6">
+                            <div class="card cuadroNaranja">
+                                <div class="card-header">
+                                    <h5 class="card-title text-center" style="color: #fff">FORMAS DE PAGO</h5>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="container centrar">
+                                <div class="cohete">
+                                    <ul>
+                                        <li>100% al iniciar el servicio.</li>
+                                        <li>Precio no invluye IGV.</li>
+                                        <li>Tarifa Mensual.</li>
+                                        <li>Pago por número de usuarios.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -305,7 +320,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+            <!--  -->
+            
+        </section><br/><br/>
         <FooterPrincipal />
     </div>
 </template>
@@ -340,5 +357,11 @@ margin-top: 9.0rem !important;
     display:grid;
     align-items: center;
     justify-items: center;
+}
+
+.cuadroNaranja{
+    background-color: #f3ab41;
+    font-family:'Roboto', sans-serif;
+    color: #fff;
 }
 </style>

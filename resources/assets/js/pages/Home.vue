@@ -29,7 +29,7 @@
                 </h2>
               </div>
               <div class="btns">
-                <a class="btn btn-amarillo" href="about.html">Comencemos</a>
+                <a class="btn btn-amarillo" href="#servicios">Comencemos</a>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@
     <!-- Seccion Servicios -->
     <section class="wpo-work-section section-padding">
       <div class="container">
-        <div class="row">
+        <div class="row" id="servicios">
           <div class="col col-xs-12">
             <div class="section-title-s4">
               <span>Servicios</span>
@@ -57,7 +57,7 @@
             </div>
           </div>
         </div>
-        <div class="wpo-work-wrap">
+        <div class="wpo-work-wrap" >
           <!-- Lista de servicios -->
           <div class="row">
             <div
@@ -92,7 +92,7 @@
                   <img src="images/service/1.png" alt="" />
                 </div>
                 <div class="wpo-service-text">
-                  <h2><a href="service-single.html">Quienes somos?</a></h2>
+                  <h2><a href="service-single.html">Quiénes somos?</a></h2>
                
                 </div>
                 <div class="visible-icon">

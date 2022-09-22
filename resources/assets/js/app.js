@@ -33,6 +33,7 @@ import App from './components/App.vue'
 import example from './components/ExampleComponent.vue'
 import pageweb from './pages/services/PageWeb.vue'
 import Home from './pages/Home.vue'
+import Contact from './pages/Contact.vue'
 import ecomerce from './pages/services/E-Comerce.vue'
 import socialmedia from './pages/services/SocialMedia.vue'
 import crm from './pages/services/CRM.vue'
@@ -49,6 +50,12 @@ const router = new VueRouter({
         component: Home,
         name: 'Home',
         meta: { Auth: false, title: 'CONIT - Soluciones Digitales'}
+      },
+      {
+        path: '/contacto',
+        component: Contact,
+        name: 'contacto',
+        meta: { Auth: false, title: 'CONIT - Contacto'}
       },
       {
         path: '/paginasweb',
