@@ -90,7 +90,7 @@
                   <img src="img/intereses/1_somos.png" class="img-fluid" alt="" />
                 </div>
                 <div class="wpo-service-text">
-                  <h2><a href="service-single.html">¿Quiénes somos?</a></h2>
+                  <h2><a href="service-single.html">¿Quiénes somos?_2</a></h2>
                
                 </div>
              
