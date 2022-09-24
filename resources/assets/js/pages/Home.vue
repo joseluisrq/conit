@@ -121,7 +121,7 @@ export default {
     };
   },
   components: {
-    MenuPrincipal,
+   MenuPrincipal,
     FooterPrincipal,
     Servicio,
   },

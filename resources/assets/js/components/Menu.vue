@@ -28,7 +28,7 @@
               <ul class="nav navbar-nav mb-2 mb-lg-0">
                 <li><router-link to="/#servicios">Servicios</router-link></li>
                 <li><a href="contact.html">Proyectos</a></li>
-                <li><a href="about.html">Nosotros</a></li>
+                <li><router-link to="/nosotros">Nosotros</router-link></li>
                 <li><router-link to="/contacto">Contacto</router-link></li>
                   
                 
