@@ -20,6 +20,7 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
+        "@emailjs/browser": "^3.6.2",
         "sweetalert2": "^11.4.8",
         "vue-router": "^3.5.3",
         "vue-select": "^3.18.3",

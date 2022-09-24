@@ -35,6 +35,7 @@ import pageweb from './pages/services/PageWeb.vue'
 import Home from './pages/Home.vue'
 import Contact from './pages/Contact.vue'
 import AboutUs from './pages/AboutUs.vue'
+import Projects from './pages/Projects.vue'
 import ecomerce from './pages/services/E-Comerce.vue'
 import socialmedia from './pages/services/SocialMedia.vue'
 import crm from './pages/services/CRM.vue'
@@ -63,6 +64,12 @@ const router = new VueRouter({
         component: AboutUs,
         name: 'nosotros',
         meta: { Auth: false, title: 'CONIT - Nosotros'}
+      },
+      {
+        path: '/proyectos',
+        component: Projects,
+        name: 'proyectos',
+        meta: { Auth: false, title: 'CONIT - Proyectos'}
       },
       {
         path: '/paginasweb',
