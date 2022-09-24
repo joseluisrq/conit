@@ -55622,7 +55622,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -55637,9 +55637,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_Footer_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Menu_vue__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_Menu_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Servicio_vue__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Servicio_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_Servicio_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_services_js__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Interes_vue__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Interes_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_Interes_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Servicio_vue__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Servicio_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_Servicio_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_services_js__ = __webpack_require__(18);
 //
 //
 //
@@ -55746,6 +55748,28 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 
@@ -55755,14 +55779,49 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   name: "Home",
   data: function data() {
     return {
-      servicios: __WEBPACK_IMPORTED_MODULE_3__data_services_js__["a" /* default */]
+      servicios: __WEBPACK_IMPORTED_MODULE_4__data_services_js__["a" /* default */],
+      interes: [{
+        titulo: "¿Quiénes somos?",
+        imagen: "1_somos.png",
+        ruta: ""
+      }, {
+        titulo: "¿Por qué son los mejores para mí?",
+        imagen: "2_mejores.png",
+        ruta: ""
+      }, {
+        titulo: "¿Por qué tengo que confiar?",
+        imagen: "3_confiar.png",
+        ruta: ""
+      }, {
+        titulo: "¿Cuándo nos juntamos?",
+        imagen: "4_juntarnos.png",
+        ruta: ""
+      }],
+      negocio: [{
+        titulo: "Emprendedor",
+        imagen: "1_somos.png",
+        ruta: ""
+      }, {
+        titulo: "Empresario que recién comienza",
+        imagen: "2_mejores.png",
+        ruta: ""
+      }, {
+        titulo: "Profesional que representa a una gran empresa",
+        imagen: "3_confiar.png",
+        ruta: ""
+      }, {
+        titulo: "Gerente de mi propio negocio",
+        imagen: "4_juntarnos.png",
+        ruta: ""
+      }]
     };
   },
 
   components: {
     MenuPrincipal: __WEBPACK_IMPORTED_MODULE_1__components_Menu_vue___default.a,
     FooterPrincipal: __WEBPACK_IMPORTED_MODULE_0__components_Footer_vue___default.a,
-    Servicio: __WEBPACK_IMPORTED_MODULE_2__components_Servicio_vue___default.a
+    Servicio: __WEBPACK_IMPORTED_MODULE_3__components_Servicio_vue___default.a,
+    Interes: __WEBPACK_IMPORTED_MODULE_2__components_Interes_vue___default.a
   },
   methods: {},
   created: function created() {}
@@ -56016,7 +56075,56 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _vm._m(3),
+      _c(
+        "section",
+        {
+          staticClass: "wpo-work-section section-padding",
+          staticStyle: { "background-color": "#eff6fc" }
+        },
+        [
+          _c("div", { staticClass: "container" }, [
+            _vm._m(3),
+            _vm._v(" "),
+            _c("div", { staticClass: "wpo-service-section" }, [
+              _c(
+                "div",
+                { staticClass: "row" },
+                _vm._l(_vm.interes, function(i, index) {
+                  return _c(
+                    "div",
+                    { key: index, staticClass: "col-lg-3 col-md-6 col-12" },
+                    [_c("Interes", { attrs: { data: i } })],
+                    1
+                  )
+                }),
+                0
+              )
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("section", { staticClass: "wpo-work-section section-padding" }, [
+        _c("div", { staticClass: "container" }, [
+          _vm._m(4),
+          _vm._v(" "),
+          _c("div", { staticClass: "wpo-service-section" }, [
+            _c(
+              "div",
+              { staticClass: "row" },
+              _vm._l(_vm.negocio, function(i, index) {
+                return _c(
+                  "div",
+                  { key: index, staticClass: "col-lg-3 col-md-6 col-12" },
+                  [_c("Interes", { attrs: { data: i } })],
+                  1
+                )
+              }),
+              0
+            )
+          ])
+        ])
+      ]),
       _vm._v(" "),
       _c("FooterPrincipal")
     ],
@@ -56074,37 +56182,24 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "wpo-work-section section-padding" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col col-xs-12" }, [
-            _c("div", { staticClass: "section-title-s4" }, [
-              _c("h2", [_vm._v("¿Qúe más te interesa saber?")])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "wpo-service-section" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-3 col-md-6 col-12" }, [
-              _c("div", { staticClass: "wpo-service-item" }, [
-                _c("div", { staticClass: "wpo-service-icon" }, [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: { src: "img/intereses/1_somos.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "wpo-service-text" }, [
-                  _c("h2", [
-                    _c("a", { attrs: { href: "service-single.html" } }, [
-                      _vm._v("¿Quiénes somos?")
-                    ])
-                  ])
-                ])
-              ])
-            ])
-          ])
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col col-xs-12" }, [
+        _c("div", { staticClass: "section-title-s4" }, [
+          _c("h2", [_vm._v("¿Qúe más te interesa saber?")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col col-xs-12" }, [
+        _c("div", { staticClass: "section-title-s4" }, [
+          _c("h2", [_vm._v("¿Quién eres?")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("Cuéntanos, queremos ayudarte")])
         ])
       ])
     ])
@@ -59893,6 +59988,163 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 107 */,
+/* 108 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(109)
+}
+var normalizeComponent = __webpack_require__(2)
+/* script */
+var __vue_script__ = __webpack_require__(111)
+/* template */
+var __vue_template__ = __webpack_require__(112)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/Interes.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-92511cba", Component.options)
+  } else {
+    hotAPI.reload("data-v-92511cba", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 109 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(110);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(3)("571263fd", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-92511cba\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Interes.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-92511cba\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Interes.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 110 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 111 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "interes",
+  props: {
+    data: ""
+  },
+  methods: {
+    cambiarRuta: function cambiarRuta(ruta) {
+      this.$router.push({ path: ruta });
+    }
+  }
+});
+
+/***/ }),
+/* 112 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "wpo-service-item" }, [
+    _c("div", { staticClass: "wpo-service-icon" }, [
+      _c("img", {
+        staticClass: "img-fluid",
+        attrs: { src: "img/intereses/" + _vm.data.imagen, alt: "" }
+      })
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "wpo-service-text" }, [
+      _c("h2", [
+        _c("a", { attrs: { href: "service-single.html" } }, [
+          _vm._v(_vm._s(_vm.data.titulo))
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-92511cba", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);
