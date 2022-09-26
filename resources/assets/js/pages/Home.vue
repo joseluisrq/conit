@@ -95,6 +95,23 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <h2 class="text-center">¿Necesitas que te guiemos?</h2>
+          <div class="col-md-8 text-center">
+            <div class="col-auto text-center mt-4">
+              <h3 class="mt-4">Te obsequiamos 20 minutos de consultoria</h3>
+              <a href="https://api.whatsapp.com/send?phone=910836385&text=Quiero%20agendar%20una%20reuni%C3%B3n" target="_bank" class="btn btn-primary">AGENDAR CONSULTORÍA</a>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <img
+              src="img/consultoria.png"
+              width="200px"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </section>
     <!-- Seccion quien eres -->
@@ -161,22 +178,22 @@ export default {
       negocio: [
         {
           titulo: "Emprendedor",
-          imagen: "1_somos.png",
+          imagen: "1_emprendedor.png",
           ruta: "",
         },
         {
           titulo: "Empresario que recién comienza",
-          imagen: "2_mejores.png",
+          imagen: "2_empieza.png",
           ruta: "",
         },
         {
           titulo: "Profesional que representa a una gran empresa",
-          imagen: "3_confiar.png",
+          imagen: "3_representa.png",
           ruta: "",
         },
         {
           titulo: "Gerente de mi propio negocio",
-          imagen: "4_juntarnos.png",
+          imagen: "4_gerente.png",
           ruta: "",
         },
       ],
