@@ -1,18 +1,6 @@
 <template>
   <div class="page-wrapper">
-    <!-- 
-        <div class="preloader">
-            <div class="angular-shape">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
-        </div>
-    -->
+   
     <MenuPrincipal />
     <section class="wpo-hero-section-1">
       <div class="container">
@@ -57,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="wpo-work-wrap" >
+        <div class="wpo-work-wrap">
           <!-- Lista de servicios -->
           <div class="row">
             <div
@@ -72,7 +60,10 @@
       </div>
     </section>
     <!-- Seccion Servicios -->
-    <section class="wpo-work-section section-padding">
+    <section
+      class="wpo-work-section section-padding"
+      style="background-color: #eff6fc"
+    >
       <div class="container">
         <div class="row">
           <div class="col col-xs-12">
@@ -82,19 +73,54 @@
           </div>
         </div>
         <div class="wpo-service-section">
-          <!-- Lista de servicios -->
           <div class="row">
-            <div class="col-lg-3 col-md-6 col-12" >
-              <div class="wpo-service-item">
-                <div class="wpo-service-icon">
-                  <img src="img/intereses/1_somos.png" class="img-fluid" alt="" />
-                </div>
-                <div class="wpo-service-text">
-                  <h2><a href="service-single.html">¿Quiénes somos?</a></h2>
-               
-                </div>
-             
-              </div>
+            <div
+              class="col-lg-3 col-md-6 col-12"
+              v-for="(i, index) in interes"
+              :key="index"
+            >
+              <Interes :data="i" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h2 class="text-center">¿Necesitas que te guiemos?</h2>
+          <div class="col-md-8 text-center">
+            <div class="col-auto text-center mt-4">
+              <h3 class="mt-4">Te obsequiamos 20 minutos de consultoria</h3>
+              <a href="https://api.whatsapp.com/send?phone=910836385&text=Quiero%20agendar%20una%20reuni%C3%B3n" target="_bank" class="btn btn-primary">AGENDAR CONSULTORÍA</a>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <img
+              src="img/consultoria.png"
+              width="200px"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Seccion quien eres -->
+    <section class="wpo-work-section section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col col-xs-12">
+            <div class="section-title-s4">
+              <h2>¿Quién eres?</h2>
+              <p>Cuéntanos, queremos ayudarte</p>
+            </div>
+          </div>
+        </div>
+        <div class="wpo-service-section">
+          <div class="row">
+            <div
+              class="col-lg-3 col-md-6 col-12"
+              v-for="(i, index) in negocio"
+              :key="index"
+            >
+              <Interes :data="i" />
             </div>
           </div>
         </div>
@@ -107,6 +133,7 @@
 <script>
 import FooterPrincipal from "../components/Footer.vue";
 import MenuPrincipal from "../components/Menu.vue";
+import Interes from "../components/Interes.vue";
 import Servicio from "../components/Servicio.vue";
 import servicios from "../data/services.js";
 export default {
@@ -114,12 +141,57 @@ export default {
   data() {
     return {
       servicios: servicios,
+      interes: [
+        {
+          titulo: "¿Quiénes somos?",
+          imagen: "1_somos.png",
+          ruta: "",
+        },
+        {
+          titulo: "¿Por qué son los mejores para mí?",
+          imagen: "2_mejores.png",
+          ruta: "",
+        },
+        {
+          titulo: "¿Por qué tengo que confiar?",
+          imagen: "3_confiar.png",
+          ruta: "",
+        },
+        {
+          titulo: "¿Cuándo nos juntamos?",
+          imagen: "4_juntarnos.png",
+          ruta: "",
+        },
+      ],
+      negocio: [
+        {
+          titulo: "Emprendedor",
+          imagen: "1_emprendedor.png",
+          ruta: "",
+        },
+        {
+          titulo: "Empresario que recién comienza",
+          imagen: "2_empieza.png",
+          ruta: "",
+        },
+        {
+          titulo: "Profesional que representa a una gran empresa",
+          imagen: "3_representa.png",
+          ruta: "",
+        },
+        {
+          titulo: "Gerente de mi propio negocio",
+          imagen: "4_gerente.png",
+          ruta: "",
+        },
+      ],
     };
   },
   components: {
    MenuPrincipal,
     FooterPrincipal,
     Servicio,
+    Interes,
   },
   methods: {},
   created() {},
@@ -127,5 +199,4 @@ export default {
 </script>
 
 <style>
-
 </style>
