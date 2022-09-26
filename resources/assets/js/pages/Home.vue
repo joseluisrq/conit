@@ -84,20 +84,16 @@
         <div class="wpo-service-section">
           <!-- Lista de servicios -->
           <div class="row">
-            <div
-              class="col-lg-4 col-md-6 col-12"
-            >
+            <div class="col-lg-3 col-md-6 col-12" >
               <div class="wpo-service-item">
                 <div class="wpo-service-icon">
-                  <img src="images/service/1.png" alt="" />
+                  <img src="img/intereses/1_somos.png" class="img-fluid" alt="" />
                 </div>
                 <div class="wpo-service-text">
-                  <h2><a href="service-single.html">Quiénes somos?</a></h2>
+                  <h2><a href="service-single.html">¿Quiénes somos?</a></h2>
                
                 </div>
-                <div class="visible-icon">
-                  <img src="images/service/2.png" alt="" />
-                </div>
+             
               </div>
             </div>
           </div>
