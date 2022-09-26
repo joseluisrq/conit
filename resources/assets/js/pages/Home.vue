@@ -1,18 +1,6 @@
 <template>
   <div class="page-wrapper">
-    <!-- 
-        <div class="preloader">
-            <div class="angular-shape">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
-        </div>
-    -->
+   
     <MenuPrincipal />
     <section class="wpo-hero-section-1">
       <div class="container">
