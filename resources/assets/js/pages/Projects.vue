@@ -15,31 +15,58 @@
             </div>
             <section class="projects-section">
                 <div class="container">
-                    <div class="tit" style="text-align:center">
-                        <h1>EMPRESAS QUE CONFÍAN EN NOSOTROS</h1>
+                    <div class="section-title-s4" style="margin-top:50px">
+                        <h2>Empresas que Confían en Nosotros</h2>
+                        <div class="transparent-text">Crece</div>
                     </div>
-                    <div class="proyectos" style="text-align:center">
-                        <h3>PROYECTOS QUE LOGRAMOS JUNTOS</h3>
-                        <div class="proy">
-                            <div class="fresnos">
-
-                            </div>
-                            <div class="cersa">
-
-                            </div>
-                            <div class="itec">
-
-                            </div>
-                            <div class="campinia-tours">
-
-                            </div>
-                            <div class="chaquicocha">
-
+                    <div class="container">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="marcoImagen centrar">
+                                        <img src="img/Empresas/fresnos.png" alt="" />
+                                    </div>
+                                    <!-- <h4>Clínica los Fresnos</h4> -->
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="marcoImagen centrar">
+                                        <img src="img/Empresas/cersa.png" alt="" style="width:225px ; height: 75px;" />
+                                    </div>
+                                    <!-- <h4>Cersa</h4> -->
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="marcoImagen centrar">
+                                        <img src="img/Empresas/itec.png" alt="" style="width:225px ; height: 85px;" />
+                                    </div>
+                                    <!-- <h4>iTEC</h4> -->
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="marcoImagen centrar">
+                                        <img src="img/Empresas/camp_tours.png" alt="" />
+                                    </div>
+                                    <!-- <h4>Campiña Tours</h4> -->
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="marcoImagen centrar">
+                                        <img src="img/Empresas/chaquicocha.png" alt=""
+                                            style="width:260px ; height: 80px;" />
+                                    </div>
+                                    <!-- <h4>Consorcio Chaquicocha</h4> -->
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="marcoImagen centrar">
+                                        <img src="img/Empresas/detur.png" alt="" style="width:260px ; height: 80px;" />
+                                    </div>
+                                    <!-- <h4>Detur</h4> -->
+                                </div>
                             </div>
                         </div>
+
                     </div>
-
-
+                    <div class="section-title-s4" style="margin-top:50px">
+                        <h4><b>¡Súmate a trabajar con Nosotros!</b></h4>
+                        <div class="transparent-text">Crece</div>
+                    </div>
                 </div>
             </section>
             <FooterPrincipal />
@@ -73,5 +100,33 @@ export default {
     bottom: 0;
     left: 0;
     z-index: 1;
+}
+
+h3 {
+    display: inline-block;
+    position: relative;
+    color: darkorange;
+    font-family: 'Roboto', sans-serif;
+}
+
+.marcoImagen {
+    width: 225px;
+    height: 225px;
+}
+
+.centrar {
+    display: grid;
+    align-items: center;
+    margin-left: 50px;
+}
+
+@media(max-width: 767px) {
+    .centrar {
+        margin-left: 50px;
+    }
+}
+
+h4 {
+    text-align: center;
 }
 </style>
