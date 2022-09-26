@@ -922,7 +922,22 @@ module.exports = g;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 7 */,
+=======
+/* 7 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+const store = {
+    _origin: 'https://api.emailjs.com',
+};
+/* harmony export (immutable) */ __webpack_exports__["a"] = store;
+
+
+
+/***/ }),
+>>>>>>> secondary
 /* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15407,8 +15422,67 @@ var servicios = [{
 /* harmony default export */ __webpack_exports__["a"] = (servicios);
 
 /***/ }),
+<<<<<<< HEAD
 /* 20 */,
 /* 21 */,
+=======
+/* 20 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+const validateParams = (publicKey, serviceID, templateID) => {
+    if (!publicKey) {
+        throw 'The public key is required. Visit https://dashboard.emailjs.com/admin/account';
+    }
+    if (!serviceID) {
+        throw 'The service ID is required. Visit https://dashboard.emailjs.com/admin';
+    }
+    if (!templateID) {
+        throw 'The template ID is required. Visit https://dashboard.emailjs.com/admin/templates';
+    }
+    return true;
+};
+/* harmony export (immutable) */ __webpack_exports__["a"] = validateParams;
+
+
+
+/***/ }),
+/* 21 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__models_EmailJSResponseStatus__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__store_store__ = __webpack_require__(7);
+
+
+const sendPost = (url, data, headers = {}) => {
+    return new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+        xhr.addEventListener('load', ({ target }) => {
+            const responseStatus = new __WEBPACK_IMPORTED_MODULE_0__models_EmailJSResponseStatus__["a" /* EmailJSResponseStatus */](target);
+            if (responseStatus.status === 200 || responseStatus.text === 'OK') {
+                resolve(responseStatus);
+            }
+            else {
+                reject(responseStatus);
+            }
+        });
+        xhr.addEventListener('error', ({ target }) => {
+            reject(new __WEBPACK_IMPORTED_MODULE_0__models_EmailJSResponseStatus__["a" /* EmailJSResponseStatus */](target));
+        });
+        xhr.open('POST', __WEBPACK_IMPORTED_MODULE_1__store_store__["a" /* store */]._origin + url, true);
+        Object.keys(headers).forEach((key) => {
+            xhr.setRequestHeader(key, headers[key]);
+        });
+        xhr.send(data);
+    });
+};
+/* harmony export (immutable) */ __webpack_exports__["a"] = sendPost;
+
+
+
+/***/ }),
+>>>>>>> secondary
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15441,6 +15515,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_Home_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__pages_Home_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_Contact_vue__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_Contact_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__pages_Contact_vue__);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_services_E_Comerce_vue__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_services_E_Comerce_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__pages_services_E_Comerce_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_services_SocialMedia_vue__ = __webpack_require__(119);
@@ -15449,6 +15524,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_services_CRM_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__pages_services_CRM_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_vue__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_vue__);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_AboutUs_vue__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_AboutUs_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__pages_AboutUs_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_Projects_vue__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_Projects_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__pages_Projects_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_services_E_Comerce_vue__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_services_E_Comerce_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__pages_services_E_Comerce_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_services_SocialMedia_vue__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_services_SocialMedia_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__pages_services_SocialMedia_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_services_CRM_vue__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_services_CRM_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__pages_services_CRM_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_vue__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_vue__);
+>>>>>>> secondary
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -15460,17 +15549,17 @@ __webpack_require__(24);
 
 window.Vue = __webpack_require__(17);
 
-__WEBPACK_IMPORTED_MODULE_13_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]);
+__WEBPACK_IMPORTED_MODULE_15_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]);
 
 //Vue Select
 
-__WEBPACK_IMPORTED_MODULE_13_vue___default.a.component('v-select', __WEBPACK_IMPORTED_MODULE_1_vue_select___default.a);
+__WEBPACK_IMPORTED_MODULE_15_vue___default.a.component('v-select', __WEBPACK_IMPORTED_MODULE_1_vue_select___default.a);
 
 
 //Alert2
 
 
-__WEBPACK_IMPORTED_MODULE_13_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_3_vue_sweetalert2___default.a);
+__WEBPACK_IMPORTED_MODULE_15_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_3_vue_sweetalert2___default.a);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -15479,6 +15568,8 @@ __WEBPACK_IMPORTED_MODULE_13_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_3_vue
  */
 
 //Rutas
+
+
 
 
 
@@ -15505,23 +15596,33 @@ var router = new __WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]({
     name: 'contacto',
     meta: { Auth: false, title: 'CONIT - Contacto' }
   }, {
+    path: '/nosotros',
+    component: __WEBPACK_IMPORTED_MODULE_10__pages_AboutUs_vue___default.a,
+    name: 'nosotros',
+    meta: { Auth: false, title: 'CONIT - Nosotros' }
+  }, {
+    path: '/proyectos',
+    component: __WEBPACK_IMPORTED_MODULE_11__pages_Projects_vue___default.a,
+    name: 'proyectos',
+    meta: { Auth: false, title: 'CONIT - Proyectos' }
+  }, {
     path: '/paginasweb',
     component: __WEBPACK_IMPORTED_MODULE_7__pages_services_PageWeb_vue___default.a,
     name: 'paginasweb',
     meta: { Auth: false, title: 'CONIT - Páginas Web' }
   }, {
     path: '/tiendaonline',
-    component: __WEBPACK_IMPORTED_MODULE_10__pages_services_E_Comerce_vue___default.a,
+    component: __WEBPACK_IMPORTED_MODULE_12__pages_services_E_Comerce_vue___default.a,
     name: 'tiendaonline',
     meta: { Auth: false, title: 'CONIT - E-Comerce' }
   }, {
     path: '/socialmedia',
-    component: __WEBPACK_IMPORTED_MODULE_11__pages_services_SocialMedia_vue___default.a,
+    component: __WEBPACK_IMPORTED_MODULE_13__pages_services_SocialMedia_vue___default.a,
     name: 'socialmedia',
     meta: { Auth: false, title: 'CONIT - Social Media' }
   }, {
     path: '/crm',
-    component: __WEBPACK_IMPORTED_MODULE_12__pages_services_CRM_vue___default.a,
+    component: __WEBPACK_IMPORTED_MODULE_14__pages_services_CRM_vue___default.a,
     name: 'crm',
     meta: { Auth: false, title: 'CONIT - CRM' }
   }],
@@ -15533,7 +15634,7 @@ router.beforeEach(function (to, from, next) {
   document.title = to.meta.title;
   next();
 });
-var app = new __WEBPACK_IMPORTED_MODULE_13_vue___default.a({
+var app = new __WEBPACK_IMPORTED_MODULE_15_vue___default.a({
   el: '#app',
   data: {
     menu: 'proyectos'
@@ -54692,9 +54793,25 @@ var render = function() {
                         1
                       ),
                       _vm._v(" "),
-                      _vm._m(2),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "/proyectos" } }, [
+                            _vm._v("Proyectos")
+                          ])
+                        ],
+                        1
+                      ),
                       _vm._v(" "),
-                      _vm._m(3),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "/nosotros" } }, [
+                            _vm._v("Nosotros")
+                          ])
+                        ],
+                        1
+                      ),
                       _vm._v(" "),
                       _c(
                         "li",
@@ -54706,7 +54823,7 @@ var render = function() {
                         1
                       ),
                       _vm._v(" "),
-                      _vm._m(4)
+                      _vm._m(2)
                     ])
                   ]
                 )
@@ -54756,22 +54873,6 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("button", { staticClass: "menu-close" }, [
       _c("i", { staticClass: "ti-close" })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", [
-      _c("a", { attrs: { href: "contact.html" } }, [_vm._v("Proyectos")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", [
-      _c("a", { attrs: { href: "about.html" } }, [_vm._v("Nosotros")])
     ])
   },
   function() {
@@ -56213,7 +56314,11 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
+<<<<<<< HEAD
 exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+=======
+exports.push([module.i, "\nul {\r\n    list-style: none;\n}\nh3 {\r\n    color: #fff;\n}\n.section-contact {\r\n    background-color: rgb(217, 217, 235);\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.infoI {\r\n    padding-left: 10px;\r\n    padding-top: 50px;\r\n    margin-left: 200px;\r\n    margin-right: 10px;\r\n    margin-top: 50px;\r\n    float: left;\r\n    position: relative;\r\n    width: 45%;\r\n    height: auto;\n}\n@media(max-width: 767px) {\n.infoI {\r\n        text-align: center;\r\n        margin-left: 97px;\n}\n}\n.formularioD {\r\n    background-color: #024997;\r\n    padding-top: 20px;\r\n    padding-left: 10px;\r\n    padding-right: 10px;\r\n    padding-bottom: 0px;\r\n\r\n    margin-top: 30px;\r\n    /* margin-left: 150px; */\r\n    margin-bottom: 30px;\r\n    position: relative;\r\n    float: Left;\r\n    width: 30%;\r\n    border: rgb(95, 143, 182) solid 3px;\r\n    border-radius: 20px;\r\n    height: auto;\r\n    color: #fff;\n}\n@media (max-width: 767px) {\n.formularioD {\r\n        padding-top: 20px;\r\n        padding-left: 10px;\r\n        padding-right: 10px;\r\n        padding-bottom: 5px;\r\n        width: 100%;\r\n        border: rgb(22, 107, 177) solid 3px;\r\n        border-radius: 20px;\r\n        height: auto;\n}\n}\n.centrar {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\n.alinear {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\n}\r\n\r\n", ""]);
+>>>>>>> secondary
 
 // exports
 
@@ -56224,6 +56329,953 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+<<<<<<< HEAD
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__emailjs_browser__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Menu_vue__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_Menu_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Loading_vue__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_Loading_vue__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            campos: {
+                nombre: '',
+                email: '',
+                numero: '',
+                empresa: '',
+                mensaje: ''
+            },
+            cargando: false
+        };
+    },
+
+    components: {
+        MenuPrincipal: __WEBPACK_IMPORTED_MODULE_2__components_Menu_vue___default.a,
+        FooterPrincipal: __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue___default.a,
+        Loading: __WEBPACK_IMPORTED_MODULE_3__components_Loading_vue___default.a
+    },
+    methods: {
+        limpiarCampos: function limpiarCampos() {
+            this.campos = {
+                nombre: '',
+                email: '',
+                numero: '',
+                empresa: '',
+                mensaje: ''
+            };
+        },
+        comprobarCampos: function comprobarCampos(c) {
+            var ct = 0;
+            if (c.nombre == '') ct = 1;else if (c.email == '') ct = 1;else if (c.numero == '') ct = 1;else if (c.mensaje == '') ct = 1;
+
+            if (ct == 0) {
+                return true;
+            } else {
+                return false;
+            }
+        },
+        enviarMensaje: function enviarMensaje() {
+            var _this = this;
+
+            this.cargando = true;
+            if (this.comprobarCampos(this.campos)) {
+                __WEBPACK_IMPORTED_MODULE_0__emailjs_browser__["a" /* default */].init('Q9byHE64YoqDzOmS3');
+                var templateParams = {
+                    to_nombre: this.campos.nombre,
+                    to_email: this.campos.email,
+                    to_numero: this.campos.numero,
+                    to_empresa: this.campos.empresa,
+                    to_mensaje: this.campos.mensaje
+                };
+
+                __WEBPACK_IMPORTED_MODULE_0__emailjs_browser__["a" /* default */].send('service_ouyhmdh', 'template_jmi7cec', templateParams).then(function (response) {
+                    console.log(response);
+                    _this.$swal({
+                        position: "top-end",
+                        icon: "success",
+                        title: "Correo Enviado",
+                        showConfirmButton: false,
+                        timer: 1000
+                    });
+                }).catch(function (err) {
+                    console.error(err);
+                }).finally(function () {
+                    _this.cargando = false;
+                    _this.limpiarCampos();
+                });
+            } else {
+                this.$swal({
+                    position: "top-end",
+                    icon: "error",
+                    title: "Datos Incompletos",
+                    showConfirmButton: false,
+                    timer: 1000
+                });
+                this.cargando = false;
+            }
+        }
+    }
+});
+
+/***/ }),
+/* 93 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__methods_init_init__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__methods_send_send__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__methods_sendForm_sendForm__ = __webpack_require__(97);
+/* unused harmony reexport init */
+/* unused harmony reexport send */
+/* unused harmony reexport sendForm */
+
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+    init: __WEBPACK_IMPORTED_MODULE_0__methods_init_init__["a" /* init */],
+    send: __WEBPACK_IMPORTED_MODULE_1__methods_send_send__["a" /* send */],
+    sendForm: __WEBPACK_IMPORTED_MODULE_2__methods_sendForm_sendForm__["a" /* sendForm */],
+});
+
+
+/***/ }),
+/* 94 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__store_store__ = __webpack_require__(7);
+
+/**
+ * Initiation
+ * @param {string} publicKey - set the EmailJS public key
+ * @param {string} origin - set the EmailJS origin
+ */
+const init = (publicKey, origin = 'https://api.emailjs.com') => {
+    __WEBPACK_IMPORTED_MODULE_0__store_store__["a" /* store */]._userID = publicKey;
+    __WEBPACK_IMPORTED_MODULE_0__store_store__["a" /* store */]._origin = origin;
+};
+/* harmony export (immutable) */ __webpack_exports__["a"] = init;
+
+
+
+/***/ }),
+/* 95 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__store_store__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_validateParams__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__api_sendPost__ = __webpack_require__(21);
+
+
+
+/**
+ * Send a template to the specific EmailJS service
+ * @param {string} serviceID - the EmailJS service ID
+ * @param {string} templateID - the EmailJS template ID
+ * @param {object} templatePrams - the template params, what will be set to the EmailJS template
+ * @param {string} publicKey - the EmailJS public key
+ * @returns {Promise<EmailJSResponseStatus>}
+ */
+const send = (serviceID, templateID, templatePrams, publicKey) => {
+    const uID = publicKey || __WEBPACK_IMPORTED_MODULE_0__store_store__["a" /* store */]._userID;
+    Object(__WEBPACK_IMPORTED_MODULE_1__utils_validateParams__["a" /* validateParams */])(uID, serviceID, templateID);
+    const params = {
+        lib_version: '3.6.2',
+        user_id: uID,
+        service_id: serviceID,
+        template_id: templateID,
+        template_params: templatePrams,
+    };
+    return Object(__WEBPACK_IMPORTED_MODULE_2__api_sendPost__["a" /* sendPost */])('/api/v1.0/email/send', JSON.stringify(params), {
+        'Content-type': 'application/json',
+    });
+};
+/* harmony export (immutable) */ __webpack_exports__["a"] = send;
+
+
+
+/***/ }),
+/* 96 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+class EmailJSResponseStatus {
+    constructor(httpResponse) {
+        this.status = httpResponse.status;
+        this.text = httpResponse.responseText;
+    }
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = EmailJSResponseStatus;
+
+
+
+/***/ }),
+/* 97 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__store_store__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_validateParams__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__api_sendPost__ = __webpack_require__(21);
+
+
+
+const findHTMLForm = (form) => {
+    let currentForm;
+    if (typeof form === 'string') {
+        currentForm = document.querySelector(form);
+    }
+    else {
+        currentForm = form;
+    }
+    if (!currentForm || currentForm.nodeName !== 'FORM') {
+        throw 'The 3rd parameter is expected to be the HTML form element or the style selector of form';
+    }
+    return currentForm;
+};
+/**
+ * Send a form the specific EmailJS service
+ * @param {string} serviceID - the EmailJS service ID
+ * @param {string} templateID - the EmailJS template ID
+ * @param {string | HTMLFormElement} form - the form element or selector
+ * @param {string} publicKey - the EmailJS public key
+ * @returns {Promise<EmailJSResponseStatus>}
+ */
+const sendForm = (serviceID, templateID, form, publicKey) => {
+    const uID = publicKey || __WEBPACK_IMPORTED_MODULE_0__store_store__["a" /* store */]._userID;
+    const currentForm = findHTMLForm(form);
+    Object(__WEBPACK_IMPORTED_MODULE_1__utils_validateParams__["a" /* validateParams */])(uID, serviceID, templateID);
+    const formData = new FormData(currentForm);
+    formData.append('lib_version', '3.6.2');
+    formData.append('service_id', serviceID);
+    formData.append('template_id', templateID);
+    formData.append('user_id', uID);
+    return Object(__WEBPACK_IMPORTED_MODULE_2__api_sendPost__["a" /* sendPost */])('/api/v1.0/email/send-form', formData);
+};
+/* harmony export (immutable) */ __webpack_exports__["a"] = sendForm;
+
+
+
+/***/ }),
+/* 98 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(99)
+}
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = __webpack_require__(101)
+/* template */
+var __vue_template__ = __webpack_require__(102)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/Loading.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-3373ff55", Component.options)
+  } else {
+    hotAPI.reload("data-v-3373ff55", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 99 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(100);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(2)("6719d2d3", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-3373ff55\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Loading.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-3373ff55\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Loading.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 100 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 101 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    props: {
+        cargando: ""
+    }
+
+});
+
+/***/ }),
+/* 102 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "carg" }, [
+    _c(
+      "div",
+      {
+        directives: [
+          {
+            name: "show",
+            rawName: "v-show",
+            value: _vm.cargando == true,
+            expression: "cargando==true"
+          }
+        ]
+      },
+      [_vm._m(0)]
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "spinner-border text-warning", attrs: { role: "status" } },
+      [_c("span", { staticClass: "visually-hidden" }, [_vm._v("Cargando...")])]
+    )
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-3373ff55", module.exports)
+  }
+}
+
+/***/ }),
+/* 103 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "page-wrapper" },
+    [
+      _c("MenuPrincipal"),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c("section", { staticClass: "section-contact" }, [
+        _c("div", { staticClass: "container-fluid" }, [
+          _vm._m(1),
+          _vm._v(" "),
+          _c("div", { staticClass: "formularioD" }, [
+            _c("h3", { staticStyle: { "text-align": "center" } }, [
+              _vm._v("Escríbenos")
+            ]),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c(
+              "form",
+              {
+                on: {
+                  submit: function($event) {
+                    $event.preventDefault()
+                    return _vm.enviarMensaje.apply(null, arguments)
+                  }
+                }
+              },
+              [
+                _c("div", { staticClass: "form-group" }, [
+                  _c(
+                    "label",
+                    {
+                      staticStyle: { padding: "5px 10px" },
+                      attrs: { for: "exampleInputEmail1" }
+                    },
+                    [_vm._v("Nombre")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.campos.nombre,
+                        expression: "campos.nombre"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      "aria-describedby": "emailHelp",
+                      placeholder: "Escribe tu nombre",
+                      required: ""
+                    },
+                    domProps: { value: _vm.campos.nombre },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.campos, "nombre", $event.target.value)
+                      }
+                    }
+                  })
+                ]),
+                _c("br"),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c(
+                    "label",
+                    {
+                      staticStyle: { padding: "5px 10px" },
+                      attrs: { for: "exampleInputEmail1" }
+                    },
+                    [_vm._v("Email")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.campos.email,
+                        expression: "campos.email"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "email",
+                      "aria-describedby": "emailHelp",
+                      placeholder: "Escribe tu email",
+                      required: ""
+                    },
+                    domProps: { value: _vm.campos.email },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.campos, "email", $event.target.value)
+                      }
+                    }
+                  })
+                ]),
+                _c("br"),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c(
+                    "label",
+                    {
+                      staticStyle: { padding: "5px 10px" },
+                      attrs: { for: "exampleInputEmail1" }
+                    },
+                    [_vm._v("Celular")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.campos.numero,
+                        expression: "campos.numero"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "number",
+                      "aria-describedby": "emailHelp",
+                      placeholder: "Ingresa tu número de contacto",
+                      required: ""
+                    },
+                    domProps: { value: _vm.campos.numero },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.campos, "numero", $event.target.value)
+                      }
+                    }
+                  })
+                ]),
+                _c("br"),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c(
+                    "label",
+                    {
+                      staticStyle: { padding: "5px 10px" },
+                      attrs: { for: "exampleInputEmail1" }
+                    },
+                    [_vm._v("Empresa")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.campos.empresa,
+                        expression: "campos.empresa"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      "aria-describedby": "emailHelp",
+                      placeholder: "Escribe el nombre de tu empresa"
+                    },
+                    domProps: { value: _vm.campos.empresa },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.campos, "empresa", $event.target.value)
+                      }
+                    }
+                  })
+                ]),
+                _c("br"),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c(
+                    "label",
+                    {
+                      staticStyle: { padding: "5px 10px" },
+                      attrs: { for: "exampleInputEmail1" }
+                    },
+                    [_vm._v("Mensaje")]
+                  ),
+                  _vm._v(" "),
+                  _c("textarea", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.campos.mensaje,
+                        expression: "campos.mensaje"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      "aria-describedby": "emailHelp",
+                      placeholder: "Escribe un mensaje",
+                      required: ""
+                    },
+                    domProps: { value: _vm.campos.mensaje },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.campos, "mensaje", $event.target.value)
+                      }
+                    }
+                  })
+                ]),
+                _c("br"),
+                _vm._v(" "),
+                _vm._m(2),
+                _c("br"),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "alinear" },
+                  [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn",
+                        staticStyle: {
+                          "background-color": "#f3ab41",
+                          color: "#fff"
+                        },
+                        attrs: { type: "submit" }
+                      },
+                      [_vm._v("Enviar\n                        Mensaje")]
+                    ),
+                    _vm._v(" "),
+                    _c("Loading", { attrs: { cargando: _vm.cargando } })
+                  ],
+                  1
+                )
+              ]
+            ),
+            _c("br")
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("FooterPrincipal")
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "wpo-breadcumb-area" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-12" }, [
+            _c("div", { staticClass: "wpo-breadcumb-wrap" }, [
+              _c("h2", [_vm._v("Contáctanos")])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "infoI" }, [
+      _c("h4", [_vm._v("Dirección")]),
+      _vm._v(" "),
+      _c("p", { staticStyle: { padding: "5px 10px" } }, [
+        _vm._v("Jr. Dos de Mayo 569/Oficina N°4")
+      ]),
+      _vm._v(" "),
+      _c("h4", [_vm._v("Móvil/Whatsapp")]),
+      _vm._v(" "),
+      _c("ul", { staticStyle: { padding: "5px 10px" } }, [
+        _c("li", [_vm._v("910836385")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("964041249")])
+      ]),
+      _vm._v(" "),
+      _c("h4", [_vm._v("Correo")]),
+      _vm._v(" "),
+      _c("p", { staticStyle: { padding: "5px 10px" } }, [
+        _vm._v("info@conit.pe")
+      ]),
+      _vm._v(" "),
+      _c("div", [
+        _c("h4", [_vm._v("Redes Sociales")]),
+        _vm._v(" "),
+        _c("ul", [
+          _c("li", { staticStyle: { padding: "10px 10px" } }, [
+            _c("span", [
+              _c("a", { attrs: { href: "contact.html" } }, [
+                _c("img", { attrs: { src: "img/redes/facebook.png", alt: "" } })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("span", [
+              _c("a", { attrs: { href: "contact.html" } }, [
+                _c("img", {
+                  attrs: { src: "img/redes/instagram.png", alt: "" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("span", [
+              _c("a", { attrs: { href: "contact.html" } }, [
+                _c("img", {
+                  attrs: { src: "img/redes//linkedin.png", alt: "" }
+                })
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-group" }, [
+      _c(
+        "small",
+        { staticClass: "form-text text-white", attrs: { id: "emailHelp" } },
+        [
+          _vm._v(
+            "Nunca compartiremos tu información con\n                            alguien más."
+          )
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-77d54d1a", module.exports)
+  }
+}
+
+/***/ }),
+/* 104 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(105)
+}
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = __webpack_require__(107)
+/* template */
+var __vue_template__ = __webpack_require__(108)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/pages/AboutUs.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-03db46de", Component.options)
+  } else {
+    hotAPI.reload("data-v-03db46de", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 105 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(106);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(2)("28fd3d8d", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-03db46de\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./AboutUs.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-03db46de\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./AboutUs.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 106 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n/* sections */\n.why-select-us {\r\n    margin-top: 100px;\n}\n.v-e {\r\n    margin-top: 50px;\r\n    margin-bottom: 20px;\n}\n.contenido-V-E {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.todo {\r\n    background-color: rgb(217, 217, 235);\n}\n.quienesSomos {\r\n    margin-top: 50px;\n}\nh6 {\r\n    display: inline-block;\r\n    position: relative;\r\n    color: darkorange;\r\n    font-family: 'Poppins', sans-serif;\n}\nh6::after {\r\n    content: \"\";\r\n    position: absolute;\r\n    width: 0px;\r\n    height: 0px;\r\n    background-color: currentColor;\r\n    top: 0.6em;\r\n    right: 0px;\n}\n.alinear {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.experiencia {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    width: 260px;\r\n    margin-right: 15px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px){\n.experiencia{\r\n        margin-left: 40px;\n}\n}\n.analisis {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    margin-left: 50px;\r\n    margin-right: 15px;\r\n    width: 260px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.analisis {\r\n        margin-left: 40px;\n}\n}\n.creatividad {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    margin-left: 100px;\r\n    margin-right: 15px;\r\n    width: 260px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.creatividad {\r\n        margin-left: 40px;\n}\n}\n.valores {\r\n    background-color: #024997;\r\n    margin-top: 50px;\r\n    margin-right: 0px;\r\n    float: right;\r\n    width: 300px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px){\n.valores{\r\n        float: none;\n}\n}\n.Va{\r\n    margin-top: 15px;\r\n    margin-left: 100px;\r\n    float: right;\n}\n@media(max-width: 767px){\n.Va{\r\n        float: none;\r\n        margin-top: 15px;\r\n        margin-left: 38px;\n}\n}\n.equipo {\r\n    background-color: #024997;\r\n    margin-top: 50px;\r\n    margin-left: 0px;\r\n    width: 300px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n.Eq{\r\n    margin-top: 30px;\n}\n@media(max-width: 767px){\n.Eq{\r\n        margin-left: 25px;\n}\n.EqL{\r\n        margin-left: 15px;\n}\n}\n.centrar {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\n@media(max-width: 767px) {\n.centrar {\r\n        margin-left: 18px;\n}\n}\n.cohete {\r\n    margin-top: 20px;\r\n    margin-right: 90px;\n}\n.descripcion1 {\r\n    margin-top: 15px;\n}\n@media(max-width: 767px) {\n.descripcion1 {\r\n        text-align: center;\r\n        margin-right: -136px;\n}\n}\n.descripcion2 {\r\n    margin-top: 5px;\r\n    margin-right: 10px;\n}\n@media(max-width: 767px) {\n.descripcion2 {\r\n        text-align: center;\r\n        margin-right: 15px;\n}\n}\n.descripcion3 {\r\n    margin-top: 15px;\r\n    margin-right: 60px;\n}\n@media(max-width: 767px) {\n.descripcion3 {\r\n        text-align: center;\r\n        margin-right: 15px;\n}\n}\n.dp1{\r\n    margin-right: 150px;\n}\n.eqp{\r\n   text-align:justify\n}\n@media(max-width: 767px){\n.eqp{\r\n        text-align: unset;\n}\n}\r\n\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 107 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+>>>>>>> secondary
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Footer_vue__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_Footer_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Menu_vue__ = __webpack_require__(5);
@@ -56327,6 +57379,42 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+<<<<<<< HEAD
+=======
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+>>>>>>> secondary
 
 
 
@@ -56342,6 +57430,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
+<<<<<<< HEAD
 /* 93 */,
 /* 94 */,
 /* 95 */,
@@ -56353,6 +57442,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* 101 */,
 /* 102 */,
 /* 103 */
+=======
+/* 108 */
+>>>>>>> secondary
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -56365,11 +57457,20 @@ var render = function() {
     [
       _c("MenuPrincipal"),
       _vm._v(" "),
+<<<<<<< HEAD
       _vm._m(0),
       _vm._v(" "),
       _vm._m(1),
       _vm._v(" "),
       _c("FooterPrincipal")
+=======
+      _c(
+        "div",
+        { staticClass: "todo" },
+        [_vm._m(0), _vm._v(" "), _vm._m(1), _vm._v(" "), _c("FooterPrincipal")],
+        1
+      )
+>>>>>>> secondary
     ],
     1
   )
@@ -56384,7 +57485,11 @@ var staticRenderFns = [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-12" }, [
             _c("div", { staticClass: "wpo-breadcumb-wrap" }, [
+<<<<<<< HEAD
               _c("h2", [_vm._v("Contáctanos")])
+=======
+              _c("h2", [_vm._v("Nosotros")])
+>>>>>>> secondary
             ])
           ])
         ])
@@ -56395,6 +57500,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+<<<<<<< HEAD
     return _c("div", { staticClass: "section-contact" }, [
       _c("div", { staticClass: "container-fluid" }, [
         _c("div", { staticClass: "col-md-12" }, [
@@ -56452,11 +57558,189 @@ var staticRenderFns = [
                         _c("p", [_vm._v("L-V 8am a 6pm")]),
                         _vm._v(" "),
                         _c("p", [_vm._v("Sábados: 8:15 am a 6 pm")])
+=======
+    return _c("section", { staticClass: "nosotros" }, [
+      _c("div", { staticClass: "container-fluid" }, [
+        _c(
+          "div",
+          {
+            staticClass: "quienesSomos",
+            staticStyle: { "text-align": "center" }
+          },
+          [
+            _c("h1", [_vm._v("¿QUIÉNES SOMOS?")]),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("h2", [_vm._v("Somos CONIT.pe")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Brindamos servicios de soluciones digitales, enfocados en impulsar tu Marca y Empresa al\n                        éxito con tecnología y medios digitales."
+              )
+            ]),
+            _vm._v(" "),
+            _c("h6", [_vm._v("¡Despega tu Negocio!")])
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "why-select-us" }, [
+          _c("div", { staticStyle: { "text-align": "center" } }, [
+            _c("h1", [_vm._v("¿POR QUÉ ELEGIRNOS?")])
+          ]),
+          _c("br"),
+          _vm._v(" "),
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "col-md-12" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-12" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "experiencia",
+                      staticStyle: { float: "left" }
+                    },
+                    [
+                      _c("h3", { staticStyle: { color: "#fff" } }, [
+                        _vm._v("Experiencia")
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "descripcion1 centrar",
+                      staticStyle: { float: "right" }
+                    },
+                    [
+                      _c("p", { staticClass: "dp1" }, [
+                        _vm._v(
+                          "Contamos con una amplia experiencia en brindar servicios de Soluciones\n                                            Digitales.\n                                        "
+                        )
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("br"),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "col-md-12",
+                    staticStyle: { "margin-top": "2.2rem !important" }
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "analisis",
+                        staticStyle: { float: "left" }
+                      },
+                      [
+                        _c("h3", { staticStyle: { color: "#fff" } }, [
+                          _vm._v("Análisis")
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "descripcion2 centrar",
+                        staticStyle: { float: "right" }
+                      },
+                      [
+                        _c("p", [
+                          _vm._v(
+                            "Realizamos un análisis minucioso de la marca, y enfocamos nuestros\n                                            esfuerzos para encontrar"
+                          ),
+                          _c("br"),
+                          _vm._v(" oportunidades de éxito.")
+                        ])
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c("br"),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "col-md-12",
+                    staticStyle: { "margin-top": "1.3rem !important" }
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "creatividad",
+                        staticStyle: { float: "left" }
+                      },
+                      [
+                        _c("h3", { staticStyle: { color: "#fff" } }, [
+                          _vm._v("Creatividad")
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "descripcion3 centrar",
+                        staticStyle: { float: "right" }
+                      },
+                      [
+                        _c("p", { staticClass: "dp3" }, [
+                          _vm._v(
+                            "Realizamos estrategias creativas y visuales para cada uno de nuestros\n                                            proyectos.\n                                        "
+                          )
+                        ])
+                      ]
+                    )
+                  ]
+                )
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("section", { staticClass: "v-e" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "col-md-12" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-6" }, [
+                  _c("div", { staticClass: "equipo centrar" }, [
+                    _c("h3", { staticStyle: { color: "#fff" } }, [
+                      _vm._v("Equipo")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "Eq" }, [
+                    _c("p", { staticClass: "eqp" }, [
+                      _vm._v(
+                        "Contamos con un equipo altamente creativo e innovador. Comprometidos en crear oportunidades de valor para impulsar tu marca y\n                                            empresa,ofreciendo resultados inmediatos. Basándonos en nuestros 4\n                                            pilares\n                                            de\n                                            acción:"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "EqL cohete" }, [
+                      _c("ul", [
+                        _c("li", [_vm._v("Conectar (Conectamos)")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Analizar (Analizamos)")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Diseñar (Diseñamos)")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Desarrollar (Desarrollamos)")])
+>>>>>>> secondary
                       ])
                     ])
                   ])
                 ]),
                 _vm._v(" "),
+<<<<<<< HEAD
                 _c("div", { attrs: { claa: "col-md-6" } }, [
                   _c("div", { staticClass: "container" }, [
                     _c("h3", [_vm._v("Escríbenos un Mensaje")]),
@@ -56579,6 +57863,39 @@ var staticRenderFns = [
             ])
           ])
         ])
+=======
+                _c("div", { staticClass: "col-md-6" }, [
+                  _c("div", { staticClass: "valores centrar" }, [
+                    _c("h3", { staticStyle: { color: "#fff" } }, [
+                      _vm._v("Valores")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "Va" }, [
+                    _c("div", { staticClass: "cohete" }, [
+                      _c("ul", [
+                        _c("li", [_vm._v("Trabajo en equipo")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Responsabilidad")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Compromiso")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Eficiencia ")]),
+                        _vm._v(" "),
+                        _c("li", [_vm._v("Eficacia")])
+                      ])
+                    ])
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "contenido-V-E" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "valor-agregado" })
+>>>>>>> secondary
       ])
     ])
   }
@@ -56588,11 +57905,349 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
+<<<<<<< HEAD
     require("vue-hot-reload-api")      .rerender("data-v-77d54d1a", module.exports)
+=======
+    require("vue-hot-reload-api")      .rerender("data-v-03db46de", module.exports)
   }
 }
 
 /***/ }),
+/* 109 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(110)
+}
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = __webpack_require__(112)
+/* template */
+var __vue_template__ = __webpack_require__(113)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/pages/Projects.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-a3d27a92", Component.options)
+  } else {
+    hotAPI.reload("data-v-a3d27a92", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 110 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(111);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(2)("77db2784", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-a3d27a92\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Projects.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-a3d27a92\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Projects.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 111 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.todo {\r\n    background-color: rgb(217, 217, 235);\n}\n.proy {\r\n    position: absolute;\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    z-index: 1;\n}\nh3 {\r\n    display: inline-block;\r\n    position: relative;\r\n    color: darkorange;\r\n    font-family: 'Roboto', sans-serif;\n}\n.marcoImagen {\r\n    width: 225px;\r\n    height: 225px;\n}\n.centrar {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    margin-left: 50px;\n}\n@media(max-width: 767px) {\n.centrar {\r\n        margin-left: 50px;\n}\n}\nh4 {\r\n    text-align: center;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 112 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Menu_vue__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_Menu_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {};
+    },
+
+    components: {
+        MenuPrincipal: __WEBPACK_IMPORTED_MODULE_0__components_Menu_vue___default.a,
+        FooterPrincipal: __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue___default.a
+    }
+});
+
+/***/ }),
+/* 113 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "page-wrapper" },
+    [
+      _c("MenuPrincipal"),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "todo" },
+        [_vm._m(0), _vm._v(" "), _vm._m(1), _vm._v(" "), _c("FooterPrincipal")],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "wpo-breadcumb-area" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-12" }, [
+            _c("div", { staticClass: "wpo-breadcumb-wrap" }, [
+              _c("h2", [_vm._v("Nuestros Proyectos")])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "projects-section" }, [
+      _c("div", { staticClass: "container" }, [
+        _c(
+          "div",
+          {
+            staticClass: "section-title-s4",
+            staticStyle: { "margin-top": "50px" }
+          },
+          [
+            _c("h2", [_vm._v("Empresas que Confían en Nosotros")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "transparent-text" }, [_vm._v("Crece")])
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "col-md-12" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-4" }, [
+                _c("div", { staticClass: "marcoImagen centrar" }, [
+                  _c("img", {
+                    attrs: { src: "img/Empresas/fresnos.png", alt: "" }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c("div", { staticClass: "marcoImagen centrar" }, [
+                  _c("img", {
+                    staticStyle: { width: "225px", height: "75px" },
+                    attrs: { src: "img/Empresas/cersa.png", alt: "" }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c("div", { staticClass: "marcoImagen centrar" }, [
+                  _c("img", {
+                    staticStyle: { width: "225px", height: "85px" },
+                    attrs: { src: "img/Empresas/itec.png", alt: "" }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c("div", { staticClass: "marcoImagen centrar" }, [
+                  _c("img", {
+                    attrs: { src: "img/Empresas/camp_tours.png", alt: "" }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c("div", { staticClass: "marcoImagen centrar" }, [
+                  _c("img", {
+                    staticStyle: { width: "260px", height: "80px" },
+                    attrs: { src: "img/Empresas/chaquicocha.png", alt: "" }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c("div", { staticClass: "marcoImagen centrar" }, [
+                  _c("img", {
+                    staticStyle: { width: "260px", height: "80px" },
+                    attrs: { src: "img/Empresas/detur.png", alt: "" }
+                  })
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "section-title-s4",
+            staticStyle: { "margin-top": "50px" }
+          },
+          [
+            _c("h4", [_c("b", [_vm._v("¡Súmate a trabajar con Nosotros!")])]),
+            _vm._v(" "),
+            _c("div", { staticClass: "transparent-text" }, [_vm._v("Crece")])
+          ]
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-a3d27a92", module.exports)
+>>>>>>> secondary
+  }
+}
+
+/***/ }),
+<<<<<<< HEAD
 /* 104 */,
 /* 105 */,
 /* 106 */,
@@ -56603,6 +58258,8 @@ if (false) {
 /* 111 */,
 /* 112 */,
 /* 113 */,
+=======
+>>>>>>> secondary
 /* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
