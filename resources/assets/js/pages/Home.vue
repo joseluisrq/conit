@@ -68,7 +68,7 @@
         <div class="row">
           <div class="col col-xs-12">
             <div class="section-title-s4">
-              <h2>¿Qúe más te interesa saber?</h2>
+              <h2>¿Qué más te interesa saber?</h2>
             </div>
           </div>
         </div>
@@ -145,44 +145,44 @@ export default {
         {
           titulo: "¿Quiénes somos?",
           imagen: "1_somos.png",
-          ruta: "",
+          ruta: "nosotros",
         },
         {
           titulo: "¿Por qué son los mejores para mí?",
           imagen: "2_mejores.png",
-          ruta: "",
+          ruta: "building",
         },
         {
           titulo: "¿Por qué tengo que confiar?",
           imagen: "3_confiar.png",
-          ruta: "",
+          ruta: "building",
         },
         {
           titulo: "¿Cuándo nos juntamos?",
           imagen: "4_juntarnos.png",
-          ruta: "",
+          ruta: "building",
         },
       ],
       negocio: [
         {
           titulo: "Emprendedor",
           imagen: "1_emprendedor.png",
-          ruta: "",
+          ruta: "building",
         },
         {
           titulo: "Empresario que recién comienza",
           imagen: "2_empieza.png",
-          ruta: "",
+          ruta: "building",
         },
         {
           titulo: "Profesional que representa a una gran empresa",
           imagen: "3_representa.png",
-          ruta: "",
+          ruta: "building",
         },
         {
           titulo: "Gerente de mi propio negocio",
           imagen: "4_gerente.png",
-          ruta: "",
+          ruta: "building",
         },
       ],
     };

@@ -22,11 +22,13 @@
     padding: 45px 150px;
     background-color: #004585;
     color: #fff;
+    border-radius: 5px;
 }
 
 @media (max-width: 767px) {
     .tituloI{
         padding: 5px 50px;
+        border-radius: 5px;
     }
 }
 
@@ -36,11 +38,13 @@
     background-color: #004585;
     color: #fff;
     float: right;
+    border-radius: 5px;
 }
 
 @media (max-width: 767px) {
     .tituloD{
         padding: 5px 50px;
+        border-radius: 5px;
     }
 }
 

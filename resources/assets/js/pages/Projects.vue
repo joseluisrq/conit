@@ -78,11 +78,11 @@ export default {
     },
     components: {
         MenuPrincipal,
-        FooterPrincipal
+        FooterPrincipal,
     }
 }
 </script>
-<style>
+<style scoped>
 .todo {
     background-color: rgb(217, 217, 235);
 }
@@ -94,13 +94,6 @@ export default {
     bottom: 0;
     left: 0;
     z-index: 1;
-}
-
-h3 {
-    display: inline-block;
-    position: relative;
-    color: darkorange;
-    font-family: 'Roboto', sans-serif;
 }
 
 .marcoImagen {
@@ -120,7 +113,4 @@ h3 {
     }
 }
 
-h4 {
-    text-align: center;
-}
 </style>

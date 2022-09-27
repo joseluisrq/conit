@@ -50,7 +50,7 @@
                     <div class="col-lg-6">
                         <div class="espacio">
                             <div class="about-content">
-                                <p>El CRM Odoon es una herramienta de gestión enfocada en el proceso de compra del
+                                <p class="par">El CRM Odoon es una herramienta de gestión enfocada en el proceso de compra del
                                     cliente.<br />Con ella podrás hacer seguimiento a los leads que objtengas, cerrar las
                                     oportunidades presentadas y conseguir pronóstico precisos.</p>
                             </div>
@@ -342,7 +342,7 @@ components: {
 },
 }
 </script>
-<style>
+<style scoped>
 
 .espacio{
 margin-top: 9.0rem !important;
@@ -363,5 +363,21 @@ margin-top: 9.0rem !important;
     background-color: #f3ab41;
     font-family:'Roboto', sans-serif;
     color: #fff;
+}
+.par{
+    border-radius: 40px 10px 10px 40px;
+    background-color: #004585;
+    color: #fff;
+    padding: 15px 41px;
+    width: 121%;
+}
+@media(max-width: 767px){
+    .par{
+    border-radius: 40px;
+    background-color: #004585;
+    color: #fff;
+    padding: 15px 41px;
+    width: 100%;
+    }
 }
 </style>

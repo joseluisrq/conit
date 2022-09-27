@@ -39,6 +39,7 @@ import Projects from './pages/Projects.vue'
 import ecomerce from './pages/services/E-Comerce.vue'
 import socialmedia from './pages/services/SocialMedia.vue'
 import crm from './pages/services/CRM.vue'
+import building from './pages/Building.vue'
 import Vue from "vue";
 
 const router = new VueRouter({
@@ -94,7 +95,13 @@ const router = new VueRouter({
         component: crm,
         name: 'crm',
         meta: { Auth: false, title: 'CONIT - CRM'}
-      }   
+      },
+      {
+        path: '/building',
+        component: building,
+        name: 'building',
+        meta: { Auth: false, title: 'CONIT - En Construcción'}
+      }  
 
     ],
     scrollBehavior (to, from, savedPosition) {
