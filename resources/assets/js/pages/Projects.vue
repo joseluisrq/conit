@@ -26,38 +26,32 @@
                                     <div class="marcoImagen centrar">
                                         <img src="img/Empresas/fresnos.png" alt="" />
                                     </div>
-                                    <!-- <h4>Clínica los Fresnos</h4> -->
                                 </div>
                                 <div class="col-md-4">
                                     <div class="marcoImagen centrar">
                                         <img src="img/Empresas/cersa.png" alt="" style="width:225px ; height: 75px;" />
                                     </div>
-                                    <!-- <h4>Cersa</h4> -->
                                 </div>
                                 <div class="col-md-4">
                                     <div class="marcoImagen centrar">
                                         <img src="img/Empresas/itec.png" alt="" style="width:225px ; height: 85px;" />
                                     </div>
-                                    <!-- <h4>iTEC</h4> -->
                                 </div>
                                 <div class="col-md-4">
                                     <div class="marcoImagen centrar">
                                         <img src="img/Empresas/camp_tours.png" alt="" />
                                     </div>
-                                    <!-- <h4>Campiña Tours</h4> -->
                                 </div>
                                 <div class="col-md-4">
                                     <div class="marcoImagen centrar">
                                         <img src="img/Empresas/chaquicocha.png" alt=""
                                             style="width:260px ; height: 80px;" />
                                     </div>
-                                    <!-- <h4>Consorcio Chaquicocha</h4> -->
                                 </div>
                                 <div class="col-md-4">
                                     <div class="marcoImagen centrar">
                                         <img src="img/Empresas/detur.png" alt="" style="width:260px ; height: 80px;" />
                                     </div>
-                                    <!-- <h4>Detur</h4> -->
                                 </div>
                             </div>
                         </div>
@@ -84,11 +78,11 @@ export default {
     },
     components: {
         MenuPrincipal,
-        FooterPrincipal
+        FooterPrincipal,
     }
 }
 </script>
-<style>
+<style scoped>
 .todo {
     background-color: rgb(217, 217, 235);
 }
@@ -100,13 +94,6 @@ export default {
     bottom: 0;
     left: 0;
     z-index: 1;
-}
-
-h3 {
-    display: inline-block;
-    position: relative;
-    color: darkorange;
-    font-family: 'Roboto', sans-serif;
 }
 
 .marcoImagen {
@@ -126,7 +113,4 @@ h3 {
     }
 }
 
-h4 {
-    text-align: center;
-}
 </style>

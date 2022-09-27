@@ -18,7 +18,7 @@
         <!-- .wpo-project-details-area start -->
         <div class="wpo-project-details-area section-padding">
             <div style="text-align:center;">
-                <h2>PAQUETES DE DISEÑO WEB</h2>
+                <h2><b>PAQUETES DE DISEÑO WEB</b></h2>
             </div><br/>
             <div style="text-align:center;">
                 <div>
@@ -29,8 +29,8 @@
                 <div class="row">
                     <div class="col-lg-8 col-12">
                         <div class="wpo-p-details-section">
-                            <h5>Paquete Básico</h5>
-                            <div class="wpo-project-details-list">
+                            <h5><b>Paquete Básico</b></h5>
+                            <!-- <div class="wpo-project-details-list">
                                 <div class="row">
                                     <div class="col co-l-lg-4 col-md-9 col-sm-6 col-12">
                                         <div class="wpo-project-details-text-3">
@@ -38,7 +38,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div><br/>
+                            </div><br/> -->
                             <div class="cohete">
                                 <ul>
                                     <li>02 Páginas Internas con 4 a 6 secciones.</li>
@@ -70,16 +70,7 @@
                             
                             <br/>
                             <br/>
-                            <h5>Paquete Ideal</h5>
-                            <div class="wpo-project-details-list">
-                                <div class="row">
-                                    <div class="col co-l-lg-4 col-md-9 col-sm-6 col-12">
-                                        <div class="wpo-project-details-text-3">
-                                            <span>Descripción...</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><br/>
+                            <h5><b>Paquete Ideal</b></h5>
                             <div class="cohete">
                                 <ul>
                                     <li>Hasta 08 Páginas Internas incluyendo secciones respectivas por página.</li>
@@ -112,16 +103,7 @@
                             </div>
                             <br/>
                             <br/>
-                            <h5>Paquete Profesional</h5>
-                            <div class="wpo-project-details-list">
-                                <div class="row">
-                                    <div class="col co-l-lg-4 col-md-9 col-sm-6 col-12">
-                                        <div class="wpo-project-details-text-3">
-                                            <span>Descripción...</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><br/>
+                            <h5><b>Paquete Profesional</b></h5>
                             <div class="cohete">
                                 <ul>
                                     <li>Hasta 20 Páginas Internas incluyendo secciones respectivas por página.</li>
@@ -319,8 +301,7 @@
   </div>
 </template>
 
-<script>
-    
+<script>  
     import FooterPrincipal from "../../components/Footer.vue";
     import MenuPrincipal from "../../components/Menu.vue";
 export default {
@@ -338,7 +319,7 @@ methods:{}
 }
 </script>
 
-<style>
+<style scoped>
 .colorfila{
     color:#f3ab41;
 }

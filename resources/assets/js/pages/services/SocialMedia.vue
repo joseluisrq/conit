@@ -33,13 +33,13 @@
         <!-- .wpo-project-details-area start -->
         <div class="wpo-project-details-area section-padding">
             <div style="text-align:center;">
-                <h2>Paquetes de Social Media - Community Manager</h2>
+                <h2><b>Paquetes de Social Media - Community Manager</b></h2>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-12">
                         <div class="wpo-p-details-section">
-                            <h5>PLAN "SOLO ADS" - Gestión de Campañas en Redes Sociales</h5>
+                            <h5><b>PLAN "SOLO ADS" - Gestión de Campañas en Redes Sociales</b></h5>
                             <p>Dedicado a emprendimientos o negocios que requieren de campañas en redes sociales para aumentar sus ventas.</p>
                             <div class="cohete">
                                 <ul>
@@ -68,7 +68,7 @@
                             </div>
                             <br/>
                             <br/>
-                            <h5>PLAN BÁSICO - Gestión de Contenido de Redes Sociales</h5>
+                            <h5><b>PLAN BÁSICO - Gestión de Contenido de Redes Sociales</b></h5>
                             <p>Dedicado a emprendimientos o negocios que recién inician y desean contenido profesional, para aumentar su presencia y posicionamiento en redes sociales.</p>
                             <div class="cohete">
                                 <ul>
@@ -99,7 +99,7 @@
                             </div>
                             <br/>
                             <br/>
-                            <h5>PLAN IDEAL - Gestión de Contenido de Redes Sociales + Facebook Ads</h5>
+                            <h5><b>PLAN IDEAL - Gestión de Contenido de Redes Sociales + Facebook Ads</b></h5>
                             <p>Dedicado a emprendimientos o negocios que desean contenido profesional y aumentar su presencia y posicionamiento en redes sociales, así como aumentar sus ventas de forma inmediata.</p>
                             <div class="cohete">
                                 <ul>
@@ -133,7 +133,7 @@
                             </div>
                             <br/>
                             <br/>
-                            <h5>PLAN PROFESIONAL - Gestión de Contenido Redes Sociales + Facebook Ads</h5>
+                            <h5><b>PLAN PROFESIONAL - Gestión de Contenido Redes Sociales + Facebook Ads</b></h5>
                             <p>Plan FULL para negocios que desean contenido profesional y aumentar su presencia y posicionamiento en las redes sociales más usadas, así como aumentar sus ventas de forma inmediata. Trabajo realizado en base a 04 redes sociales (Facebook/Instagram/Youtube/Linkedin).</p>
                             <div class="cohete">
                                 <ul>
@@ -167,7 +167,7 @@
                             </div>
                             <br/>
                             <br/>
-                            <h5>CONDICIONES DE SERVICIO</h5>
+                            <h5><b>CONDICIONES DE SERVICIO</b></h5>
                             <div class="cohete">
                                 <ul>
                                     <b>
@@ -315,6 +315,6 @@ components: {
 
 }
 </script>
-<style >
+<style scoped>
     
 </style>

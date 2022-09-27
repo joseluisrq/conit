@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="wpo-breadcumb-wrap">
-                            <h2>Tiendas Online</h2>
+                            <h2><b>Tiendas Online</b></h2>
                         </div>
                     </div>
                 </div>
@@ -19,22 +19,13 @@
         <!-- .wpo-project-details-area start -->
         <div class="wpo-project-details-area section-padding">
             <div style="text-align:center;">
-                <h2>Paquetes de E-commerce</h2>
+                <h2><b>Paquetes de E-commerce</b></h2>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-12">
                         <div class="wpo-p-details-section">
-                            <h5>Paquete Básico</h5>
-                            <div class="wpo-project-details-list">
-                                <div class="row">
-                                    <div class="col co-l-lg-4 col-md-9 col-sm-6 col-12">
-                                        <div class="wpo-project-details-text-3">
-                                            <span>Descripción...</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><br/>
+                            <h5><b>Paquete Básico</b></h5>
                             <div class="cohete">
                                 <ul>
                                     <li>Hasta 150 Productos.</li>
@@ -72,16 +63,7 @@
                             </div>
                             <br/>
                             <br/>
-                            <h5>Paquete Ideal</h5>
-                            <div class="wpo-project-details-list">
-                                <div class="row">
-                                    <div class="col co-l-lg-4 col-md-9 col-sm-6 col-12">
-                                        <div class="wpo-project-details-text-3">
-                                            <span>Descripción...</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><br/>
+                            <h5><b>Paquete Ideal</b></h5>
                             <div class="cohete">
                                 <ul>
                                     <li>Hasta 500 Productos.</li>
@@ -121,16 +103,7 @@
                             </div>
                             <br/>
                             <br/>
-                            <h5>Paquete Profesional</h5>
-                            <div class="wpo-project-details-list">
-                                <div class="row">
-                                    <div class="col co-l-lg-4 col-md-9 col-sm-6 col-12">
-                                        <div class="wpo-project-details-text-3">
-                                            <span>Descripción...</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><br/>
+                            <h5><b>Paquete Profesional</b></h5>
                             <div class="cohete">
                                 <ul>
                                     <li>Productos Ilimitados.</li>
@@ -313,7 +286,7 @@
                             </tr>
                             <tr style="text-align:center;" class="table-yellow">
                                 <th scope="row">COSTOS</th>
-                                <td><b>S/. 500.00</b>
+                                <td><b>S/. 900.00</b>
                                     <div>
                                         <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
                                     </div>
@@ -355,6 +328,6 @@ export default {
     },
 }
 </script>
-<style>
+<style scoped>
     
 </style>

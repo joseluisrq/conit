@@ -735,9 +735,9 @@ a:hover {
 }
 
 .wpo-breadcumb-area {
-  background: url(../images/page-title.jpg) no-repeat center top/cover;
-  min-height: 400px;
+  min-height: 300px;
   position: relative;
+  background: linear-gradient(90deg, #142e95 0%, #3758d2 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -754,7 +754,6 @@ a:hover {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #062265;
   content: "";
   z-index: -1;
   opacity: 0.7;
