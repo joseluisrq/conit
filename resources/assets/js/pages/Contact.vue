@@ -221,7 +221,7 @@ h3 {
     position: relative;
     float: Left;
     width: 30%;
-    border: rgb(95, 143, 182) solid 3px;
+    border: rgb(29, 35, 41) solid 3px;
     border-radius: 20px;
     height: auto;
     color: #fff;

@@ -56,7 +56,7 @@
                                         <h6>Costo del Servicio</h6>
                                     </div>
                                     <div class="col-md-4">
-                                        <button class="btn btn-amarillo">S/. 900.00 + IGV</button>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Paquete%20B%C3%A1sico%20de%20E-Commerce" target="_blank" class="btn btn-amarillo">S/. 900.00 + IGV</a>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -96,7 +96,7 @@
                                         <h6>Costo del Servicio</h6>
                                     </div>
                                     <div class="col-md-4">
-                                        <button class="btn btn-amarillo">S/. 1 500.00 + IGV</button>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Paquete%20Ideal%20de%20E-Commerce" target="_blank" class="btn btn-amarillo">S/. 1 500.00 + IGV</a>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -138,7 +138,7 @@
                                         <h6>Costo del Servicio</h6>
                                     </div>
                                     <div class="col-md-4">
-                                        <button class="btn btn-amarillo">S/. 3 000.00 + IGV</button>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Paquete%20Profesional%20de%20E-Commerce" target="_blank" class="btn btn-amarillo">S/. 3 000.00 + IGV</a>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -189,6 +189,12 @@
                                 <td>Ilimitadas</td>
                             </tr>
                             <tr>
+                                <th scope="row">Optimización para SEO</th>
+                                <td>Básico</td>
+                                <td>Profesional</td>
+                                <td>Empresarial</td>
+                            </tr>
+                            <tr>
                                 <th scope="row">Dominio.COM</th>
                                 <td>✔</td>
                                 <td>✔</td>
@@ -211,12 +217,6 @@
                                 <td>✔</td>
                                 <td>✔</td>
                                 <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Optimización para SEO</th>
-                                <td>Básico</td>
-                                <td>Profesional</td>
-                                <td>Empresarial</td>
                             </tr>
                             <tr>
                                 <th scope="row">Categorías Ilimitadas</th>
@@ -243,6 +243,30 @@
                                 <td>✔</td>
                             </tr>
                             <tr>
+                                <th scope="row">Link de QR de Pago</th>
+                                <td>✔</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Pasarela de Pago</th>
+                                <td>✔</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Facebook Pixel</th>
+                                <td>✔</td>
+                                <td></td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Descarga de Reportes en Excel</th>
+                                <td></td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
                                 <th scope="row">Conexión Zapier</th>
                                 <td></td>
                                 <td></td>
@@ -255,50 +279,26 @@
                                 <td>✔</td>
                             </tr>
                             <tr>
-                                <th scope="row">Facebook Pixel</th>
-                                <td>✔</td>
-                                <td></td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Link de QR de Pago</th>
-                                <td>✔</td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Descarga de Reportes en Excel</th>
-                                <td></td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
                             <th scope="row">Códigos de Descuento</th>
                                 <td></td>
                                 <td></td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Pasarela de Pago</th>
-                                <td>✔</td>
-                                <td>✔</td>
                                 <td>✔</td>
                             </tr>
                             <tr style="text-align:center;" class="table-yellow">
                                 <th scope="row">COSTOS</th>
                                 <td><b>S/. 900.00</b>
                                     <div>
-                                        <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Paquete%20B%C3%A1sico%20de%20E-Commerce" target="_blank" class="btn b">Cotizar</a>
                                     </div>
                                 </td>
                                 <td><b>S/. 1 500.00</b>
                                     <div>
-                                        <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Paquete%20Ideal%20de%20E-Commerce" target="_blank" class="btn b">Cotizar</a>
                                     </div>
                                 </td>
                                 <td><b>S/. 3 000.00</b>
                                     <div>
-                                        <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Paquete%20Profesional%20de%20E-Commerce" target="_blank" class="btn b">Cotizar</a>
                                     </div>
                                 </td>
                             </tr>
@@ -329,5 +329,8 @@ export default {
 }
 </script>
 <style scoped>
-    
+.b{
+ background-color: #024997;
+ color:#fff;
+}
 </style>

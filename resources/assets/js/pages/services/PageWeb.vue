@@ -61,7 +61,8 @@
                                                 <h6>Costo del Servicio</h6> 
                                             </div>
                                             <div class="col-md-4">
-                                                <button class="btn btn-amarillo">S/. 485.00 + IGV</button>
+                                                <a target="_blank" href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Paquete%20B%C3%A1sico%20de%20Dise%C3%B1o%20Web" class="btn btn-amarillo">S/. 485.00 + IGV</a>
+                                                
                                             </div>
                                         </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -96,7 +97,7 @@
                                         <h6>Costo del Servicio</h6>
                                     </div>
                                     <div class="col-md-4">
-                                        <button class="btn btn-amarillo">S/. 985.00 + IGV</button>
+                                        <a target="_blank" href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Paquete%20Ideal%20de%20Dise%C3%B1o%20Web" class="btn btn-amarillo">S/. 985.00 + IGV</a>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -133,7 +134,7 @@
                                         <h6>Costo del Servicio</h6>
                                     </div>
                                     <div class="col-md-4">
-                                        <button class="btn btn-amarillo">S/. 1 995.00 + IGV</button>
+                                        <a target="_blank" href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Paquete%20Profesional%20de%20Dise%C3%B1o%20Web" class="btn btn-amarillo">S/. 1 995.00 + IGV</a>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -217,6 +218,12 @@
                                     <td>✔</td>
                                 </tr>
                                 <tr>
+                                    <th scope="row">Capacitación</th>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
                                     <th scope="row">Integración con Redes Sociales</th>
                                     <td></td>
                                     <td>✔</td>
@@ -224,6 +231,12 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">Módulo de Chat en Vivo/Whatssap</th>
+                                    <td></td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Pasarela de Pago</th>
                                     <td></td>
                                     <td>✔</td>
                                     <td>✔</td>
@@ -258,36 +271,24 @@
                                     <td></td>
                                     <td>✔</td>
                                 </tr>
-                                <tr>
-                                    <th scope="row">Pasarela de Pago</th>
-                                    <td></td>
-                                    <td>✔</td>
-                                    <td>✔</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Capacitación</th>
-                                    <td>✔</td>
-                                    <td>✔</td>
-                                    <td>✔</td>
-                                </tr>
                                 <tr style="text-align:center;" class="table-yellow">
                                     <th scope="row">COSTOS</th>
                                     <td>
                                         <b>S/. 485.00</b>
                                         <div>
-                                            <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
+                                            <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Paquete%20B%C3%A1sico%20de%20Dise%C3%B1o%20Web" target="_blank" class="btn b">Cotizar</a>
                                         </div>
                                     </td>
                                     <td>
                                         <b>S/. 985.00</b>
                                         <div>
-                                            <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
+                                            <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Paquete%20Ideal%20de%20Dise%C3%B1o%20Web" target="_blank" class="btn b">Cotizar</a>
                                         </div>
                                     </td>
                                     <td>
                                         <b>S/. 1 995.00</b>
                                         <div>
-                                            <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
+                                            <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Paquete%20Profesional%20de%20Dise%C3%B1o%20Web" target="_blank" class="btn b">Cotizar</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -324,5 +325,9 @@ methods:{}
     color:#f3ab41;
 }
 
+.b{
+ background-color: #024997;
+ color:#fff;
+}
 
 </style>

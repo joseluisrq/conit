@@ -24,12 +24,12 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="marcoImagen centrar">
-                                        <img src="img/Empresas/fresnos.png" alt="" />
+                                        <a target="_blank" href="https://clinicalosfresnos.com.pe/"><img src="img/Empresas/fresnos.png" alt="" /></a>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="marcoImagen centrar">
-                                        <img src="img/Empresas/cersa.png" alt="" style="width:225px ; height: 75px;" />
+                                        <a target="_blank" href="https://cersa.org.pe/"><img src="img/Empresas/cersa.png" alt="" style="width:225px ; height: 75px;" /></a>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -39,18 +39,17 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="marcoImagen centrar">
-                                        <img src="img/Empresas/camp_tours.png" alt="" />
+                                        <a target="_blank" href="https://campitours.com/es/"><img src="img/Empresas/camp_tours.png" alt="" /></a>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="marcoImagen centrar">
-                                        <img src="img/Empresas/chaquicocha.png" alt=""
-                                            style="width:260px ; height: 80px;" />
+                                        <img src="img/Empresas/chaquicocha.png" alt="" style="width:260px ; height: 80px;" />
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="marcoImagen centrar">
-                                        <img src="img/Empresas/detur.png" alt="" style="width:260px ; height: 80px;" />
+                                        <a target="_blank" href="https://deturconsultores.com/"><img src="img/Empresas/detur.png" alt="" style="width:260px ; height: 80px;" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +58,6 @@
                     </div>
                     <div class="section-title-s4" style="margin-top:50px">
                         <h4><b>¡Súmate a trabajar con Nosotros!</b></h4>
-                        <div class="transparent-text">Crece</div>
                     </div>
                 </div>
             </section>
@@ -112,5 +110,6 @@ export default {
         margin-left: 50px;
     }
 }
+
 
 </style>

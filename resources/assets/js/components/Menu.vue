@@ -35,15 +35,15 @@
                 
                 <li style="padding: 35px 20px">
                   <span
-                    ><a href="contact.html"
+                    ><a target="_blank" href="https://www.facebook.com/conit.pe"
                       ><img src="img/redes/facebook.png" alt="" /></a
                   ></span>
                   <span
-                    ><a href="contact.html"
+                    ><a target="_blank" href="https://www.instagram.com/conit.pe/"
                       ><img src="img/redes/instagram.png" alt="" /></a
                   ></span>
                   <span
-                    ><a href="contact.html"
+                    ><a target="_blank" href="https://www.linkedin.com/company/conitpe/"
                       ><img src="img/redes//linkedin.png" alt="" /></a
                   ></span>
                 </li>

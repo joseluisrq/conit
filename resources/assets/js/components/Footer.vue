@@ -3,7 +3,7 @@
             <div class="wpo-upper-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
                             <div class="widget about-widget">
                                 <div class="logo widget-title">
                                     <img class="logoP" src="img/logo_blanco_400_120.png" alt="blog">
@@ -12,12 +12,12 @@
                                 <h5>Despega tu Negocio</h5>
                                 <ul>
                                     <li>
-                                        <a href="#">
+                                        <a target="_blank" href="https://www.facebook.com/conit.pe">
                                             <i class="ti-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a target="_blank" href="https://www.instagram.com/conit.pe/">
                                             <i class="ti-instagram"></i>
                                         </a>
                                     </li>
@@ -25,7 +25,7 @@
                             </div>
                         </div>
 
-                        <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
                             <div class="widget link-widget">
                                 <div class="widget-title">
                                     <h3>Servicios</h3>
@@ -38,7 +38,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
                             <div class="widget wpo-service-link-widget">
                                 <div class="widget-title">
                                     <h3>Contáctanos</h3>
@@ -53,7 +53,7 @@
                             </div>
                         </div>
 
-                        <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                        <!-- <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div class="widget instagram">
                                 <div class="widget-title">
                                     <h3>Proyectos</h3>
@@ -67,7 +67,7 @@
                                     <li><a href="project-single.html"><img src="images/instragram/6.jpg" alt=""></a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div> <!-- end container -->
             </div>

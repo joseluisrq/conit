@@ -4,7 +4,7 @@
       <img :src="'img/intereses/'+data.imagen" class="img-fluid" alt="" />
     </div>
     <div class="wpo-service-text">
-    <h2><a href="#" @click="cambiarRuta(data.ruta)">{{data.titulo}}</a></h2>
+    <h2><a style="cursor:pointer" @click="cambiarRuta(data.ruta)">{{data.titulo}}</a></h2>
     </div>
   </div>
 </template>

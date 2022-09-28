@@ -61,7 +61,7 @@
                                         <h6>Costo del Servicio</h6>
                                     </div>
                                     <div class="col-md-4">
-                                        <button class="btn btn-amarillo">S/. 120.00 + IGV</button>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20%22SOLO%20ADS%22%20de%20Community%20Manager" target="_blank" class="btn btn-amarillo">S/. 120.00 + IGV</a>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -92,7 +92,7 @@
                                         <h6>Costo del Servicio</h6>
                                     </div>
                                     <div class="col-md-4">
-                                        <button class="btn btn-amarillo">S/. 200.00 + IGV</button>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20B%C3%A1sico%20de%20Community%20Manager" target="_blank" class="btn btn-amarillo">S/. 200.00 + IGV</a>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -126,7 +126,7 @@
                                         <h6>Costo del Servicio</h6>
                                     </div>
                                     <div class="col-md-4">
-                                        <button class="btn btn-amarillo">S/. 480.00 + IGV</button>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Ideal%20de%20Community%20Manager" target="_blank" class="btn btn-amarillo">S/. 480.00 + IGV</a>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -160,7 +160,7 @@
                                         <h6>Costo del Servicio</h6>
                                     </div>
                                     <div class="col-md-4">
-                                        <button class="btn btn-amarillo">S/. 920.00 + IGV</button>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Profesional%20de%20Community%20Manager" target="_blank" class="btn btn-amarillo">S/. 920.00 + IGV</a>
                                     </div>
                                 </div>
                                 <p>*Contáctanos si deseas un paquete personalizado</p>
@@ -221,20 +221,20 @@
                                 <td>Campañas publicitarias, las necesarias</td>
                             </tr>
                             <tr>
-                                <th scope="row">Configuración del negocio</th>
-                                <td>✔</td>
-                                <td>✔</td>
-                                <td>✔</td>
-                            </tr>
-                            <tr>
                                 <th scope="row">Estrategias de contenido</th>
                                 <td>Mensuales</td>
                                 <td>Quincenales</td>
                                 <td>Semanales</td>
                             </tr>
                             <tr>
-                                <th scope="row">Respuestas automáticas</th>
-                                <td></td>
+                                <th scope="row">Presupuesto e Inversión de pauta publicitaria</th>
+                                <td>Incluye Básico</td>
+                                <td>Incluye</td>
+                                <td>Incluye</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Configuración del negocio</th>
+                                <td>✔</td>
                                 <td>✔</td>
                                 <td>✔</td>
                             </tr>
@@ -245,14 +245,20 @@
                                 <td>✔</td>
                             </tr>
                             <tr>
-                                <th scope="row">Implementación de segmentaciones</th>
+                                <th scope="row">Informe de resultados por campaña</th>
+                                <td>✔</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Respuestas automáticas</th>
                                 <td></td>
                                 <td>✔</td>
                                 <td>✔</td>
                             </tr>
                             <tr>
-                                <th scope="row">Informe de resultados por campaña</th>
-                                <td>✔</td>
+                                <th scope="row">Implementación de segmentaciones</th>
+                                <td></td>
                                 <td>✔</td>
                                 <td>✔</td>
                             </tr>
@@ -262,28 +268,22 @@
                                 <td>✔</td>
                                 <td>✔</td>
                             </tr>
-                            <tr>
-                                <th scope="row">Presupuesto e Inversión de pauta publicitaria</th>
-                                <td>Incluye Básico</td>
-                                <td>Incluye</td>
-                                <td>Incluye</td>
-                            </tr>
                             
                             <tr style="text-align:center;" class="table-yellow">
                                 <th scope="row">COSTOS</th>
                                 <td><b>S/. 200.00</b>
                                     <div>
-                                        <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20B%C3%A1sico%20de%20Community%20Manager" target="_blank" class="btn b">Cotizar</a>
                                     </div>
                                 </td>
                                 <td><b>S/. 480.00</b>
                                     <div>
-                                        <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Ideal%20de%20Community%20Manager" target="_blank" class="btn b">Cotizar</a>
                                     </div>
                                 </td>
                                 <td><b>S/. 920.00</b>
                                     <div>
-                                        <a href="#" target="_blank" class="btn btn-dark">Cotizar</a>
+                                        <a href="https://api.whatsapp.com/send?phone=51910836385&text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Profesional%20de%20Community%20Manager" target="_blank" class="btn b">Cotizar</a>
                                     </div>
                                 </td>
                             </tr>  
@@ -316,5 +316,8 @@ components: {
 }
 </script>
 <style scoped>
-    
+.b{
+ background-color: #024997;
+ color:#fff;
+}    
 </style>
