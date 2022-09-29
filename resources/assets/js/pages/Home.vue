@@ -17,7 +17,8 @@
                 </h2>
               </div>
               <div class="btns">
-                <a class="btn btn-amarillo" href="#servicios">Comencemos</a>
+                
+                <router-link  class="btn btn-amarillo" to="/servicios">Comencemos</router-link>
               </div>
             </div>
           </div>
@@ -88,7 +89,7 @@
           <div class="col-md-8 text-center">
             <div class="col-auto text-center mt-4">
               <h3 class="mt-4">Te obsequiamos 20 minutos de consultoria</h3>
-              <a href="https://api.whatsapp.com/send?phone=910836385&text=Quiero%20agendar%20una%20reuni%C3%B3n" target="_bank" class="btn btn-primary">AGENDAR CONSULTORÍA</a>
+              <a href="https://api.whatsapp.com/send?phone=51910836385&text=Quiero%20agendar%20una%20reuni%C3%B3n" target="_bank" class="btn btn-primary">AGENDAR CONSULTORÍA</a>
             </div>
           </div>
           <div class="col-md-4 text-center">

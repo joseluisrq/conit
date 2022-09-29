@@ -2,17 +2,7 @@
     <div class="page-wrapper">
         <MenuPrincipal />
         <div class="todo">
-            <div class="wpo-breadcumb-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="wpo-breadcumb-wrap">
-                                <h2>Nuestros Proyectos</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Titulo titulo="Nuestros Proyectos" />
             <section class="projects-section">
                 <div class="container">
                     <div class="section-title-s4" style="margin-top:50px">
@@ -68,6 +58,7 @@
 <script>
 import MenuPrincipal from "../components/Menu.vue";
 import FooterPrincipal from "../components/Footer.vue"
+import Titulo from "../components/Titulo.vue";
 export default {
     data() {
         return {
@@ -75,9 +66,10 @@ export default {
         }
     },
     components: {
-        MenuPrincipal,
-        FooterPrincipal,
-    }
+    MenuPrincipal,
+    FooterPrincipal,
+    Titulo
+}
 }
 </script>
 <style scoped>

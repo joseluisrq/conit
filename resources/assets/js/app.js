@@ -38,6 +38,7 @@ import AboutUs from './pages/AboutUs.vue'
 import Projects from './pages/Projects.vue'
 import ecomerce from './pages/services/E-Comerce.vue'
 import socialmedia from './pages/services/SocialMedia.vue'
+import Servicios from './pages/Servicios.vue'
 import crm from './pages/services/CRM.vue'
 import building from './pages/Building.vue'
 import Vue from "vue";
@@ -53,6 +54,12 @@ const router = new VueRouter({
         component: Home,
         name: 'Home',
         meta: { Auth: false, title: 'CONIT - Soluciones Digitales'}
+      },
+      {
+        path: '/servicios',
+        component: Servicios,
+        name: 'servicios',
+        meta: { Auth: false, title: 'CONIT - Servicios'}
       },
       {
         path: '/contacto',

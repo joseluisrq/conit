@@ -1,17 +1,7 @@
 <template>
     <div class="page-wrapper">
         <MenuPrincipal />
-        <div class="wpo-breadcumb-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="wpo-breadcumb-wrap">
-                            <h2>Contáctanos</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Titulo titulo="Contáctanos" />
         <section class="section-contact">
             <div class="container-fluid">
                 <div class="infoI">
@@ -86,6 +76,7 @@ import emailjs from "@emailjs/browser";
 import FooterPrincipal from "../components/Footer.vue";
 import MenuPrincipal from "../components/Menu.vue";
 import Loading from "../components/Loading.vue"
+import Titulo from "../components/Titulo.vue";
 export default {
     data() {
         return {
@@ -100,10 +91,11 @@ export default {
         }
     },
     components: {
-        MenuPrincipal,
-        FooterPrincipal,
-        Loading,
-    },
+    MenuPrincipal,
+    FooterPrincipal,
+    Loading,
+    Titulo
+},
     methods: {
         limpiarCampos() {
             this.campos = {
