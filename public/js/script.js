@@ -25,20 +25,6 @@
     toggleMobileNavigation();
 
 
-    // Function for toggle class for small menu
-    function toggleClassForSmallNav() {
-        var windowWidth = window.innerWidth;
-        var mainNav = $("#navbar > ul");
-
-        if (windowWidth <= 991) {
-            mainNav.addClass("small-nav");
-        } else {
-            mainNav.removeClass("small-nav");
-        }
-    }
-
-    toggleClassForSmallNav();
-
 
     // Function for small menu
     function smallNavFunctionality() {
