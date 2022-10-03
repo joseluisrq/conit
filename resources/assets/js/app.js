@@ -41,6 +41,7 @@ import socialmedia from './pages/services/SocialMedia.vue'
 import Servicios from './pages/Servicios.vue'
 import crm from './pages/services/CRM.vue'
 import building from './pages/Building.vue'
+import concurso from './pages/Contest.vue'
 import Vue from "vue";
 
 const router = new VueRouter({
@@ -108,7 +109,13 @@ const router = new VueRouter({
         component: building,
         name: 'building',
         meta: { Auth: false, title: 'CONIT - En Construcción'}
-      }  
+      },
+      {
+        path: '/concurso',
+        component: concurso,
+        name: 'concurso',
+        meta: { Auth: false, title: 'CONIT - Concurso'}
+      }    
 
     ],
     scrollBehavior (to, from, savedPosition) {

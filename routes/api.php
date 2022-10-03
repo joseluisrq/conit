@@ -16,3 +16,10 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+//PARTICIPANTES
+Route::get('participantes', [App\Http\Controllers\ParticipanteController::class, 'index']);
+Route::post('participantes/crear', [App\Http\Controllers\ParticipanteController::class, 'store']);
+Route::get('participantes/{participante}', [App\Http\Controllers\ParticipanteController::class, 'show']);
+Route::put('participantes/{participante}', [App\Http\Controllers\ParticipanteController::class, 'update']);
+Route::delete('participantes/{participante}', [App\Http\Controllers\ParticipanteController::class, 'destroy']);
