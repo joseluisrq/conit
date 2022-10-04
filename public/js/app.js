@@ -57473,25 +57473,54 @@ var staticRenderFns = [
         _c("ul", [
           _c("li", { staticStyle: { padding: "10px 10px" } }, [
             _c("span", [
-              _c("a", { attrs: { href: "contact.html" } }, [
-                _c("img", { attrs: { src: "img/redes/facebook.png", alt: "" } })
-              ])
+              _c(
+                "a",
+                {
+                  attrs: {
+                    target: "_blank",
+                    href: "https://www.facebook.com/conit.pe"
+                  }
+                },
+                [
+                  _c("img", {
+                    attrs: { src: "img/redes/facebook.png", alt: "" }
+                  })
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("span", [
-              _c("a", { attrs: { href: "contact.html" } }, [
-                _c("img", {
-                  attrs: { src: "img/redes/instagram.png", alt: "" }
-                })
-              ])
+              _c(
+                "a",
+                {
+                  attrs: {
+                    target: "_blank",
+                    href: "https://www.instagram.com/conit.pe/"
+                  }
+                },
+                [
+                  _c("img", {
+                    attrs: { src: "img/redes/instagram.png", alt: "" }
+                  })
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("span", [
-              _c("a", { attrs: { href: "contact.html" } }, [
-                _c("img", {
-                  attrs: { src: "img/redes//linkedin.png", alt: "" }
-                })
-              ])
+              _c(
+                "a",
+                {
+                  attrs: {
+                    target: "_blank",
+                    href: "https://www.linkedin.com/company/conitpe/about/"
+                  }
+                },
+                [
+                  _c("img", {
+                    attrs: { src: "img/redes//linkedin.png", alt: "" }
+                  })
+                ]
+              )
             ])
           ])
         ])
@@ -62502,7 +62531,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\nh3[data-v-9a085f32] {\r\n    color: #fff;\n}\n.infoI[data-v-9a085f32] {\r\n    padding-left: 10px;\r\n    padding-top: 50px;\r\n    margin-left: 200px;\r\n    margin-right: 10px;\r\n    margin-top: 50px;\r\n    float: left;\r\n    position: relative;\r\n    width: 45%;\r\n    height: auto;\n}\n@media(max-width: 767px) {\n.infoI[data-v-9a085f32] {\r\n        text-align: center;\r\n        margin-left: 97px;\n}\n}\n.formularioD[data-v-9a085f32] {\r\n    background-color: #024997;\r\n    padding-top: 20px;\r\n    padding-left: 10px;\r\n    padding-right: 10px;\r\n    padding-bottom: 0px;\r\n\r\n    margin-top: 30px;\r\n    /* margin-left: 150px; */\r\n    margin-bottom: 30px;\r\n    position: relative;\r\n    float: Left;\r\n    width: 30%;\r\n    border: rgb(29, 35, 41) solid 3px;\r\n    border-radius: 20px;\r\n    height: auto;\r\n    color: #fff;\n}\n@media (max-width: 767px) {\n.formularioD[data-v-9a085f32] {\r\n        padding-top: 20px;\r\n        padding-left: 10px;\r\n        padding-right: 10px;\r\n        padding-bottom: 5px;\r\n        width: 100%;\r\n        border: rgb(22, 107, 177) solid 3px;\r\n        border-radius: 20px;\r\n        height: auto;\n}\n}\n.centrar[data-v-9a085f32] {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\n.alinear[data-v-9a085f32] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\n}\r\n", ""]);
+exports.push([module.i, "\nh3[data-v-9a085f32] {\r\n    color: #fff;\n}\nul[data-v-9a085f32]{\r\n    list-style: none;\n}\n@media(max-width: 767px){\nul[data-v-9a085f32]{\r\n        text-align: justify;\n}\n}\n.infoI[data-v-9a085f32] {\r\n    padding-left: 0px;\r\n    padding-top: 35px;\r\n    margin-left: 200px;\r\n    margin-right: 10px;\r\n    margin-top: 50px;\r\n    float: left;\r\n    position: relative;\r\n    width: 45%;\r\n    height: auto;\n}\n@media(max-width: 767px) {\n.infoI[data-v-9a085f32] {\r\n        text-align: center;\r\n        margin-left: 97px;\n}\n}\n.formularioD[data-v-9a085f32] {\r\n    background-color: #024997;\r\n    padding-top: 20px;\r\n    padding-left: 10px;\r\n    padding-right: 10px;\r\n    padding-bottom: 0px;\r\n\r\n    margin-top: 30px;\r\n    /* margin-left: 150px; */\r\n    margin-bottom: 30px;\r\n    position: relative;\r\n    float: Left;\r\n    width: 30%;\r\n    border: rgb(29, 35, 41) solid 3px;\r\n    border-radius: 20px;\r\n    height: auto;\r\n    color: #fff;\n}\n@media (max-width: 767px) {\n.formularioD[data-v-9a085f32] {\r\n        padding-top: 20px;\r\n        padding-left: 10px;\r\n        padding-right: 10px;\r\n        padding-bottom: 5px;\r\n        width: 100%;\r\n        border: rgb(22, 107, 177) solid 3px;\r\n        border-radius: 20px;\r\n        height: auto;\n}\n}\n.centrar[data-v-9a085f32] {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\n.alinear[data-v-9a085f32] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\n}\np[data-v-9a085f32]{\r\n    color: #202325;\n}\nli[data-v-9a085f32]{\r\n    color: #202325;\n}\r\n", ""]);
 
 // exports
 
@@ -62522,6 +62551,37 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Titulo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_Titulo_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Loading_vue__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_Loading_vue__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -62681,7 +62741,7 @@ var render = function() {
         "div",
         { staticClass: "todo" },
         [
-          _c("Titulo", { attrs: { titulo: "Concurso" } }),
+          _c("Titulo", { attrs: { titulo: "Concurso CONIT" } }),
           _vm._v(" "),
           _c("section", { staticClass: "contest-section" }, [
             _c("div", { staticClass: "container-fluid" }, [
@@ -62689,7 +62749,7 @@ var render = function() {
               _vm._v(" "),
               _c("div", { staticClass: "formularioD" }, [
                 _c("h3", { staticStyle: { "text-align": "center" } }, [
-                  _vm._v("Escríbenos")
+                  _vm._v("Inscríbete")
                 ]),
                 _vm._v(" "),
                 _c("hr"),
@@ -62943,7 +63003,148 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "infoI" }, [
-      _c("h4", [_vm._v("Información")])
+      _c("h2", { staticStyle: { color: "#024997" } }, [
+        _vm._v("¡Es tu Momento!")
+      ]),
+      _c("br"),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v("Participa del sensacional sorteo de una Página Web"),
+        _c("br"),
+        _vm._v("para tu empresa o proyecto.")
+      ]),
+      _vm._v(" "),
+      _c("h4", [_vm._v("¡Sí! es totalmente GRATIS.")]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("h3", { staticStyle: { color: "#024997" } }, [_vm._v("Incluye")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "cohete" }, [
+        _c("ul", [
+          _c("li", [
+            _c("b", [_vm._v("Hosting + Dominio.com")]),
+            _vm._v(" por un año.")
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "Tan sólo tienes que seguir los siguientes pasos para participar:"
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "cohete" }, [
+        _c("ul", [
+          _c("li", [
+            _vm._v("Síguenos en nuestro "),
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://www.facebook.com/conit.pe",
+                  target: "_blank"
+                }
+              },
+              [_c("b", [_vm._v("Fácebook")])]
+            ),
+            _vm._v(" e "),
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://www.instagram.com/conit.pe/",
+                  target: "_blank"
+                }
+              },
+              [_c("b", [_vm._v("Instagram")])]
+            ),
+            _vm._v(".")
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _vm._v(
+              "Comparte la publicación del concurso en tus redes sociales y etiquétanos."
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Además, debes etiquetar a 2 amigos.")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Regístrate en nuestro formulario.")])
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("p", [
+          _c("b", [
+            _vm._v(
+              "Una vez realizados los pasos, estarás en la lista de participantes."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", [
+        _c("h4", [_vm._v("Nuestras Redes Sociales")]),
+        _vm._v(" "),
+        _c("ul", [
+          _c("li", { staticStyle: { padding: "10px 10px" } }, [
+            _c("span", [
+              _c(
+                "a",
+                {
+                  attrs: {
+                    target: "_blank",
+                    href: "https://www.facebook.com/conit.pe"
+                  }
+                },
+                [
+                  _c("img", {
+                    attrs: { src: "img/redes/facebook.png", alt: "" }
+                  })
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("span", [
+              _c(
+                "a",
+                {
+                  attrs: {
+                    target: "_blank",
+                    href: "https://www.instagram.com/conit.pe/"
+                  }
+                },
+                [
+                  _c("img", {
+                    attrs: { src: "img/redes/instagram.png", alt: "" }
+                  })
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("span", [
+              _c(
+                "a",
+                {
+                  attrs: {
+                    target: "_blank",
+                    href: "https://www.linkedin.com/company/conitpe/about/"
+                  }
+                },
+                [
+                  _c("img", {
+                    attrs: { src: "img/redes//linkedin.png", alt: "" }
+                  })
+                ]
+              )
+            ])
+          ])
+        ])
+      ])
     ])
   }
 ]

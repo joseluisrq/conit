@@ -2,14 +2,45 @@
     <div class="page-wrapper">
         <MenuPrincipal />
         <div class="todo">
-            <Titulo titulo="Concurso" />
+            <Titulo titulo="Concurso CONIT" />
             <section class="contest-section">
                 <div class="container-fluid">
                     <div class="infoI">
-                        <h4>Información</h4>
+                        <h2 style="color:#024997">¡Es tu Momento!</h2><br/>
+                        <p>Participa del sensacional sorteo de una Página Web<br/>para tu empresa o proyecto.</p>
+                        <h4>¡Sí! es totalmente GRATIS.</h4>
+                        <br/>
+                        <h3 style="color:#024997">Incluye</h3>
+                        <div class="cohete">
+                            <ul>
+                                <li><b>Hosting + Dominio.com</b> por un año.</li>
+                            </ul>
+                        </div>
+                        <br/>
+                        <p>Tan sólo tienes que seguir los siguientes pasos para participar:</p>
+                        <div class="cohete">
+                            <ul>
+                                <li>Síguenos en nuestro <a href="https://www.facebook.com/conit.pe" target="_blank"><b>Fácebook</b></a> e <a href="https://www.instagram.com/conit.pe/" target="_blank"><b>Instagram</b></a>.</li>
+                                <li>Comparte la publicación del concurso en tus redes sociales y etiquétanos.</li>
+                                <li>Además, debes etiquetar a 2 amigos.</li>
+                                <li>Regístrate en nuestro formulario.</li>
+                            </ul>
+                            <br/>
+                            <p><b>Una vez realizados los pasos, estarás en la lista de participantes.</b></p>
+                        </div>
+                        <div>
+                        <h4>Nuestras Redes Sociales</h4>
+                        <ul>
+                            <li style="padding: 10px 10px">
+                                <span><a target="_blank" href="https://www.facebook.com/conit.pe"><img src="img/redes/facebook.png" alt="" /></a></span>
+                                <span><a target="_blank" href="https://www.instagram.com/conit.pe/"><img src="img/redes/instagram.png" alt="" /></a></span>
+                                <span><a target="_blank" href="https://www.linkedin.com/company/conitpe/about/"><img src="img/redes//linkedin.png" alt="" /></a></span>
+                            </li>
+                        </ul>
+                    </div>
                     </div>
                     <div class="formularioD">
-                        <h3 style="text-align:center;">Escríbenos</h3>
+                        <h3 style="text-align:center;">Inscríbete</h3>
                         <hr />
                         <form @submit.prevent="enviarMensaje">
                             <div class="form-group">
@@ -153,9 +184,17 @@ export default {
 h3 {
     color: #fff;
 }
+ul{
+    list-style: none;
+}
+@media(max-width: 767px){
+    ul{
+        text-align: justify;
+    }
+}
 .infoI {
-    padding-left: 10px;
-    padding-top: 50px;
+    padding-left: 0px;
+    padding-top: 35px;
     margin-left: 200px;
     margin-right: 10px;
     margin-top: 50px;
@@ -212,5 +251,11 @@ h3 {
 
 .alinear {
     display: flex;
+}
+p{
+    color: #202325;
+}
+li{
+    color: #202325;
 }
 </style>

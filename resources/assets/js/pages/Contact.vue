@@ -18,9 +18,9 @@
                         <h4>Redes Sociales</h4>
                         <ul>
                             <li style="padding: 10px 10px">
-                                <span><a href="contact.html"><img src="img/redes/facebook.png" alt="" /></a></span>
-                                <span><a href="contact.html"><img src="img/redes/instagram.png" alt="" /></a></span>
-                                <span><a href="contact.html"><img src="img/redes//linkedin.png" alt="" /></a></span>
+                                <span><a target="_blank" href="https://www.facebook.com/conit.pe"><img src="img/redes/facebook.png" alt="" /></a></span>
+                                <span><a target="_blank" href="https://www.instagram.com/conit.pe/"><img src="img/redes/instagram.png" alt="" /></a></span>
+                                <span><a target="_blank" href="https://www.linkedin.com/company/conitpe/about/"><img src="img/redes//linkedin.png" alt="" /></a></span>
                             </li>
                         </ul>
                     </div>
