@@ -56703,7 +56703,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\nul[data-v-77d54d1a] {\r\n    list-style: none;\n}\nh3[data-v-77d54d1a] {\r\n    color: #fff;\n}\n.section-contact[data-v-77d54d1a] {\r\n    background-color: rgb(217, 217, 235);\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.infoI[data-v-77d54d1a] {\r\n    padding-left: 10px;\r\n    padding-top: 50px;\r\n    margin-left: 200px;\r\n    margin-right: 10px;\r\n    margin-top: 50px;\r\n    float: left;\r\n    position: relative;\r\n    width: 45%;\r\n    height: auto;\n}\n@media(max-width: 767px) {\n.infoI[data-v-77d54d1a] {\r\n        text-align: center;\r\n        margin-left: 97px;\n}\n}\n.formularioD[data-v-77d54d1a] {\r\n    background-color: #024997;\r\n    padding-top: 20px;\r\n    padding-left: 10px;\r\n    padding-right: 10px;\r\n    padding-bottom: 0px;\r\n\r\n    margin-top: 30px;\r\n    /* margin-left: 150px; */\r\n    margin-bottom: 30px;\r\n    position: relative;\r\n    float: Left;\r\n    width: 30%;\r\n    border: rgb(29, 35, 41) solid 3px;\r\n    border-radius: 20px;\r\n    height: auto;\r\n    color: #fff;\n}\n@media (max-width: 767px) {\n.formularioD[data-v-77d54d1a] {\r\n        padding-top: 20px;\r\n        padding-left: 10px;\r\n        padding-right: 10px;\r\n        padding-bottom: 5px;\r\n        width: 100%;\r\n        border: rgb(22, 107, 177) solid 3px;\r\n        border-radius: 20px;\r\n        height: auto;\n}\n}\n.centrar[data-v-77d54d1a] {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\n.alinear[data-v-77d54d1a] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\nul[data-v-77d54d1a] {\r\n    list-style: none;\n}\nh3[data-v-77d54d1a] {\r\n    color: #fff;\n}\n.section-contact[data-v-77d54d1a] {\r\n    background-color: #fff;\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.infoI[data-v-77d54d1a] {\r\n    padding-left: 10px;\r\n    padding-top: 50px;\r\n    margin-left: 200px;\r\n    margin-right: 10px;\r\n    margin-top: 50px;\r\n    float: left;\r\n    position: relative;\r\n    width: 45%;\r\n    height: auto;\n}\n@media(max-width: 767px) {\n.infoI[data-v-77d54d1a] {\r\n        text-align: center;\r\n        margin-left: 97px;\n}\n}\n.formularioD[data-v-77d54d1a] {\r\n    background-color: #024997;\r\n    padding-top: 20px;\r\n    padding-left: 10px;\r\n    padding-right: 10px;\r\n    padding-bottom: 0px;\r\n\r\n    margin-top: 30px;\r\n    /* margin-left: 150px; */\r\n    margin-bottom: 30px;\r\n    position: relative;\r\n    float: Left;\r\n    width: 30%;\r\n    border: rgb(29, 35, 41) solid 3px;\r\n    border-radius: 20px;\r\n    height: auto;\r\n    color: #fff;\n}\n@media (max-width: 767px) {\n.formularioD[data-v-77d54d1a] {\r\n        padding-top: 20px;\r\n        padding-left: 10px;\r\n        padding-right: 10px;\r\n        padding-bottom: 5px;\r\n        width: 100%;\r\n        border: rgb(22, 107, 177) solid 3px;\r\n        border-radius: 20px;\r\n        height: auto;\n}\n}\n.centrar[data-v-77d54d1a] {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\n.alinear[data-v-77d54d1a] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -57639,7 +57639,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n/* sections */\n.why-select-us[data-v-03db46de] {\r\n    margin-top: 100px;\n}\n.v-e[data-v-03db46de] {\r\n    margin-top: 50px;\r\n    margin-bottom: 20px;\n}\n.contenido-V-E[data-v-03db46de] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.todo[data-v-03db46de] {\r\n    background-color: rgb(217, 217, 235);\n}\n.quienesSomos[data-v-03db46de] {\r\n    margin-top: 50px;\n}\nh6[data-v-03db46de] {\r\n    display: inline-block;\r\n    position: relative;\r\n    color: darkorange;\r\n    font-family: 'Poppins', sans-serif;\n}\nh6[data-v-03db46de]::after {\r\n    content: \"\";\r\n    position: absolute;\r\n    width: 0px;\r\n    height: 0px;\r\n    background-color: currentColor;\r\n    top: 0.6em;\r\n    right: 0px;\n}\n.alinear[data-v-03db46de] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.experiencia[data-v-03db46de] {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    width: 260px;\r\n    margin-right: 15px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px){\n.experiencia[data-v-03db46de]{\r\n        margin-left: 40px;\n}\n}\n.analisis[data-v-03db46de] {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    margin-left: 50px;\r\n    margin-right: 15px;\r\n    width: 260px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.analisis[data-v-03db46de] {\r\n        margin-left: 40px;\n}\n}\n.creatividad[data-v-03db46de] {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    margin-left: 100px;\r\n    margin-right: 15px;\r\n    width: 260px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.creatividad[data-v-03db46de] {\r\n        margin-left: 40px;\n}\n}\n.valores[data-v-03db46de] {\r\n    background-color: #024997;\r\n    margin-top: 50px;\r\n    margin-right: 0px;\r\n    float: right;\r\n    width: 300px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px){\n.valores[data-v-03db46de]{\r\n        float: none;\n}\n}\n.Va[data-v-03db46de]{\r\n    margin-top: 15px;\r\n    margin-left: 100px;\r\n    float: right;\n}\n@media(max-width: 767px){\n.Va[data-v-03db46de]{\r\n        float: none;\r\n        margin-top: 15px;\r\n        margin-left: 38px;\n}\n}\n.equipo[data-v-03db46de] {\r\n    background-color: #024997;\r\n    margin-top: 50px;\r\n    margin-left: 0px;\r\n    width: 300px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n.Eq[data-v-03db46de]{\r\n    margin-top: 30px;\n}\n@media(max-width: 767px){\n.Eq[data-v-03db46de]{\r\n        margin-left: 25px;\n}\n.EqL[data-v-03db46de]{\r\n        margin-left: 15px;\n}\n}\n.centrar[data-v-03db46de] {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\n@media(max-width: 767px) {\n.centrar[data-v-03db46de] {\r\n        margin-left: 18px;\n}\n}\n.cohete[data-v-03db46de] {\r\n    margin-top: 20px;\r\n    margin-right: 90px;\n}\n.descripcion1[data-v-03db46de] {\r\n    margin-top: 15px;\n}\n@media(max-width: 767px) {\n.descripcion1[data-v-03db46de] {\r\n        text-align: center;\r\n        margin-right: -136px;\n}\n}\n.descripcion2[data-v-03db46de] {\r\n    margin-top: 5px;\r\n    margin-right: 10px;\n}\n@media(max-width: 767px) {\n.descripcion2[data-v-03db46de] {\r\n        text-align: center;\r\n        margin-right: 15px;\n}\n}\n.descripcion3[data-v-03db46de] {\r\n    margin-top: 15px;\r\n    margin-right: 60px;\n}\n@media(max-width: 767px) {\n.descripcion3[data-v-03db46de] {\r\n        text-align: center;\r\n        margin-right: 15px;\n}\n}\n.dp1[data-v-03db46de]{\r\n    margin-right: 150px;\n}\n.eqp[data-v-03db46de]{\r\n   text-align:justify\n}\n@media(max-width: 767px){\n.eqp[data-v-03db46de]{\r\n        text-align: unset;\n}\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n/* sections */\n.why-select-us[data-v-03db46de] {\r\n    margin-top: 100px;\n}\n.v-e[data-v-03db46de] {\r\n    margin-top: 50px;\r\n    margin-bottom: 20px;\n}\n.contenido-V-E[data-v-03db46de] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.todo[data-v-03db46de] {\r\n    background-color: #fff;\n}\n.quienesSomos[data-v-03db46de] {\r\n    margin-top: 50px;\n}\nh6[data-v-03db46de] {\r\n    display: inline-block;\r\n    position: relative;\r\n    color: darkorange;\r\n    font-family: 'Poppins', sans-serif;\n}\nh6[data-v-03db46de]::after {\r\n    content: \"\";\r\n    position: absolute;\r\n    width: 0px;\r\n    height: 0px;\r\n    background-color: currentColor;\r\n    top: 0.6em;\r\n    right: 0px;\n}\n.alinear[data-v-03db46de] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.experiencia[data-v-03db46de] {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    width: 260px;\r\n    margin-right: 15px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px){\n.experiencia[data-v-03db46de]{\r\n        margin-left: 40px;\n}\n}\n.analisis[data-v-03db46de] {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    margin-left: 50px;\r\n    margin-right: 15px;\r\n    width: 260px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.analisis[data-v-03db46de] {\r\n        margin-left: 40px;\n}\n}\n.creatividad[data-v-03db46de] {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    margin-left: 100px;\r\n    margin-right: 15px;\r\n    width: 260px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.creatividad[data-v-03db46de] {\r\n        margin-left: 40px;\n}\n}\n.valores[data-v-03db46de] {\r\n    background-color: #024997;\r\n    margin-top: 50px;\r\n    margin-right: 0px;\r\n    float: right;\r\n    width: 300px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px){\n.valores[data-v-03db46de]{\r\n        float: none;\n}\n}\n.Va[data-v-03db46de]{\r\n    margin-top: 15px;\r\n    margin-left: 100px;\r\n    float: right;\n}\n@media(max-width: 767px){\n.Va[data-v-03db46de]{\r\n        float: none;\r\n        margin-top: 15px;\r\n        margin-left: 38px;\n}\n}\n.equipo[data-v-03db46de] {\r\n    background-color: #024997;\r\n    margin-top: 50px;\r\n    margin-left: 0px;\r\n    width: 300px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n.Eq[data-v-03db46de]{\r\n    margin-top: 30px;\n}\n@media(max-width: 767px){\n.Eq[data-v-03db46de]{\r\n        margin-left: 25px;\n}\n.EqL[data-v-03db46de]{\r\n        margin-left: 15px;\n}\n}\n.centrar[data-v-03db46de] {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\n@media(max-width: 767px) {\n.centrar[data-v-03db46de] {\r\n        margin-left: 18px;\n}\n}\n.cohete[data-v-03db46de] {\r\n    margin-top: 20px;\r\n    margin-right: 90px;\n}\n.descripcion1[data-v-03db46de] {\r\n    margin-top: 15px;\n}\n@media(max-width: 767px) {\n.descripcion1[data-v-03db46de] {\r\n        text-align: center;\r\n        margin-right: -136px;\n}\n}\n.descripcion2[data-v-03db46de] {\r\n    margin-top: 5px;\r\n    margin-right: 10px;\n}\n@media(max-width: 767px) {\n.descripcion2[data-v-03db46de] {\r\n        text-align: center;\r\n        margin-right: 15px;\n}\n}\n.descripcion3[data-v-03db46de] {\r\n    margin-top: 15px;\r\n    margin-right: 60px;\n}\n@media(max-width: 767px) {\n.descripcion3[data-v-03db46de] {\r\n        text-align: center;\r\n        margin-right: 15px;\n}\n}\n.dp1[data-v-03db46de]{\r\n    margin-right: 150px;\n}\n.eqp[data-v-03db46de]{\r\n   text-align:justify\n}\n@media(max-width: 767px){\n.eqp[data-v-03db46de]{\r\n        text-align: unset;\n}\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -58140,7 +58140,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\n.todo[data-v-a3d27a92] {\r\n    background-color: rgb(217, 217, 235);\n}\n.proy[data-v-a3d27a92] {\r\n    position: absolute;\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    z-index: 1;\n}\n.marcoImagen[data-v-a3d27a92] {\r\n    width: 225px;\r\n    height: 225px;\n}\n.centrar[data-v-a3d27a92] {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    margin-left: 50px;\n}\n@media(max-width: 767px) {\n.centrar[data-v-a3d27a92] {\r\n        margin-left: 50px;\n}\n}\r\n\r\n\r\n", ""]);
+exports.push([module.i, "\n.todo[data-v-a3d27a92] {\r\n    background-color: #fff;\n}\n.proy[data-v-a3d27a92] {\r\n    position: absolute;\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    z-index: 1;\n}\n.marcoImagen[data-v-a3d27a92] {\r\n    width: 225px;\r\n    height: 225px;\n}\n.centrar[data-v-a3d27a92] {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    margin-left: 50px;\n}\n@media(max-width: 767px) {\n.centrar[data-v-a3d27a92] {\r\n        margin-left: 50px;\n}\n}\r\n\r\n\r\n", ""]);
 
 // exports
 
@@ -58157,7 +58157,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Titulo_vue__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Titulo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_Titulo_vue__);
-//
 //
 //
 //
@@ -58273,11 +58272,7 @@ var staticRenderFns = [
             staticClass: "section-title-s4",
             staticStyle: { "margin-top": "50px" }
           },
-          [
-            _c("h2", [_vm._v("Empresas que Confían en Nosotros")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "transparent-text" }, [_vm._v("Crece")])
-          ]
+          [_c("h2", [_vm._v("Empresas que Confían en Nosotros")])]
         ),
         _vm._v(" "),
         _c("div", { staticClass: "container" }, [
@@ -62531,7 +62526,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\nh3[data-v-9a085f32] {\r\n    color: #fff;\n}\nul[data-v-9a085f32]{\r\n    list-style: none;\n}\n@media(max-width: 767px){\nul[data-v-9a085f32]{\r\n        text-align: justify;\n}\n}\n.infoI[data-v-9a085f32] {\r\n    padding-left: 0px;\r\n    padding-top: 35px;\r\n    margin-left: 200px;\r\n    margin-right: 10px;\r\n    margin-top: 50px;\r\n    float: left;\r\n    position: relative;\r\n    width: 45%;\r\n    height: auto;\n}\n@media(max-width: 767px) {\n.infoI[data-v-9a085f32] {\r\n        text-align: center;\r\n        margin-left: 97px;\n}\n}\n.formularioD[data-v-9a085f32] {\r\n    background-color: #024997;\r\n    padding-top: 20px;\r\n    padding-left: 10px;\r\n    padding-right: 10px;\r\n    padding-bottom: 0px;\r\n\r\n    margin-top: 30px;\r\n    /* margin-left: 150px; */\r\n    margin-bottom: 30px;\r\n    position: relative;\r\n    float: Left;\r\n    width: 30%;\r\n    border: rgb(29, 35, 41) solid 3px;\r\n    border-radius: 20px;\r\n    height: auto;\r\n    color: #fff;\n}\n@media (max-width: 767px) {\n.formularioD[data-v-9a085f32] {\r\n        padding-top: 20px;\r\n        padding-left: 10px;\r\n        padding-right: 10px;\r\n        padding-bottom: 5px;\r\n        width: 100%;\r\n        border: rgb(22, 107, 177) solid 3px;\r\n        border-radius: 20px;\r\n        height: auto;\n}\n}\n.centrar[data-v-9a085f32] {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\n.alinear[data-v-9a085f32] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\n}\np[data-v-9a085f32]{\r\n    color: #202325;\n}\nli[data-v-9a085f32]{\r\n    color: #202325;\n}\r\n", ""]);
+exports.push([module.i, "\n.fecha[data-v-9a085f32]{\r\n    margin-left: -15px;\r\n    position: relative;\r\n    float: Left;\r\n    margin-top: 3px;\n}\nh3[data-v-9a085f32] {\r\n    color: #fff;\n}\nul[data-v-9a085f32] {\r\n    list-style: none;\n}\n@media(max-width: 767px) {\nul[data-v-9a085f32] {\r\n        text-align: justify;\n}\n}\n.infoI[data-v-9a085f32] {\r\n    padding-left: 0px;\r\n    padding-top: 35px;\r\n    margin-left: 200px;\r\n    margin-right: 10px;\r\n    margin-top: 50px;\r\n    float: left;\r\n    position: relative;\r\n    width: 45%;\r\n    height: auto;\n}\n@media(max-width: 767px) {\n.infoI[data-v-9a085f32] {\r\n        text-align: center;\r\n        margin-left: 97px;\n}\n}\n.formularioD[data-v-9a085f32] {\r\n    background-color: #024997;\r\n    padding-top: 20px;\r\n    padding-left: 10px;\r\n    padding-right: 10px;\r\n    padding-bottom: 0px;\r\n\r\n    margin-top: 30px;\r\n    /* margin-left: 150px; */\r\n    margin-bottom: 30px;\r\n    position: relative;\r\n    float: Left;\r\n    width: 30%;\r\n    border: rgb(29, 35, 41) solid 3px;\r\n    border-radius: 20px;\r\n    height: auto;\r\n    color: #fff;\n}\n@media (max-width: 767px) {\n.formularioD[data-v-9a085f32] {\r\n        padding-top: 20px;\r\n        padding-left: 10px;\r\n        padding-right: 10px;\r\n        padding-bottom: 5px;\r\n        width: 100%;\r\n        border: rgb(22, 107, 177) solid 3px;\r\n        border-radius: 20px;\r\n        height: auto;\n}\n}\n.centrar[data-v-9a085f32] {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\n.alinear[data-v-9a085f32] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\n}\np[data-v-9a085f32] {\r\n    color: #202325;\n}\nli[data-v-9a085f32] {\r\n    color: #202325;\n}\r\n", ""]);
 
 // exports
 
@@ -62551,6 +62546,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Titulo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_Titulo_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Loading_vue__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_Loading_vue__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -62690,21 +62699,22 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             if (this.comprobarCampos(this.campos)) {
                 axios.post("/api/participantes/crear", this.campos).then(function (response) {
                     _this.limpiarCampos({}), _this.$swal({
-                        position: "top-end",
+                        position: "center",
                         icon: "success",
                         title: "Fuiste Registrado en el Concurso",
                         showConfirmButton: false,
-                        timer: 1000
+                        timer: 3000
                     });
+                    _this.errores = [];
                 }).catch(function (error) {
                     _this.$swal({
-                        position: "top-end",
+                        position: "center",
                         icon: "error",
                         title: "Error de Registro"
                     });
                     if (error.response.status === 422) {
                         _this.errores = error.response.data.errors;
-                        console.log(_this.errores);
+                        console.log(_this.errores.email);
                     }
                 }).finally(function () {
                     _this.cargando = false;
@@ -62739,7 +62749,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "todo" },
+        { staticClass: "row" },
         [
           _c("Titulo", { attrs: { titulo: "Concurso CONIT" } }),
           _vm._v(" "),
@@ -62749,7 +62759,7 @@ var render = function() {
               _vm._v(" "),
               _c("div", { staticClass: "formularioD" }, [
                 _c("h3", { staticStyle: { "text-align": "center" } }, [
-                  _vm._v("Inscríbete")
+                  _vm._v("Formulario de Registro")
                 ]),
                 _vm._v(" "),
                 _c("hr"),
@@ -62965,6 +62975,18 @@ var render = function() {
                     _vm._v(" "),
                     _c(
                       "div",
+                      _vm._l(_vm.errores, function(e, index) {
+                        return _c(
+                          "p",
+                          { key: index, staticClass: "text-center text-white" },
+                          [_vm._v(_vm._s(e))]
+                        )
+                      }),
+                      0
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
                       { staticClass: "alinear" },
                       [
                         _c(
@@ -62987,12 +63009,16 @@ var render = function() {
                   ]
                 ),
                 _c("br")
-              ])
+              ]),
+              _vm._v(" "),
+              _vm._m(1)
             ])
           ])
         ],
         1
-      )
+      ),
+      _vm._v(" "),
+      _vm._m(2)
     ],
     1
   )
@@ -63062,7 +63088,7 @@ var staticRenderFns = [
               },
               [_c("b", [_vm._v("Instagram")])]
             ),
-            _vm._v(".")
+            _vm._v(".\n                            ")
           ]),
           _vm._v(" "),
           _c("li", [
@@ -63146,6 +63172,26 @@ var staticRenderFns = [
         ])
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "fecha" }, [
+      _c("span", [
+        _c("b", [
+          _vm._v(
+            "Sorteo y anuncio del ganador Sábado 22 de octubre a las 4:00 pm"
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row mt-4" }, [_c("br"), _c("br")])
   }
 ]
 render._withStripped = true

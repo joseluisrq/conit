@@ -7,7 +7,6 @@
                 <div class="container">
                     <div class="section-title-s4" style="margin-top:50px">
                         <h2>Empresas que Confían en Nosotros</h2>
-                        <div class="transparent-text">Crece</div>
                     </div>
                     <div class="container">
                         <div class="col-md-12">
@@ -74,7 +73,7 @@ export default {
 </script>
 <style scoped>
 .todo {
-    background-color: rgb(217, 217, 235);
+    background-color: #fff;
 }
 
 .proy {

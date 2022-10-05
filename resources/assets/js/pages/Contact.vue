@@ -176,7 +176,7 @@ h3 {
 }
 
 .section-contact {
-    background-color: rgb(217, 217, 235);
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
 }

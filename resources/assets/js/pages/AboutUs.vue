@@ -156,7 +156,7 @@ export default {
 }
 
 .todo {
-    background-color: rgb(217, 217, 235);
+    background-color: #fff;
     
 }
 

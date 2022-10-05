@@ -1,46 +1,52 @@
 <template>
     <div class="page-wrapper">
         <MenuPrincipal />
-        <div class="todo">
+        <div class="row">
             <Titulo titulo="Concurso CONIT" />
             <section class="contest-section">
                 <div class="container-fluid">
                     <div class="infoI">
-                        <h2 style="color:#024997">¡Es tu Momento!</h2><br/>
-                        <p>Participa del sensacional sorteo de una Página Web<br/>para tu empresa o proyecto.</p>
+                        <h2 style="color:#024997">¡Es tu Momento!</h2><br />
+                        <p>Participa del sensacional sorteo de una Página Web<br />para tu empresa o proyecto.</p>
                         <h4>¡Sí! es totalmente GRATIS.</h4>
-                        <br/>
+                        <br />
                         <h3 style="color:#024997">Incluye</h3>
                         <div class="cohete">
                             <ul>
                                 <li><b>Hosting + Dominio.com</b> por un año.</li>
                             </ul>
                         </div>
-                        <br/>
+                        <br />
                         <p>Tan sólo tienes que seguir los siguientes pasos para participar:</p>
                         <div class="cohete">
                             <ul>
-                                <li>Síguenos en nuestro <a href="https://www.facebook.com/conit.pe" target="_blank"><b>Fácebook</b></a> e <a href="https://www.instagram.com/conit.pe/" target="_blank"><b>Instagram</b></a>.</li>
+                                <li>Síguenos en nuestro <a href="https://www.facebook.com/conit.pe"
+                                        target="_blank"><b>Fácebook</b></a> e <a
+                                        href="https://www.instagram.com/conit.pe/" target="_blank"><b>Instagram</b></a>.
+                                </li>
                                 <li>Comparte la publicación del concurso en tus redes sociales y etiquétanos.</li>
                                 <li>Además, debes etiquetar a 2 amigos.</li>
                                 <li>Regístrate en nuestro formulario.</li>
                             </ul>
-                            <br/>
+                            <br />
                             <p><b>Una vez realizados los pasos, estarás en la lista de participantes.</b></p>
                         </div>
                         <div>
-                        <h4>Nuestras Redes Sociales</h4>
-                        <ul>
-                            <li style="padding: 10px 10px">
-                                <span><a target="_blank" href="https://www.facebook.com/conit.pe"><img src="img/redes/facebook.png" alt="" /></a></span>
-                                <span><a target="_blank" href="https://www.instagram.com/conit.pe/"><img src="img/redes/instagram.png" alt="" /></a></span>
-                                <span><a target="_blank" href="https://www.linkedin.com/company/conitpe/about/"><img src="img/redes//linkedin.png" alt="" /></a></span>
-                            </li>
-                        </ul>
-                    </div>
+                            <h4>Nuestras Redes Sociales</h4>
+                            <ul>
+                                <li style="padding: 10px 10px">
+                                    <span><a target="_blank" href="https://www.facebook.com/conit.pe"><img
+                                                src="img/redes/facebook.png" alt="" /></a></span>
+                                    <span><a target="_blank" href="https://www.instagram.com/conit.pe/"><img
+                                                src="img/redes/instagram.png" alt="" /></a></span>
+                                    <span><a target="_blank" href="https://www.linkedin.com/company/conitpe/about/"><img
+                                                src="img/redes//linkedin.png" alt="" /></a></span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="formularioD">
-                        <h3 style="text-align:center;">Inscríbete</h3>
+                        <h3 style="text-align:center;">Formulario de Registro</h3>
                         <hr />
                         <form @submit.prevent="enviarMensaje">
                             <div class="form-group">
@@ -69,17 +75,25 @@
                                 <textarea v-model="campos.pagina" type="text" class="form-control"
                                     aria-describedby="emailHelp" placeholder="Descríbela" required></textarea>
                             </div><br />
-
+                            <div>
+                                <p class="text-center text-white" v-for="(e,index) in errores" :key="index">{{e}}</p>
+                            </div>
                             <div class="alinear">
                                 <button type="submit" class="btn"
                                     style="background-color:#f3ab41; color:#fff;">Inscribirme</button>
                                 <Loading :cargando="cargando" />
                             </div>
-
                         </form><br />
                     </div>
+                    <div class="fecha">
+                        <span><b>Sorteo y anuncio del ganador Sábado 22 de octubre a las 4:00 pm</b></span>
+                    </div>
+
                 </div>
             </section>
+        </div>
+        <div class="row mt-4">
+            <br/><br/>
         </div>
     </div>
 </template>
@@ -100,7 +114,7 @@ export default {
                 pagina: '',
             },
             cargando: false,
-            errores:[]
+            errores: []
         }
     },
     components: {
@@ -138,24 +152,25 @@ export default {
                     .post("/api/participantes/crear", this.campos)
                     .then((response) => {
                         this.limpiarCampos({}),
-                        this.$swal({
-                            position: "top-end",
-                            icon: "success",
-                            title: "Fuiste Registrado en el Concurso",
-                            showConfirmButton: false,
-                            timer: 1000,
-                        });
-                      
+                            this.$swal({
+                                position: "center",
+                                icon: "success",
+                                title: "Fuiste Registrado en el Concurso",
+                                showConfirmButton: false,
+                                timer: 3000,
+                            });
+                        this.errores = []
+
                     })
                     .catch((error) => {
                         this.$swal({
-                            position: "top-end",
+                            position: "center",
                             icon: "error",
                             title: "Error de Registro",
                         });
                         if (error.response.status === 422) {
                             this.errores = error.response.data.errors;
-                            console.log(this.errores);
+                            console.log(this.errores.email);
                         }
                     })
                     .finally(() => {
@@ -181,17 +196,26 @@ export default {
 </script>
 
 <style scoped>
+.fecha{
+    margin-left: -15px;
+    position: relative;
+    float: Left;
+    margin-top: 3px;
+}
 h3 {
     color: #fff;
 }
-ul{
+
+ul {
     list-style: none;
 }
-@media(max-width: 767px){
-    ul{
+
+@media(max-width: 767px) {
+    ul {
         text-align: justify;
     }
 }
+
 .infoI {
     padding-left: 0px;
     padding-top: 35px;
@@ -252,10 +276,12 @@ ul{
 .alinear {
     display: flex;
 }
-p{
+
+p {
     color: #202325;
 }
-li{
+
+li {
     color: #202325;
 }
 </style>
