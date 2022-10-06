@@ -16,9 +16,7 @@
           <div class="col-lg-3 col-md-6 col-6">
             <div class="navbar-header">
               <router-link to="/">
-                <a class="navbar-brand" href="#"
-                ><img src="img/logo_blanco_400_120.png" alt=""
-              /></a>
+                <a class="navbar-brand" href="#"><img src="img/logo_blanco_400_120.png" alt="" /></a>
               </router-link>
             </div>
           </div>
@@ -26,26 +24,29 @@
             <div id="navbar" class="collapse navbar-collapse navigation-holder">
               <button class="menu-close"><i class="ti-close"></i></button>
               <ul class="nav navbar-nav mb-2 mb-lg-0">
-                <li><router-link to="/servicios">Servicios</router-link></li>
-                <li><router-link to="/proyectos">Proyectos</router-link></li>
-                <li><router-link to="/nosotros">Nosotros</router-link></li>
-                <li><router-link to="/contacto">Contacto</router-link></li>
-                  
-                
-                
-                <li style="padding: 35px 20px">
-                  <span
-                    ><a target="_blank" href="https://www.facebook.com/conit.pe"
-                      ><img src="img/redes/facebook.png" alt="" /></a
-                  ></span>
-                  <span
-                    ><a target="_blank" href="https://www.instagram.com/conit.pe/"
-                      ><img src="img/redes/instagram.png" alt="" /></a
-                  ></span>
-                  <span
-                    ><a target="_blank" href="https://www.linkedin.com/company/conitpe/"
-                      ><img src="img/redes//linkedin.png" alt="" /></a
-                  ></span>
+                <li>
+                  <router-link to="/servicios">Servicios</router-link>
+                </li>
+                <li>
+                  <router-link to="/proyectos">Proyectos</router-link>
+                </li>
+                <li>
+                  <router-link to="/nosotros">Nosotros</router-link>
+                </li>
+                <li>
+                  <router-link to="/contacto">Contacto</router-link>
+                </li>
+
+
+
+                <li>
+                  <a target="_blank" href="https://www.facebook.com/conit.pe"><img src="img/redes/facebook.png"
+                      alt="" /></a>
+                </li>
+                <li> <a target="_blank" href="https://www.instagram.com/conit.pe/"><img src="img/redes/instagram.png"
+                      alt="" /></a></li>
+                <li> <a target="_blank" href="https://www.linkedin.com/company/conitpe/"><img
+                      src="img/redes//linkedin.png" alt="" /></a>
                 </li>
               </ul>
             </div>
@@ -60,27 +61,32 @@
 
 <script>
 export default {
-    name:'MenuPrincipal',
-    mounted(){
-      this.toggleMobileNavigation();
-    },
-    methods:{
-       toggleMobileNavigation() {
-        var navbar = $(".navigation-holder");
-        var openBtn = $(".mobail-menu .open-btn");
-        var xbutton = $(".mobail-menu .navbar-toggler");
+  name: 'MenuPrincipal',
+  mounted() {
+    this.toggleMobileNavigation();
+  },
+  methods: {
+    toggleMobileNavigation() {
+      var navbar = $(".navigation-holder");
+      var openBtn = $(".mobail-menu .open-btn");
+      var xbutton = $(".mobail-menu .navbar-toggler");
 
-        openBtn.on("click", function(e) {
-            e.stopImmediatePropagation();
-            navbar.toggleClass("slideInn");
-            xbutton.toggleClass("x-close");
-            return false;
-        })
+      openBtn.on("click", function (e) {
+        e.stopImmediatePropagation();
+        navbar.toggleClass("slideInn");
+        xbutton.toggleClass("x-close");
+        return false;
+      })
     }
-    }
-    
+  }
+
 };
 </script>
 
-<style>
+<style scoped>
+@media(max-width: 768px) {
+  .redesS {
+    padding: 35px 20px
+  }
+}
 </style>
