@@ -21,7 +21,7 @@
                         <div class="cohete">
                             <ul>
                                 <li>Síguenos en nuestro <a href="https://www.facebook.com/conit.pe"
-                                        target="_blank"><b>Fácebook</b></a> e <a
+                                        target="_blank"><b>Facebook</b></a> e <a
                                         href="https://www.instagram.com/conit.pe/" target="_blank"><b>Instagram</b></a>.
                                 </li>
                                 <li>Comparte la publicación del concurso en tus redes sociales y etiquétanos.</li>
@@ -50,30 +50,30 @@
                         <hr />
                         <form @submit.prevent="enviarMensaje">
                             <div class="form-group">
-                                <label for="exampleInputEmail1" style="padding: 5px 10px">Nombre</label>
-                                <input v-model="campos.nombre" type="text" class="form-control"
-                                    aria-describedby="emailHelp" placeholder="Escribe tu nombre" required>
+                                <label style="padding: 5px 10px">Nombre</label>
+                                <input v-model="nombre" type="text" class="form-control" placeholder="Escribe tu nombre"
+                                    required>
                             </div><br />
                             <div class="form-group">
-                                <label for="exampleInputEmail1" style="padding: 5px 10px">Email</label>
-                                <input v-model="campos.email" type="email" class="form-control"
-                                    aria-describedby="emailHelp" placeholder="Escribe tu email" required>
+                                <label style="padding: 5px 10px">Email</label>
+                                <input v-model="email" type="email" class="form-control" placeholder="Escribe tu email"
+                                    required>
                             </div><br />
                             <div class="form-group">
-                                <label for="exampleInputEmail1" style="padding: 5px 10px">Celular</label>
-                                <input v-model="campos.celular" type="tel" class="form-control"
-                                    aria-describedby="emailHelp" placeholder="Ingresa tu número de contacto" required>
+                                <label style="padding: 5px 10px">Celular</label>
+                                <input v-model="celular" type="tel" class="form-control"
+                                    placeholder="Ingresa tu número de contacto" required>
                             </div><br />
                             <div class="form-group">
-                                <label for="exampleInputEmail1" style="padding: 5px 10px">Empresa</label>
-                                <input v-model="campos.empresa" type="text" class="form-control"
-                                    aria-describedby="emailHelp" placeholder="Escribe el nombre de tu empresa">
+                                <label style="padding: 5px 10px">Empresa</label>
+                                <input v-model="empresa" type="text" class="form-control"
+                                    placeholder="Escribe el nombre de tu empresa">
                             </div><br />
                             <div class="form-group">
                                 <label for="exampleInputEmail1" style="padding: 5px 10px">¿Cómo quieres tu Página
                                     Web?</label>
-                                <textarea v-model="campos.pagina" type="text" class="form-control"
-                                    aria-describedby="emailHelp" placeholder="Descríbela" required></textarea>
+                                <textarea v-model="pagina" type="text" class="form-control" placeholder="Descríbela"
+                                    required></textarea>
                             </div><br />
                             <div>
                                 <p class="text-center text-white" v-for="(e,index) in errores" :key="index">{{e}}</p>
@@ -93,12 +93,11 @@
             </section>
         </div>
         <div class="row mt-4">
-            <br/><br/>
+            <br /><br />
         </div>
     </div>
 </template>
 <script>
-import emailjs from "@emailjs/browser";
 import MenuPrincipal from "../components/Menu.vue";
 import FooterPrincipal from "../components/Footer.vue"
 import Titulo from "../components/Titulo.vue";
@@ -106,13 +105,11 @@ import Loading from "../components/Loading.vue"
 export default {
     data() {
         return {
-            campos: {
-                nombre: '',
-                email: '',
-                celular: '',
-                empresa: '',
-                pagina: '',
-            },
+            nombre: '',
+            email: '',
+            celular: '',
+            empresa: '',
+            pagina: '',
             cargando: false,
             errores: []
         }
@@ -125,13 +122,11 @@ export default {
     },
     methods: {
         limpiarCampos() {
-            this.campos = {
-                nombre: '',
-                email: '',
-                celular: '',
-                empresa: '',
-                pagina: '',
-            }
+            this.nombre = ''
+            this.email = ''
+            this.celular = ''
+            this.empresa = ''
+            this.pagina = ''
         },
         comprobarCampos(c) {
             let ct = 0
@@ -147,9 +142,17 @@ export default {
         },
         enviarMensaje() {
             this.cargando = true;
-            if (this.comprobarCampos(this.campos)) {
+            let campos={};
+            campos = {
+                nombre: this.nombre,
+                email: this.email,
+                celular: this.celular,
+                empresa: this.empresa,
+                pagina: this.pagina,
+            }
+            if (this.comprobarCampos(campos)) {
                 axios
-                    .post("/api/participantes/crear", this.campos)
+                    .post("/api/participantes/crear", campos)
                     .then((response) => {
                         this.limpiarCampos({}),
                             this.$swal({
@@ -170,7 +173,7 @@ export default {
                         });
                         if (error.response.status === 422) {
                             this.errores = error.response.data.errors;
-                            console.log(this.errores.email);
+
                         }
                     })
                     .finally(() => {
@@ -179,7 +182,7 @@ export default {
             }
             else {
                 this.$swal({
-                    position: "top-end",
+                    position: "center",
                     icon: "error",
                     title: "Datos Incompletos",
                     showConfirmButton: false,
@@ -196,12 +199,13 @@ export default {
 </script>
 
 <style scoped>
-.fecha{
+.fecha {
     margin-left: -15px;
     position: relative;
     float: Left;
     margin-top: 3px;
 }
+
 h3 {
     color: #fff;
 }

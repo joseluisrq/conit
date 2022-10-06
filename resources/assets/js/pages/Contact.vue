@@ -18,9 +18,12 @@
                         <h4>Redes Sociales</h4>
                         <ul>
                             <li style="padding: 10px 10px">
-                                <span><a target="_blank" href="https://www.facebook.com/conit.pe"><img src="img/redes/facebook.png" alt="" /></a></span>
-                                <span><a target="_blank" href="https://www.instagram.com/conit.pe/"><img src="img/redes/instagram.png" alt="" /></a></span>
-                                <span><a target="_blank" href="https://www.linkedin.com/company/conitpe/about/"><img src="img/redes//linkedin.png" alt="" /></a></span>
+                                <span><a target="_blank" href="https://www.facebook.com/conit.pe"><img
+                                            src="img/redes/facebook.png" alt="" /></a></span>
+                                <span><a target="_blank" href="https://www.instagram.com/conit.pe/"><img
+                                            src="img/redes/instagram.png" alt="" /></a></span>
+                                <span><a target="_blank" href="https://www.linkedin.com/company/conitpe/about/"><img
+                                            src="img/redes//linkedin.png" alt="" /></a></span>
                             </li>
                         </ul>
                     </div>
@@ -31,28 +34,28 @@
                     <form @submit.prevent="enviarMensaje">
                         <div class="form-group">
                             <label for="exampleInputEmail1" style="padding: 5px 10px">Nombre</label>
-                            <input v-model="campos.nombre" type="text" class="form-control" aria-describedby="emailHelp"
-                                placeholder="Escribe tu nombre" required>
+                            <input v-model="nombre" type="text" class="form-control" placeholder="Escribe tu nombre"
+                                required>
                         </div><br />
                         <div class="form-group">
                             <label for="exampleInputEmail1" style="padding: 5px 10px">Email</label>
-                            <input v-model="campos.email" type="email" class="form-control" aria-describedby="emailHelp"
-                                placeholder="Escribe tu email" required>
+                            <input v-model="email" type="email" class="form-control" placeholder="Escribe tu email"
+                                required>
                         </div><br />
                         <div class="form-group">
                             <label for="exampleInputEmail1" style="padding: 5px 10px">Celular</label>
-                            <input v-model="campos.numero" type="number" class="form-control"
-                                aria-describedby="emailHelp" placeholder="Ingresa tu número de contacto" required>
+                            <input v-model="numero" type="number" class="form-control"
+                                placeholder="Ingresa tu número de contacto" required>
                         </div><br />
                         <div class="form-group">
                             <label for="exampleInputEmail1" style="padding: 5px 10px">Empresa</label>
-                            <input v-model="campos.empresa" type="text" class="form-control"
-                                aria-describedby="emailHelp" placeholder="Escribe el nombre de tu empresa">
+                            <input v-model="empresa" type="text" class="form-control"
+                                placeholder="Escribe el nombre de tu empresa">
                         </div><br />
                         <div class="form-group">
                             <label for="exampleInputEmail1" style="padding: 5px 10px">Mensaje</label>
-                            <textarea v-model="campos.mensaje" type="text" class="form-control"
-                                aria-describedby="emailHelp" placeholder="Escribe un mensaje" required></textarea>
+                            <textarea v-model="mensaje" type="text" class="form-control"
+                                placeholder="Escribe un mensaje" required></textarea>
                         </div><br />
                         <div class="form-group">
                             <small id="emailHelp" class="form-text text-white">Nunca compartiremos tu información con
@@ -60,10 +63,10 @@
                         </div><br />
                         <div class="alinear">
                             <button type="submit" class="btn" style="background-color:#f3ab41; color:#fff;">Enviar
-                            Mensaje</button>
+                                Mensaje</button>
                             <Loading :cargando="cargando" />
                         </div>
-                        
+
                     </form><br />
                 </div>
             </div>
@@ -80,31 +83,27 @@ import Titulo from "../components/Titulo.vue";
 export default {
     data() {
         return {
-            campos: {
-                nombre: '',
-                email: '',
-                numero: '',
-                empresa: '',
-                mensaje: '',
-            },
+            nombre: '',
+            email: '',
+            numero: '',
+            empresa: '',
+            mensaje: '',
             cargando: false,
         }
     },
     components: {
-    MenuPrincipal,
-    FooterPrincipal,
-    Loading,
-    Titulo
-},
+        MenuPrincipal,
+        FooterPrincipal,
+        Loading,
+        Titulo
+    },
     methods: {
         limpiarCampos() {
-            this.campos = {
-                nombre: '',
-                email: '',
-                numero: '',
-                empresa: '',
-                mensaje: '',
-            }
+            this.nombre = ''
+            this.email = ''
+            this.numero = ''
+            this.empresa = ''
+            this.mensaje = ''
         },
         comprobarCampos(c) {
             let ct = 0
@@ -120,21 +119,29 @@ export default {
         },
         enviarMensaje() {
             this.cargando = true;
-            if (this.comprobarCampos(this.campos)) {
+            let campos = {};
+            campos = {
+                nombre: this.nombre,
+                email: this.email,
+                numero: this.numero,
+                empresa: this.empresa,
+                mensaje: this.mensaje,
+            }
+            if (this.comprobarCampos(campos)) {
                 emailjs.init('Q9byHE64YoqDzOmS3');
                 var templateParams = {
-                    to_nombre: this.campos.nombre,
-                    to_email: this.campos.email,
-                    to_numero: this.campos.numero,
-                    to_empresa: this.campos.empresa,
-                    to_mensaje: this.campos.mensaje,
+                    to_nombre: this.nombre,
+                    to_email: this.email,
+                    to_numero: this.numero,
+                    to_empresa: this.empresa,
+                    to_mensaje: this.mensaje,
                 };
 
                 emailjs.send('service_ouyhmdh', 'template_jmi7cec', templateParams)
                     .then((response) => {
                         console.log(response);
                         this.$swal({
-                            position: "top-end",
+                            position: "center",
                             icon: "success",
                             title: "Correo Enviado",
                             showConfirmButton: false,
@@ -149,17 +156,17 @@ export default {
                         this.limpiarCampos();
                     });
             }
-            else{
+            else {
                 this.$swal({
-                            position: "top-end",
-                            icon: "error",
-                            title: "Datos Incompletos",
-                            showConfirmButton: false,
-                            timer: 1000,
-                        });
-                        this.cargando = false;
+                    position: "center",
+                    icon: "error",
+                    title: "Datos Incompletos",
+                    showConfirmButton: false,
+                    timer: 1000,
+                });
+                this.cargando = false;
             }
-            
+
 
 
         }
@@ -237,8 +244,8 @@ h3 {
     align-items: center;
     justify-items: center;
 }
+
 .alinear {
     display: flex;
 }
-
 </style>
