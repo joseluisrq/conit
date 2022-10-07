@@ -20,7 +20,7 @@
               </router-link>
             </div>
           </div>
-          <div class="col-lg-6 col-md-1 col-1">
+          <div class="col-lg-9 col-md-6 col-6">
             <div id="navbar" class="collapse navbar-collapse navigation-holder">
               <button class="menu-close"><i class="ti-close"></i></button>
               <ul class="nav navbar-nav mb-2 mb-lg-0">
@@ -36,17 +36,23 @@
                 <li>
                   <router-link to="/contacto">Contacto</router-link>
                 </li>
-
-
-
-                <li>
-                  <a target="_blank" href="https://www.facebook.com/conit.pe"><img src="img/redes/facebook.png"
-                      alt="" /></a>
-                </li>
-                <li> <a target="_blank" href="https://www.instagram.com/conit.pe/"><img src="img/redes/instagram.png"
-                      alt="" /></a></li>
-                <li> <a target="_blank" href="https://www.linkedin.com/company/conitpe/"><img
-                      src="img/redes//linkedin.png" alt="" /></a>
+                <li style="padding: 35px 20px;">
+                  <span>
+                    <a target="_blank" href="https://www.facebook.com/conit.pe"
+                      ><img src="img/redes/facebook.png" alt="" /></a
+                  ></span>
+                  <span>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/conit.pe/"
+                      ><img src="img/redes/instagram.png" alt="" /></a
+                  ></span>
+                  <span
+                    ><a
+                      target="_blank"
+                      href="https://www.linkedin.com/company/conitpe/"
+                      ><img src="img/redes//linkedin.png" alt="" /></a
+                  ></span>
                 </li>
               </ul>
             </div>

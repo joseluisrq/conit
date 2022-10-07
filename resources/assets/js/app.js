@@ -42,6 +42,9 @@ import Servicios from './pages/Servicios.vue'
 import crm from './pages/services/CRM.vue'
 import building from './pages/Building.vue'
 import concurso from './pages/Contest.vue'
+import interestTheBest from './pages/InterestTheBest.vue'
+import interestTrust from './pages/InterestTrust.vue'
+import interestMeeting from './pages/InterestMeeting.vue'
 import Vue from "vue";
 
 const router = new VueRouter({
@@ -115,7 +118,25 @@ const router = new VueRouter({
         component: concurso,
         name: 'concurso',
         meta: { Auth: false, title: 'CONIT - Concurso'}
-      }    
+      },
+      {
+        path: '/losMejoresParaMi',
+        component: interestTheBest,
+        name: 'losMejoresParaMi',
+        meta: { Auth: false, title: 'CONIT - ¿Por qué son los mejores para mí?'}
+      },
+      {
+        path: '/confianza',
+        component: interestTrust,
+        name: 'confianza',
+        meta: { Auth: false, title: 'CONIT - ¿Por qué tengo que confiar?'}
+      },
+      {
+        path: '/junta',
+        component: interestMeeting,
+        name: 'junta',
+        meta: { Auth: false, title: 'CONIT - ¿Cuándo nos juntamos?'}
+      }        
 
     ],
     scrollBehavior (to, from, savedPosition) {
