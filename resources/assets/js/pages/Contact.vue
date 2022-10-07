@@ -153,6 +153,7 @@ export default {
                     })
                     .finally(() => {
                         this.cargando = false;
+                        this.$router.go()
                         this.limpiarCampos();
                     });
             }

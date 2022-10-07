@@ -151,17 +151,17 @@ export default {
         {
           titulo: "¿Por qué son los mejores para mí?",
           imagen: "2_mejores.png",
-          ruta: "losMejoresParaMi",
+          ruta: "building",
         },
         {
           titulo: "¿Por qué tengo que confiar?",
           imagen: "3_confiar.png",
-          ruta: "confianza",
+          ruta: "building",
         },
         {
           titulo: "¿Cuándo nos juntamos?",
           imagen: "4_juntarnos.png",
-          ruta: "junta",
+          ruta: "building",
         },
       ],
       negocio: [

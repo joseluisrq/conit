@@ -1,15 +1,16 @@
 <template>
     <div class="page-wrapper">
         <MenuPrincipal />
-        <div class="row">
+        <div>
             <Titulo titulo="Concurso CONIT" />
-            <section class="contest-section">
-                <div class="container-fluid">
-                    <div class="infoI">
-                        <h2 style="color:#024997">¡Es tu Momento!</h2><br />
-                        <p>Participa del sensacional sorteo de una Página Web<br />para tu empresa o proyecto.</p>
-                        <h4>¡Sí! es totalmente GRATIS.</h4>
-                        <br />
+
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 class="tit" style="color:#024997">¡Es tu Momento!</h2><br />
+                        <p class="inf">Participa del sensacional sorteo de una Página Web para tu empresa o
+                            proyecto.</p>
+                        <h4 class="tit">¡Sí! es totalmente GRATIS.</h4><br />
                         <h3 style="color:#024997">Incluye</h3>
                         <div class="cohete">
                             <ul>
@@ -25,16 +26,17 @@
                                         href="https://www.instagram.com/conit.pe/" target="_blank"><b>Instagram</b></a>.
                                 </li>
                                 <li>Comparte la publicación del concurso en tus redes sociales y etiquétanos.</li>
-                                <li>Además, debes etiquetar a 2 amigos.</li>
+                                <li>Etiqueta a 2 amigos.</li>
                                 <li>Regístrate en nuestro formulario.</li>
                             </ul>
                             <br />
-                            <p><b>Una vez realizados los pasos, estarás en la lista de participantes.</b></p>
+                            <p class="tit"><b>Una vez realizados los pasos, estarás en la lista de participantes.</b>
+                            </p>
                         </div>
                         <div>
-                            <h4>Nuestras Redes Sociales</h4>
-                            <ul>
-                                <li style="padding: 10px 10px">
+                            <h4 class="tit">Nuestras Redes Sociales</h4>
+                            <ul class="cent">
+                                <li style="padding: 10px 10px;">
                                     <span><a target="_blank" href="https://www.facebook.com/conit.pe"><img
                                                 src="img/redes/facebook.png" alt="" /></a></span>
                                     <span><a target="_blank" href="https://www.instagram.com/conit.pe/"><img
@@ -45,10 +47,11 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="formularioD">
-                        <h3 style="text-align:center;">Formulario de Registro</h3>
-                        <hr />
-                        <form @submit.prevent="enviarMensaje">
+                    <div class="col-md-4">
+                        <div class="formularioD">
+                            <h3 style="text-align:center;">Formulario de Registro</h3>
+                            <hr />
+
                             <div class="form-group">
                                 <label style="padding: 5px 10px">Nombre</label>
                                 <input v-model="nombre" type="text" class="form-control" placeholder="Escribe tu nombre"
@@ -79,18 +82,18 @@
                                 <p class="text-center text-white" v-for="(e,index) in errores" :key="index">{{e}}</p>
                             </div>
                             <div class="alinear">
-                                <button type="submit" class="btn"
+                                <button @click="enviarMensaje()" class="btn"
                                     style="background-color:#f3ab41; color:#fff;">Inscribirme</button>
                                 <Loading :cargando="cargando" />
                             </div>
-                        </form><br />
+                        </div><br/>
+                        <span><b>Sorteo y anuncio del ganador Sábado 22 de Octubre a las 4:00 pm.</b></span>
+                        <br />
                     </div>
-                    <div class="fecha">
-                        <span><b>Sorteo y anuncio del ganador Sábado 22 de octubre a las 4:00 pm</b></span>
-                    </div>
-
                 </div>
-            </section>
+            </div>
+
+
         </div>
         <div class="row mt-4">
             <br /><br />
@@ -142,7 +145,7 @@ export default {
         },
         enviarMensaje() {
             this.cargando = true;
-            let campos={};
+            let campos = {};
             campos = {
                 nombre: this.nombre,
                 email: this.email,
@@ -154,15 +157,16 @@ export default {
                 axios
                     .post("/api/participantes/crear", campos)
                     .then((response) => {
-                        this.limpiarCampos({}),
-                            this.$swal({
-                                position: "center",
-                                icon: "success",
-                                title: "Fuiste Registrado en el Concurso",
-                                showConfirmButton: false,
-                                timer: 3000,
-                            });
+
+                        this.$swal({
+                            position: "center",
+                            icon: "success",
+                            title: "Registro Exitoso",
+                            showConfirmButton: false,
+                            timer: 5000,
+                        });
                         this.errores = []
+                        this.$router.go()
 
                     })
                     .catch((error) => {
@@ -204,7 +208,16 @@ export default {
     position: relative;
     float: Left;
     margin-top: 3px;
+    margin-left: 58%;
 }
+
+@media(max-width: 767px) {
+    .fecha {
+        margin-left: 0%
+    }
+
+}
+
 
 h3 {
     color: #fff;
@@ -212,6 +225,7 @@ h3 {
 
 ul {
     list-style: none;
+    padding: 10px;
 }
 
 @media(max-width: 767px) {
@@ -234,24 +248,26 @@ ul {
 
 @media(max-width: 767px) {
     .infoI {
-        text-align: center;
-        margin-left: 97px;
+        margin-top: 0px;
+        margin-left: -10px;
+        margin-right: 0px;
+        width: 350px;
     }
+
+    .inf {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .tit {
+        text-align: center;
+    }
+
 }
 
 .formularioD {
     background-color: #024997;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 0px;
-
-    margin-top: 30px;
-    /* margin-left: 150px; */
-    margin-bottom: 30px;
-    position: relative;
-    float: Left;
-    width: 30%;
+    padding: 16px;
     border: rgb(29, 35, 41) solid 3px;
     border-radius: 20px;
     height: auto;
@@ -270,6 +286,13 @@ ul {
         height: auto;
     }
 }
+
+@media (max-width: 767px) {
+    .cent {
+        margin-left: 30%;
+    }
+}
+
 
 .centrar {
     display: grid;
