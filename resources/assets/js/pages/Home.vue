@@ -127,11 +127,13 @@
         </div>
       </div>
     </section>
+    <FormularioPrincipal />
     <FooterPrincipal />
   </div>
 </template>
 
 <script>
+import FormularioPrincipal from "../components/Form.vue";
 import FooterPrincipal from "../components/Footer.vue";
 import MenuPrincipal from "../components/Menu.vue";
 import Interes from "../components/Interes.vue";
@@ -193,6 +195,7 @@ export default {
     FooterPrincipal,
     Servicio,
     Interes,
+    FormularioPrincipal,
   },
   methods: {},
   created() {},
