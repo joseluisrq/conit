@@ -96,7 +96,7 @@
             <img
               src="img/consultoria.png"
               width="200px"
-              class="img-fluid"
+              class="efecto img-fluid"
               alt=""
             />
           </div>
@@ -128,11 +128,13 @@
       </div>
     </section>
     <FormularioPrincipal />
+    <Comentarios />
     <FooterPrincipal />
   </div>
 </template>
 
 <script>
+import Comentarios from "../components/Comments.vue";
 import FormularioPrincipal from "../components/Form.vue";
 import FooterPrincipal from "../components/Footer.vue";
 import MenuPrincipal from "../components/Menu.vue";
@@ -196,11 +198,18 @@ export default {
     Servicio,
     Interes,
     FormularioPrincipal,
+    Comentarios,
   },
   methods: {},
   created() {},
 };
 </script>
 
-<style>
+<style scoped>
+.efecto {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
 </style>

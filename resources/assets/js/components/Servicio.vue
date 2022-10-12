@@ -1,6 +1,6 @@
 <template >
     <div class="wpo-work-iem">
-        <div class="wpo-work-icon-wrap">
+        <div class="efecto wpo-work-icon-wrap">
             <div class="wpo-work-icon">
                 <div class="text-center">
                     <img :src="'img/servicios/'+data.imagen" width="100px" alt="">
@@ -16,16 +16,25 @@
 <script>
 export default {
     name: "Servicio",
-  props: {
-    data:''
-  },
-  methods: {
-    cambiarRuta(ruta) {
-        this.$router.push({ path:ruta })
+    props: {
+        data: ''
     },
-},
+    methods: {
+        cambiarRuta(ruta) {
+            this.$router.push({ path: ruta })
+        },
+    },
 }
 </script>
-<style >
-    
+<style scoped>
+.efecto {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.efecto:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-5%);
+}
 </style>

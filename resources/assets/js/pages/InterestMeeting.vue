@@ -10,23 +10,23 @@
                         </h3>
                     </div>
                     
-                    <div class="col-md-6">
-                        <div class="titusA">
+                    <div class="col-md-3">
+                        <div class="efecto titusA">
                             <h4>Entendemos tus necesidades</h4>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="titusB">
+                    <div class="col-md-3">
+                        <div class="efecto titusB">
                             <h4>Somos Profesionales</h4>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="titusC">
+                    <div class="col-md-3">
+                        <div class="efecto titusA">
                             <h4>Trabajamos Contigo</h4>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="titusD">
+                    <div class="col-md-3">
+                        <div class="efecto titusB">
                             <h4>Nos Gusta Ayudarte</h4>
                         </div>
                     </div>
@@ -55,53 +55,39 @@ export default {
 </script>
 <style scoped>
 
+.efecto{
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.efecto:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-5%);
+}
 
 .titusA {
 
     text-align: center;
     padding: 20px;
-    margin-left: 210px;
-    margin-right: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 50px;
     margin-bottom: 20px;
     border-radius: 30px;
     background-color: #f3ab41;
 }
+
 
 .titusB {
 
     text-align: center;
     padding: 20px;
-    margin-left: 90px;
-    margin-right: 210px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 50px;
     margin-bottom: 20px;
     border-radius: 30px;
-    background-color: #f3ab41;
-}
-
-.titusC {
-    text-align: center;
-    padding: 20px;
-    margin-left: 80px;
-    margin-right: 50px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    border-radius: 30px;
     background-color: #024997;
-
-}
-
-.titusD {
-    text-align: center;
-    padding: 20px;
-    margin-left: 50px;
-    margin-right: 80px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    border-radius: 30px;
-    background-color: #024997;
-
 }
 
 h4 {

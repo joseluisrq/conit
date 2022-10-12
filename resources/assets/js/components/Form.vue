@@ -5,7 +5,8 @@
                 <div class="col-md-12">
                     <div class="marcoForm">
                         <div class="col-md-12">
-                            <h3 class="titulO">¿Necesitas nuestra ayuda para lograr algo genial?</h3>
+                            <h3 class="titulO" style="margin-bottom:20px;"><b>¿Necesitas nuestra ayuda para lograr algo
+                                    genial?</b></h3>
                         </div>
                         <div class="col-md-6 imgn">
                             <img src="img/Companiero.png" alt="">
@@ -62,7 +63,8 @@
                                 <div class="col-md-12">
                                     <div class="mensajE">
                                         <div class="form-check">
-                                            <input v-model="checkbox" type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <input v-model="checkbox" type="checkbox" class="form-check-input"
+                                                id="exampleCheck1">
                                             <label style="color:#fff" class="form-check-label" for="exampleCheck1">He
                                                 leído y acepto los Términos y Condiciones</label>
                                         </div><br />
@@ -73,6 +75,7 @@
                                             <Loading :cargando="cargando" />
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </form>
@@ -95,7 +98,7 @@ export default {
             numero: '',
             empresa: '',
             mensaje: '',
-            // checkbox: false,
+            checkbox: false,
             cargando: false,
         }
     },
@@ -109,7 +112,6 @@ export default {
             this.numero = ''
             this.empresa = ''
             this.mensaje = ''
-            // this.checkbox = ''
         },
         comprobarCampos(c) {
             let ct = 0
@@ -117,7 +119,7 @@ export default {
             else if (c.email == '') ct = 1;
             else if (c.numero == '') ct = 1;
             else if (c.mensaje == '') ct = 1;
-            // else if (c.checkbox == false) ct = 1;
+            else if (c.checkbox == false) ct = 1;
 
             if (ct == 0) {
                 return true;
@@ -133,6 +135,7 @@ export default {
                 numero: this.numero,
                 empresa: this.empresa,
                 mensaje: this.mensaje,
+                checkbox: this.checkbox,
             }
             if (this.comprobarCampos(campos)) {
                 emailjs.init('Q9byHE64YoqDzOmS3');
@@ -165,13 +168,24 @@ export default {
                     });
             }
             else {
-                this.$swal({
-                    position: "center",
-                    icon: "error",
-                    title: "Datos Incompletos",
-                    showConfirmButton: false,
-                    timer: 1000,
-                });
+                if (this.checkbox == false) {
+                    this.$swal({
+                        position: "center",
+                        icon: "error",
+                        title: "Marque la casilla de Términos y Condiciones",
+                        showConfirmButton: false,
+                        timer: 2000,
+                    });
+                } else {
+                    this.$swal({
+                        position: "center",
+                        icon: "error",
+                        title: "Datos Incompletos",
+                        showConfirmButton: false,
+                        timer: 1000,
+                    });
+
+                }
                 this.cargando = false;
             }
 
@@ -262,13 +276,14 @@ export default {
     }
 
     .imgn img {
-        display:none;
+        display: none;
     }
 
-    .alinear {
+    .marcoForm .mensajE .alinear {
         display: flex;
     }
-    .gruposFD .emaiL{
+
+    .gruposFD .emaiL {
         margin-top: 20px;
     }
 }
