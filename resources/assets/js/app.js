@@ -30,7 +30,6 @@ Vue.use(VueSweetalert2);
 
 //Rutas
 import App from './components/App.vue'
-import example from './components/ExampleComponent.vue'
 import pageweb from './pages/services/PageWeb.vue'
 import Home from './pages/Home.vue'
 import Contact from './pages/Contact.vue'

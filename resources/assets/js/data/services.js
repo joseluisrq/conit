@@ -22,7 +22,7 @@ const servicios = [
         subtitulo: "Controla tus leads",
         imagen: "crm_01.png",
         ruta: "crm"
-    }
+    },
 ]
 
 export default servicios

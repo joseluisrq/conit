@@ -51,7 +51,7 @@
         }
     }
 
-    smallNavFunctionality();
+   // smallNavFunctionality();
 
     $("body").on("click", function() {
         $('.navigation-holder').removeClass('slideInn');
@@ -615,7 +615,7 @@
 
             toggleMobileNavigation();
 
-            smallNavFunctionality();
+          //  smallNavFunctionality();
         });
 
 
@@ -638,12 +638,12 @@
         WHEN WINDOW RESIZE
     ==========================================================================*/
     $(window).on("resize", function() {
-        toggleClassForSmallNav();
+      //  toggleClassForSmallNav();
         //smallNavFunctionality();
 
         clearTimeout($.data(this, 'resizeTimer'));
         $.data(this, 'resizeTimer', setTimeout(function() {
-            smallNavFunctionality();
+          //  smallNavFunctionality();
         }, 200));
     });
 

@@ -1,6 +1,5 @@
 <template>
   <div class="page-wrapper">
-   
     <MenuPrincipal />
     <section class="wpo-hero-section-1">
       <div class="container">
@@ -17,8 +16,9 @@
                 </h2>
               </div>
               <div class="btns">
-                
-                <router-link  class="btn btn-amarillo" to="/servicios">Comencemos</router-link>
+                <router-link class="btn btn-amarillo" to="/servicios"
+                  >Comencemos</router-link
+                >
               </div>
             </div>
           </div>
@@ -74,22 +74,19 @@
           </div>
         </div>
         <div class="wpo-service-section">
-          <div class="row">
-            <div
-              class="col-lg-3 col-md-6 col-12"
-              v-for="(i, index) in interes"
-              :key="index"
-            >
-              <Interes :data="i" />
-            </div>
-          </div>
+          <Interes />
         </div>
         <div class="row">
           <h2 class="text-center">¿Necesitas que te guiemos?</h2>
           <div class="col-md-8 text-center">
             <div class="col-auto text-center mt-4">
               <h3 class="mt-4">Te obsequiamos 20 minutos de consultoria</h3>
-              <a href="https://api.whatsapp.com/send?phone=51910836385&text=Quiero%20agendar%20una%20reuni%C3%B3n" target="_bank" class="btn btn-primary">AGENDAR CONSULTORÍA</a>
+              <a
+                href="https://api.whatsapp.com/send?phone=51910836385&text=Quiero%20agendar%20una%20reuni%C3%B3n"
+                target="_bank"
+                class="btn btn-primary"
+                >AGENDAR CONSULTORÍA</a
+              >
             </div>
           </div>
           <div class="col-md-4 text-center">
@@ -115,15 +112,7 @@
           </div>
         </div>
         <div class="wpo-service-section">
-          <div class="row">
-            <div
-              class="col-lg-3 col-md-6 col-12"
-              v-for="(i, index) in negocio"
-              :key="index"
-            >
-              <Interes :data="i" />
-            </div>
-          </div>
+          <Negocio />
         </div>
       </div>
     </section>
@@ -139,6 +128,7 @@ import FormularioPrincipal from "../components/Form.vue";
 import FooterPrincipal from "../components/Footer.vue";
 import MenuPrincipal from "../components/Menu.vue";
 import Interes from "../components/Interes.vue";
+import Negocio from "../components/Negocio.vue";
 import Servicio from "../components/Servicio.vue";
 import servicios from "../data/services.js";
 export default {
@@ -146,56 +136,13 @@ export default {
   data() {
     return {
       servicios: servicios,
-      interes: [
-        {
-          titulo: "¿Quiénes somos?",
-          imagen: "1_somos.png",
-          ruta: "nosotros",
-        },
-        {
-          titulo: "¿Por qué son los mejores para mí?",
-          imagen: "2_mejores.png",
-          ruta: "losMejoresParaMi",
-        },
-        {
-          titulo: "¿Por qué tengo que confiar?",
-          imagen: "3_confiar.png",
-          ruta: "proyectos",
-        },
-        {
-          titulo: "¿Cuándo nos juntamos?",
-          imagen: "4_juntarnos.png",
-          ruta: "junta",
-        },
-      ],
-      negocio: [
-        {
-          titulo: "Emprendedor",
-          imagen: "1_emprendedor.png",
-          ruta: "building",
-        },
-        {
-          titulo: "Empresario que recién comienza",
-          imagen: "2_empieza.png",
-          ruta: "building",
-        },
-        {
-          titulo: "Profesional que representa a una gran empresa",
-          imagen: "3_representa.png",
-          ruta: "building",
-        },
-        {
-          titulo: "Gerente de mi propio negocio",
-          imagen: "4_gerente.png",
-          ruta: "building",
-        },
-      ],
     };
   },
   components: {
-   MenuPrincipal,
+    MenuPrincipal,
     FooterPrincipal,
     Servicio,
+    Negocio,
     Interes,
     FormularioPrincipal,
     Comentarios,
@@ -207,9 +154,8 @@ export default {
 
 <style scoped>
 .efecto {
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    cursor: default;
-    transition: all 400ms ease;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  cursor: default;
+  transition: all 400ms ease;
 }
-
 </style>

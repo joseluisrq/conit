@@ -1,5 +1,5 @@
 <template >
-    <div class="wpo-work-iem">
+    <div class="wpo-work-iem mt-4">
         <div class="efectoS wpo-work-icon-wrap">
             <div class="wpo-work-icon">
                 <div class="text-center">

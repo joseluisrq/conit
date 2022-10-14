@@ -42,15 +42,7 @@
           </div>
         </div>
         <div class="wpo-service-section">
-          <div class="row">
-            <div
-              class="col-lg-3 col-md-6 col-12"
-              v-for="(i, index) in interes"
-              :key="index"
-            >
-              <Interes :data="i" />
-            </div>
-          </div>
+          <Interes />
         </div>
         <div class="row">
           <h2 class="text-center">¿Necesitas que te guiemos?</h2>
@@ -88,15 +80,7 @@
           </div>
         </div>
         <div class="wpo-service-section">
-          <div class="row">
-            <div
-              class="col-lg-3 col-md-6 col-12"
-              v-for="(i, index) in negocio"
-              :key="index"
-            >
-              <Interes :data="i" />
-            </div>
-          </div>
+          <Negocio />
         </div>
       </div>
     </section>
@@ -105,61 +89,20 @@
 </template>
   
   <script>
+//componentes
 import FooterPrincipal from "../components/Footer.vue";
 import MenuPrincipal from "../components/Menu.vue";
 import Interes from "../components/Interes.vue";
+import Negocio from "../components/Negocio.vue";
 import Servicio from "../components/Servicio.vue";
-import servicios from "../data/services.js";
 import Titulo from "../components/Titulo.vue";
+//data
+import servicios from "../data/services.js"; 
 export default {
   name: "Home",
   data() {
     return {
       servicios: servicios,
-      interes: [
-        {
-          titulo: "¿Quiénes somos?",
-          imagen: "1_somos.png",
-          ruta: "nosotros",
-        },
-        {
-          titulo: "¿Por qué son los mejores para mí?",
-          imagen: "2_mejores.png",
-          ruta: "building",
-        },
-        {
-          titulo: "¿Por qué tengo que confiar?",
-          imagen: "3_confiar.png",
-          ruta: "building",
-        },
-        {
-          titulo: "¿Cuándo nos juntamos?",
-          imagen: "4_juntarnos.png",
-          ruta: "building",
-        },
-      ],
-      negocio: [
-        {
-          titulo: "Emprendedor",
-          imagen: "1_emprendedor.png",
-          ruta: "building",
-        },
-        {
-          titulo: "Empresario que recién comienza",
-          imagen: "2_empieza.png",
-          ruta: "building",
-        },
-        {
-          titulo: "Profesional que representa a una gran empresa",
-          imagen: "3_representa.png",
-          ruta: "building",
-        },
-        {
-          titulo: "Gerente de mi propio negocio",
-          imagen: "4_gerente.png",
-          ruta: "building",
-        },
-      ],
     };
   },
   components: {
@@ -168,6 +111,7 @@ export default {
     Servicio,
     Interes,
     Titulo,
+    Negocio,
   },
   methods: {},
   created() {},

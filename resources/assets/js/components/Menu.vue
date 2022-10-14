@@ -83,7 +83,18 @@ export default {
         xbutton.toggleClass("x-close");
         return false;
       })
+
+      $(window).on("resize", function() {
+        toggleClassForSmallNav();
+        //smallNavFunctionality();
+
+        clearTimeout($.data(this, 'resizeTimer'));
+        $.data(this, 'resizeTimer', setTimeout(function() {
+            smallNavFunctionality();
+        }, 200));
+    });
     }
+    
   }
 
 };

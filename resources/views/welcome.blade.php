@@ -38,7 +38,7 @@
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QE0NFE17M9"></script>
-<!-- 
+
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -49,7 +49,7 @@
 
     gtag('config', 'G-QE0NFE17M9');
 </script>
-<script defer src="https://widget.tochat.be/bundle.js?key=5cfb641c-3476-49a6-96e7-66964d8ae7e1"></script> -->
+<script defer src="https://widget.tochat.be/bundle.js?key=5cfb641c-3476-49a6-96e7-66964d8ae7e1"></script>
 
 <body>
     <div class="flex-center position-ref full-height" id="app">

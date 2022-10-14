@@ -2,7 +2,7 @@
   <div class="row">
     <div
       class="col-lg-3 col-md-6 col-12"
-      v-for="(data, index) in interes"
+      v-for="(data, index) in negocio"
       :key="index"
     >
       <div class="efecto wpo-service-item">
@@ -25,32 +25,32 @@
     </div>
   </div>
 </template>
-
-<script>
+  
+  <script>
 export default {
-  name: "interes",
+  name: "negocio",
   data() {
     return {
-      interes: [
+      negocio: [
         {
-          titulo: "¿Quiénes somos?",
-          imagen: "1_somos.png",
-          ruta: "nosotros",
+          titulo: "Emprendedor",
+          imagen: "1_emprendedor.png",
+          ruta: "building",
         },
         {
-          titulo: "¿Por qué son los mejores para mí?",
-          imagen: "2_mejores.png",
-          ruta: "losMejoresParaMi",
+          titulo: "Empresario que recién comienza",
+          imagen: "2_empieza.png",
+          ruta: "building",
         },
         {
-          titulo: "¿Por qué tengo que confiar?",
-          imagen: "3_confiar.png",
-          ruta: "proyectos",
+          titulo: "Profesional que representa a una gran empresa",
+          imagen: "3_representa.png",
+          ruta: "building",
         },
         {
-          titulo: "¿Cuándo nos juntamos?",
-          imagen: "4_juntarnos.png",
-          ruta: "junta",
+          titulo: "Gerente de mi propio negocio",
+          imagen: "4_gerente.png",
+          ruta: "building",
         },
       ],
     };
@@ -62,8 +62,8 @@ export default {
   },
 };
 </script>
-
-<style scoped>
+  
+  <style scoped>
 .efecto {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   cursor: default;

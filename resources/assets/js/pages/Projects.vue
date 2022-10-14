@@ -11,36 +11,12 @@
                     <div class="container">
                         <div class="col-md-12">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-4" v-for="e in empresas" :key="e.id">
                                     <div class="marcoImagen centrar">
-                                        <a target="_blank" href="https://clinicalosfresnos.com.pe/"><img src="img/Empresas/fresnos.png" alt="" /></a>
+                                        <a target="_blank" :href="e.url"><img :src="e.img" alt="" class="img-fluid"  /></a>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="marcoImagen centrar">
-                                        <a target="_blank" href="https://cersa.org.pe/"><img src="img/Empresas/cersa.png" alt="" style="width:225px ; height: 75px;" /></a>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="marcoImagen centrar">
-                                        <img src="img/Empresas/itec.png" alt="" style="width:225px ; height: 85px;" />
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="marcoImagen centrar">
-                                        <a target="_blank" href="https://campitours.com/es/"><img src="img/Empresas/camp_tours.png" alt="" /></a>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="marcoImagen centrar">
-                                        <img src="img/Empresas/chaquicocha.png" alt="" style="width:260px ; height: 80px;" />
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="marcoImagen centrar">
-                                        <a target="_blank" href="https://deturconsultores.com/"><img src="img/Empresas/detur.png" alt="" style="width:260px ; height: 80px;" /></a>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
 
@@ -58,10 +34,11 @@
 import MenuPrincipal from "../components/Menu.vue";
 import FooterPrincipal from "../components/Footer.vue"
 import Titulo from "../components/Titulo.vue";
+import clientes from "../data/clientes.js";
 export default {
     data() {
         return {
-
+           empresas:clientes
         }
     },
     components: {
