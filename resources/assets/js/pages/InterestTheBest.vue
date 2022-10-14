@@ -16,7 +16,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 imgEnf">
-                        <img src="" alt="" class="imagenCircular">
+                        <img src="img/Innovacion.jpg" alt="" class="efecto imagenCircular">
                     </div>
                 </div>
                 <div class="row">
@@ -32,9 +32,9 @@
                         </div>
                     </div>
                     <div class="col order-sm-1 imgEnf">
-                        <div class="pasarAbajo">
-                            <img src="" alt="" class="imagenCircular">
-                        </div>
+                        
+                            <img src="img/Equipo.jpg" alt="" class="efecto imagenCircular">
+                       
                     </div>
                 </div>
                 <div class="row">
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 imgEnf">
-                        <img src="" alt="" class="imagenCircular">
+                        <img src="img/Enfoque.jpg" alt="" class="efecto imagenCircular">
                     </div>
                 </div>
             </section>
@@ -100,6 +100,9 @@ export default {
 </script>
 
 <style scoped>
+.efecto{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
 .imgEnf {
     display: flex;
     /*centrar de manera horizontal*/
@@ -136,7 +139,7 @@ export default {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-color: #024997;
+    
 }
 
 .Metodologias {

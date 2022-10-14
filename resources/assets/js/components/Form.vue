@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="marcoForm">
+                    <div class="marcoForm efecto">
                         <div class="col-md-12">
                             <h3 class="titulO" style="margin-bottom:20px;"><b>¿Necesitas nuestra ayuda para lograr algo
                                     genial?</b></h3>
@@ -197,6 +197,12 @@ export default {
 
 </script>
 <style scoped>
+.efecto{
+    box-shadow: 10px 10px 25px rgba(0,0,0.6,0.6);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
 .marcoForm {
     background-color: #024997;
     padding: 36px;

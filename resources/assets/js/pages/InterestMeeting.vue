@@ -3,7 +3,7 @@
         <MenuPrincipal />
         <Titulo titulo="¿Cuándo nos Juntamos?" />
         <section class="junta">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h3 style="text-align:center; margin-top: 3%;"><b>Cuatro Buenas Razones Para Contactarnos</b>
@@ -12,7 +12,7 @@
                     
                     <div class="col-md-3">
                         <div class="efecto titusA">
-                            <h4>Entendemos tus necesidades</h4>
+                            <h4>Entendemos tus Necesidades</h4>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -69,10 +69,10 @@ export default {
 
     text-align: center;
     padding: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 30px;
     background-color: #f3ab41;
 }
@@ -82,10 +82,10 @@ export default {
 
     text-align: center;
     padding: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 35px;
+    margin-right: 35px;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 30px;
     background-color: #024997;
 }

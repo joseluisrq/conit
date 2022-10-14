@@ -1,6 +1,6 @@
 <template >
     <div class="wpo-work-iem">
-        <div class="efecto wpo-work-icon-wrap">
+        <div class="efectoS wpo-work-icon-wrap">
             <div class="wpo-work-icon">
                 <div class="text-center">
                     <img :src="'img/servicios/'+data.imagen" width="100px" alt="">
@@ -9,7 +9,7 @@
         </div>
         <div class="wpo-work-text">
             <h4>{{data.titulo}}</h4>
-            <button @click="cambiarRuta(data.ruta)" class="btn btn-amarillo">{{data.subtitulo}}</button>
+            <button @click="cambiarRuta(data.ruta)" class="efecto btn btn-amarillo">{{data.subtitulo}}</button>
         </div>
     </div>
 </template>
@@ -36,5 +36,10 @@ export default {
 .efecto:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-5%);
+}
+
+.efectoS{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    cursor: default;
 }
 </style>
