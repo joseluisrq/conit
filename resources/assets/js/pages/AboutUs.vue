@@ -22,39 +22,48 @@
                         <div class="container" style="margin-top:30px;">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="efecto imags">
-                                        <img class="imgs" src="img/Experiencia.jpg" alt="">
-                                        <div class="capa">
-                                            <h3>Experiencia</h3>
-                                            <p>Contamos con una amplia experiencia en brindar servicios de
-                                                Soluciones
-                                                Digitales.
-                                            </p>
+                                    <div class="act">
+                                        <div class="efecto imags">
+                                            <img class="imgs" src="img/Experiencia.jpg" alt="">
+                                            <div class="capa">
+                                                <h3>Experiencia</h3>
+                                                <p>Contamos con una amplia experiencia en brindar servicios de
+                                                    Soluciones
+                                                    Digitales.
+                                                </p>
+                                            </div>
                                         </div>
+                                        <h3 class="tu">Experiencia</h3>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="efecto imags">
-                                        <img class="imgs" src="img/Analisis.jpg" alt="">
-                                        <div class="capa">
-                                            <h3>Análisis</h3>
-                                            <p>Contamos con una amplia experiencia en brindar servicios de
-                                                Soluciones
-                                                Digitales.
-                                            </p>
+                                    <div class="act">
+                                        <div class="efecto imags">
+                                            <img class="imgs" src="img/Analisis.jpg" alt="">
+                                            <div class="capa">
+                                                <h3>Análisis</h3>
+                                                <p>Contamos con una amplia experiencia en brindar servicios de
+                                                    Soluciones
+                                                    Digitales.
+                                                </p>
+                                            </div>
                                         </div>
+                                        <h3 class="tu">Análisis</h3>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="efecto imags">
-                                        <img class="imgs" src="img/Creatividad.jpg" alt="">
-                                        <div class="capa">
-                                            <h3>Creatividad</h3>
-                                            <p>Realizamos estrategias creativas y visuales para cada uno de
-                                                nuestros
-                                                proyectos.
-                                            </p>
+                                    <div class="act">
+                                        <div class="efecto imags">
+                                            <img class="imgs" src="img/Creatividad.jpg" alt="">
+                                            <div class="capa">
+                                                <h3>Creatividad</h3>
+                                                <p>Realizamos estrategias creativas y visuales para cada uno de
+                                                    nuestros
+                                                    proyectos.
+                                                </p>
+                                            </div>
                                         </div>
+                                        <h3 class="tu">Creatividad</h3>
                                     </div>
                                 </div>
                             </div>
@@ -66,47 +75,54 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="cardI efecto">
-                                        <div class="">
+                                    <div class="activar">
+                                        <div class="cardI efecto">
                                             <img class="imgs" src="img/Eq.jpg" alt="">
                                             <div class="contenido">
                                                 <h3 style="color:#fff;">Equipo</h3>
-                                                <p>Contamos con un equipo altamente creativo e innovador.
-                                                    Comprometidos en crear oportunidades de valor para impulsar tu marca
-                                                    y
-                                                    empresa,ofreciendo resultados inmediatos. Basándonos en nuestros 4
-                                                    pilares
-                                                    de
-                                                    acción:</p>
+                                            </div>
+                                        </div>
+                                        <div class="cont">
+                                            <p style="color:#000;">Contamos con un equipo altamente creativo e
+                                                innovador.
+                                                Comprometidos en crear oportunidades de valor para impulsar tu marca
+                                                y
+                                                empresa,ofreciendo resultados inmediatos. Basándonos en nuestros 4
+                                                pilares
+                                                de
+                                                acción:</p>
+                                            <div class="EqL cohete">
+                                                <ul style="color:#000;">
+                                                    <li>Conectar (Conectamos)</li>
+                                                    <li>Analizar (Analizamos)</li>
+                                                    <li>Diseñar (Diseñamos)</li>
+                                                    <li>Desarrollar (Desarrollamos)</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="EqL cohete">
-                                        <ul>
-                                            <li>Conectar (Conectamos)</li>
-                                            <li>Analizar (Analizamos)</li>
-                                            <li>Diseñar (Diseñamos)</li>
-                                            <li>Desarrollar (Desarrollamos)</li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="cardD efecto">
-                                        <figure>
-                                            <img src="img/Valores.jpg" alt="" class="tamanio">
-                                        </figure>
-                                        <div class="contenido">
-                                            <h3 style="color:#fff;">Valores</h3>
+                                    <div class="activar">
+                                        <div class="cardD efecto">
+                                            <figure>
+                                                <img src="img/Valores.jpg" alt="" class="tamanio">
+                                            </figure>
+                                            <div class="contenido">
+                                                <h3 style="color:#fff;">Valores</h3>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="cohete">
-                                        <ul>
-                                            <li>Trabajo en equipo</li>
-                                            <li>Responsabilidad</li>
-                                            <li>Compromiso</li>
-                                            <li>Eficiencia </li>
-                                            <li>Eficacia</li>
-                                        </ul>
+                                        <div class="cont">
+                                            <div class="EqL2 cohete">
+                                                <ul style="color:#000;">
+                                                    <li>Trabajo en equipo</li>
+                                                    <li>Responsabilidad</li>
+                                                    <li>Compromiso</li>
+                                                    <li>Eficiencia </li>
+                                                    <li>Eficacia</li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -141,6 +157,12 @@ export default {
 }
 </script>
 <style scoped>
+.tu {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
 .imags {
     position: relative;
     transition: all 500ms ease-out;
@@ -169,6 +191,10 @@ export default {
     margin-bottom: 15px;
 }
 
+.act:hover .tu {
+    visibility: hidden;
+}
+
 .imags .capa h3 {
     color: #fff;
     margin-bottom: 120px;
@@ -188,6 +214,36 @@ export default {
         margin-top: 15px;
     }
 }
+
+.activar {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.cont p {
+    margin-top: -10px;
+    visibility: hidden;
+    transition: all 500ms ease-out;
+}
+
+.cont ul {
+    margin-top: -10px;
+    visibility: hidden;
+    transition: all 500ms ease-out;
+}
+
+.activar:hover>.cont p {
+    margin-top: 0px;
+    visibility: visible;
+}
+
+.activar:hover>.cont ul {
+    margin-top: 0px;
+    visibility: visible;
+}
+
+
+
 
 .efecto {
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
@@ -383,6 +439,10 @@ h6::after {
 
 .Eq {
     margin-top: 30px;
+}
+
+.EqL2 {
+    margin-left: 40px;
 }
 
 @media(max-width: 767px) {
