@@ -18,7 +18,7 @@
                                         <div class="form-group">
                                             <label for="exampleInputEmail1" class="letrasLabel">Nombre</label>
                                             <input v-model="nombre" type="text" class="form-control"
-                                                placeholder="Escribe tu nombre" required>
+                                                placeholder="Ingresa tu nombre" required>
                                         </div>
                                     </div>
                                 </div>
@@ -28,7 +28,7 @@
                                         <div class="form-group">
                                             <label for="exampleInputEmail1" class="letrasLabel emaiL">Email</label>
                                             <input v-model="email" type="email" class="form-control"
-                                                placeholder="Escribe tu email" required>
+                                                placeholder="Ingresa tu email" required>
                                         </div><br />
                                     </div>
                                 </div>
@@ -46,7 +46,7 @@
                                         <div class="form-group">
                                             <label for="exampleInputEmail1" class="letrasLabel">Empresa</label>
                                             <input v-model="empresa" type="text" class="form-control"
-                                                placeholder="Escribe el nombre de tu empresa">
+                                                placeholder="Ingresa el nombre de tu empresa">
                                         </div><br />
                                     </div>
                                 </div>

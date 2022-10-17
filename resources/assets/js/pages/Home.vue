@@ -101,7 +101,7 @@
       </div>
     </section>
     <!-- Seccion quien eres -->
-    <section class="wpo-work-section section-padding">
+    <!-- <section class="wpo-work-section section-padding">
       <div class="container">
         <div class="row">
           <div class="col col-xs-12">
@@ -115,9 +115,9 @@
           <Negocio />
         </div>
       </div>
-    </section>
+    </section> -->
     <FormularioPrincipal />
-    <Comentarios />
+    <!-- <Comentarios /> -->
     <FooterPrincipal />
   </div>
 </template>

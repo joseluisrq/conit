@@ -9,8 +9,8 @@
                     <div class="quienesSomos" style="text-align:center;">
                         <h1><b>¿QUIÉNES SOMOS?</b></h1><br />
                         <h2>Somos CONIT.pe</h2>
-                        <p>Brindamos servicios de soluciones digitales, enfocados en impulsar tu Marca y Empresa al
-                            éxito con tecnología y medios digitales.</p>
+                        <p style="color:#000; font-size: 20px"><b>Brindamos servicios de soluciones digitales, enfocados en impulsar tu Marca y Empresa al
+                            éxito con tecnología y medios digitales.</b></p>
                         <h6>¡Despega tu Negocio!</h6>
                     </div>
 
@@ -75,11 +75,11 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="activar">
-                                        <div class="cardI efecto">
+                                    <div class="activarI">
+                                        <div class="efecto cardI">
                                             <img class="imgs" src="img/Eq.jpg" alt="">
                                             <div class="contenido">
-                                                <h3 style="color:#fff;">Equipo</h3>
+                                                <h3>EQUIPO</h3>
                                             </div>
                                         </div>
                                         <div class="cont">
@@ -103,13 +103,13 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="activar">
-                                        <div class="cardD efecto">
+                                    <div class="activarD">
+                                        <div class="efecto cardD">
                                             <figure>
                                                 <img src="img/Valores.jpg" alt="" class="tamanio">
                                             </figure>
                                             <div class="contenido">
-                                                <h3 style="color:#fff;">Valores</h3>
+                                                <h3>VALORES</h3>
                                             </div>
                                         </div>
                                         <div class="cont">
@@ -161,6 +161,7 @@ export default {
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(66, 66, 66);
 }
 
 .imags {
@@ -209,13 +210,19 @@ export default {
     margin-top: 15px;
 }
 
+
+
 @media(max-width: 767px) {
     .imags {
         margin-top: 15px;
     }
 }
 
-.activar {
+.activarI {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.activarD {
     margin-top: 20px;
     margin-bottom: 15px;
 }
@@ -226,22 +233,98 @@ export default {
     transition: all 500ms ease-out;
 }
 
+
 .cont ul {
     margin-top: -10px;
     visibility: hidden;
     transition: all 500ms ease-out;
 }
 
-.activar:hover>.cont p {
+.cardI{
+    position: relative;
+}
+.cardD{
+    position: relative;
+}
+.cardI .contenido{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(238, 210, 84, 0.288);
+    
+}
+.cardD .contenido{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(238, 210, 84, 0.288);
+    
+}
+.cardI .contenido h3{
+
+    font-size: 50px;
+    color:#024997;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+.cardD .contenido h3{
+
+font-size: 50px;
+color:#024997;
+text-align: center;
+margin-top: 150px;
+font-weight: bold;
+text-shadow: 1px 1px 2px black;
+}
+
+.activarI:hover>.cont p {
     margin-top: 0px;
     visibility: visible;
 }
 
-.activar:hover>.cont ul {
+.activarI:hover>.cont ul {
     margin-top: 0px;
     visibility: visible;
 }
 
+.activarD:hover>.cont p {
+    margin-top: 0px;
+    visibility: visible;
+}
+
+.activarD:hover>.cont ul {
+    margin-top: 0px;
+    visibility: visible;
+}
+
+@media(max-width: 767px) {
+    .activarI {
+        margin-left: 20px;
+        margin-right: -20px;
+        margin-bottom: -350px;
+        transition: all 500ms ease-out;
+    }
+    .activarI:hover{
+        margin-bottom: 0px;
+        transition: all 500ms ease-out;
+    }
+    .activarD {
+        margin-left: -20px;
+        margin-right: 20px;
+        transition: all 500ms ease-out;
+    }
+    
+    .cardI .contenido h3{
+        margin-top: 75px;
+    }
+    .cardD .contenido h3{
+        margin-top: 75px;
+    }
+}
 
 
 

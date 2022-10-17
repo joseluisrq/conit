@@ -56935,7 +56935,7 @@ var render = function() {
                           staticClass: "form-control",
                           attrs: {
                             type: "text",
-                            placeholder: "Escribe tu nombre",
+                            placeholder: "Ingresa tu nombre",
                             required: ""
                           },
                           domProps: { value: _vm.nombre },
@@ -56978,7 +56978,7 @@ var render = function() {
                           staticClass: "form-control",
                           attrs: {
                             type: "email",
-                            placeholder: "Escribe tu email",
+                            placeholder: "Ingresa tu email",
                             required: ""
                           },
                           domProps: { value: _vm.email },
@@ -57062,7 +57062,7 @@ var render = function() {
                           staticClass: "form-control",
                           attrs: {
                             type: "text",
-                            placeholder: "Escribe el nombre de tu empresa"
+                            placeholder: "Ingresa el nombre de tu empresa"
                           },
                           domProps: { value: _vm.empresa },
                           on: {
@@ -57822,17 +57822,7 @@ var render = function() {
         ]
       ),
       _vm._v(" "),
-      _c("section", { staticClass: "wpo-work-section section-padding" }, [
-        _c("div", { staticClass: "container" }, [
-          _vm._m(4),
-          _vm._v(" "),
-          _c("div", { staticClass: "wpo-service-section" }, [_c("Negocio")], 1)
-        ])
-      ]),
-      _vm._v(" "),
       _c("FormularioPrincipal"),
-      _vm._v(" "),
-      _c("Comentarios"),
       _vm._v(" "),
       _c("FooterPrincipal")
     ],
@@ -57921,20 +57911,6 @@ var staticRenderFns = [
           staticClass: "efecto img-fluid",
           attrs: { src: "img/consultoria.png", width: "200px", alt: "" }
         })
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col col-xs-12" }, [
-        _c("div", { staticClass: "section-title-s4" }, [
-          _c("h2", [_vm._v("¿Quién eres?")]),
-          _vm._v(" "),
-          _c("p", [_vm._v("Cuéntanos, queremos ayudarte")])
-        ])
       ])
     ])
   }
@@ -58743,7 +58719,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\n.tu[data-v-03db46de] {\r\n    text-align: center;\r\n    margin-top: 20px;\r\n    font-weight: bold;\n}\n.imags[data-v-03db46de] {\r\n    position: relative;\r\n    -webkit-transition: all 500ms ease-out;\r\n    transition: all 500ms ease-out;\n}\n.imags .capa[data-v-03db46de] {\r\n    position: absolute;\r\n    top: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background: rgba(1, 46, 56, 0.7);\r\n    -webkit-transition: all 500ms ease-out;\r\n    transition: all 500ms ease-out;\r\n    opacity: 0;\r\n    visibility: hidden;\r\n    text-align: center;\n}\n.imags:hover>.capa[data-v-03db46de] {\r\n    opacity: 1;\r\n    visibility: visible;\n}\n.imags:hover>.capa h3[data-v-03db46de] {\r\n    margin-top: 15%;\r\n    margin-bottom: 15px;\n}\n.act:hover .tu[data-v-03db46de] {\r\n    visibility: hidden;\n}\n.imags .capa h3[data-v-03db46de] {\r\n    color: #fff;\r\n    margin-bottom: 120px;\r\n    -webkit-transition: all 500ms ease-out;\r\n    transition: all 500ms ease-out;\r\n    margin-top: 30px;\n}\n.imags .capa p[data-v-03db46de] {\r\n    color: #fff;\r\n    margin-bottom: 120px;\r\n    -webkit-transition: all 500ms ease-out;\r\n    transition: all 500ms ease-out;\r\n    margin-top: 15px;\n}\n@media(max-width: 767px) {\n.imags[data-v-03db46de] {\r\n        margin-top: 15px;\n}\n}\n.activar[data-v-03db46de] {\r\n    margin-top: 20px;\r\n    margin-bottom: 15px;\n}\n.cont p[data-v-03db46de] {\r\n    margin-top: -10px;\r\n    visibility: hidden;\r\n    -webkit-transition: all 500ms ease-out;\r\n    transition: all 500ms ease-out;\n}\n.cont ul[data-v-03db46de] {\r\n    margin-top: -10px;\r\n    visibility: hidden;\r\n    -webkit-transition: all 500ms ease-out;\r\n    transition: all 500ms ease-out;\n}\n.activar:hover>.cont p[data-v-03db46de] {\r\n    margin-top: 0px;\r\n    visibility: visible;\n}\n.activar:hover>.cont ul[data-v-03db46de] {\r\n    margin-top: 0px;\r\n    visibility: visible;\n}\n.efecto[data-v-03db46de] {\r\n    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);\r\n            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);\r\n    cursor: default;\r\n    -webkit-transition: all 400ms ease;\r\n    transition: all 400ms ease;\n}\n.efecto[data-v-03db46de]:hover {\r\n    -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);\r\n            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);\r\n    -webkit-transform: translateY(-5%);\r\n            transform: translateY(-5%);\n}\n.cardI[data-v-03db46de] {\r\n    float: right;\r\n    width: 100%;\r\n    margin: 20px;\r\n    border-radius: 6px;\r\n    overflow: hidden;\r\n    background: #fff;\r\n    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);\r\n            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);\r\n    cursor: default;\r\n    -webkit-transition: all 400 ms ease;\r\n    transition: all 400 ms ease;\n}\n.cardD[data-v-03db46de] {\r\n    float: left;\r\n    width: 100%;\r\n    margin: 20px;\r\n    border-radius: 6px;\r\n    overflow: hidden;\r\n    background: #fff;\r\n    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);\r\n            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);\r\n    cursor: default;\r\n    -webkit-transition: all 400 ms ease;\r\n    transition: all 400 ms ease;\n}\n.cardI .tamanio[data-v-03db46de] {\r\n    width: 100%;\n}\n.cardD .tamanio[data-v-03db46de] {\r\n    width: 100%;\n}\r\n\r\n/* sections */\n.why-select-us[data-v-03db46de] {\r\n    margin-top: 100px;\n}\n.why-select-us .imgs[data-v-03db46de] {\r\n    width: 100%;\n}\n.v-e .imgs[data-v-03db46de] {\r\n    width: 100%;\n}\n.v-e[data-v-03db46de] {\r\n    margin-top: 50px;\r\n    margin-bottom: 20px;\n}\n.contenido-V-E[data-v-03db46de] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.todo[data-v-03db46de] {\r\n    background-color: #fff;\n}\n.quienesSomos[data-v-03db46de] {\r\n    margin-top: 50px;\n}\nh6[data-v-03db46de] {\r\n    display: inline-block;\r\n    position: relative;\r\n    color: darkorange;\r\n    font-family: 'Poppins', sans-serif;\n}\nh6[data-v-03db46de]::after {\r\n    content: \"\";\r\n    position: absolute;\r\n    width: 0px;\r\n    height: 0px;\r\n    background-color: currentColor;\r\n    top: 0.6em;\r\n    right: 0px;\n}\n.alinear[data-v-03db46de] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.experiencia[data-v-03db46de] {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    width: 260px;\r\n    margin-right: 15px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.experiencia[data-v-03db46de] {\r\n        margin-left: 40px;\n}\n}\n.analisis[data-v-03db46de] {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    margin-left: 50px;\r\n    margin-right: 15px;\r\n    width: 260px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.analisis[data-v-03db46de] {\r\n        margin-left: 40px;\n}\n}\n.creatividad[data-v-03db46de] {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    margin-left: 100px;\r\n    margin-right: 15px;\r\n    width: 260px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.creatividad[data-v-03db46de] {\r\n        margin-left: 40px;\n}\n}\n.valores[data-v-03db46de] {\r\n    background-color: #024997;\r\n    margin-top: 50px;\r\n    margin-right: 0px;\r\n    float: right;\r\n    width: 300px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.valores[data-v-03db46de] {\r\n        float: none;\n}\n}\n.Va[data-v-03db46de] {\r\n    margin-top: 15px;\r\n    margin-left: 100px;\r\n    float: right;\n}\n@media(max-width: 767px) {\n.Va[data-v-03db46de] {\r\n        float: none;\r\n        margin-top: 15px;\r\n        margin-left: 38px;\n}\n}\n.equipo[data-v-03db46de] {\r\n    background-color: #024997;\r\n    margin-top: 50px;\r\n    margin-left: 0px;\r\n    width: 300px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n.Eq[data-v-03db46de] {\r\n    margin-top: 30px;\n}\n.EqL2[data-v-03db46de] {\r\n    margin-left: 40px;\n}\n@media(max-width: 767px) {\n.Eq[data-v-03db46de] {\r\n        margin-left: 25px;\n}\n.EqL[data-v-03db46de] {\r\n        margin-left: 15px;\n}\n}\n.centrar[data-v-03db46de] {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\n@media(max-width: 767px) {\n.centrar[data-v-03db46de] {\r\n        margin-left: 18px;\n}\n}\n.cohete[data-v-03db46de] {\r\n    margin-top: 20px;\r\n    margin-right: 90px;\n}\n.descripcion1[data-v-03db46de] {\r\n    margin-top: 15px;\n}\n@media(max-width: 767px) {\n.descripcion1[data-v-03db46de] {\r\n        text-align: center;\r\n        margin-right: -136px;\n}\n}\n.descripcion2[data-v-03db46de] {\r\n    margin-top: 5px;\r\n    margin-right: 10px;\n}\n@media(max-width: 767px) {\n.descripcion2[data-v-03db46de] {\r\n        text-align: center;\r\n        margin-right: 15px;\n}\n}\n.descripcion3[data-v-03db46de] {\r\n    margin-top: 15px;\r\n    margin-right: 60px;\n}\n@media(max-width: 767px) {\n.descripcion3[data-v-03db46de] {\r\n        text-align: center;\r\n        margin-right: 15px;\n}\n}\n.dp1[data-v-03db46de] {\r\n    margin-right: 150px;\n}\n.eqp[data-v-03db46de] {\r\n    text-align: justify\n}\n@media(max-width: 767px) {\n.eqp[data-v-03db46de] {\r\n        text-align: unset;\n}\n}\r\n", ""]);
+exports.push([module.i, "\n.tu[data-v-03db46de] {\r\n    text-align: center;\r\n    margin-top: 20px;\r\n    font-weight: bold;\r\n    text-shadow: 1px 1px 2px rgb(66, 66, 66);\n}\n.imags[data-v-03db46de] {\r\n    position: relative;\r\n    -webkit-transition: all 500ms ease-out;\r\n    transition: all 500ms ease-out;\n}\n.imags .capa[data-v-03db46de] {\r\n    position: absolute;\r\n    top: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background: rgba(1, 46, 56, 0.7);\r\n    -webkit-transition: all 500ms ease-out;\r\n    transition: all 500ms ease-out;\r\n    opacity: 0;\r\n    visibility: hidden;\r\n    text-align: center;\n}\n.imags:hover>.capa[data-v-03db46de] {\r\n    opacity: 1;\r\n    visibility: visible;\n}\n.imags:hover>.capa h3[data-v-03db46de] {\r\n    margin-top: 15%;\r\n    margin-bottom: 15px;\n}\n.act:hover .tu[data-v-03db46de] {\r\n    visibility: hidden;\n}\n.imags .capa h3[data-v-03db46de] {\r\n    color: #fff;\r\n    margin-bottom: 120px;\r\n    -webkit-transition: all 500ms ease-out;\r\n    transition: all 500ms ease-out;\r\n    margin-top: 30px;\n}\n.imags .capa p[data-v-03db46de] {\r\n    color: #fff;\r\n    margin-bottom: 120px;\r\n    -webkit-transition: all 500ms ease-out;\r\n    transition: all 500ms ease-out;\r\n    margin-top: 15px;\n}\n@media(max-width: 767px) {\n.imags[data-v-03db46de] {\r\n        margin-top: 15px;\n}\n}\n.activarI[data-v-03db46de] {\r\n    margin-top: 20px;\r\n    margin-bottom: 15px;\n}\n.activarD[data-v-03db46de] {\r\n    margin-top: 20px;\r\n    margin-bottom: 15px;\n}\n.cont p[data-v-03db46de] {\r\n    margin-top: -10px;\r\n    visibility: hidden;\r\n    -webkit-transition: all 500ms ease-out;\r\n    transition: all 500ms ease-out;\n}\n.cont ul[data-v-03db46de] {\r\n    margin-top: -10px;\r\n    visibility: hidden;\r\n    -webkit-transition: all 500ms ease-out;\r\n    transition: all 500ms ease-out;\n}\n.cardI[data-v-03db46de]{\r\n    position: relative;\n}\n.cardD[data-v-03db46de]{\r\n    position: relative;\n}\n.cardI .contenido[data-v-03db46de]{\r\n    position: absolute;\r\n    top: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background: rgba(238, 210, 84, 0.288);\n}\n.cardD .contenido[data-v-03db46de]{\r\n    position: absolute;\r\n    top: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background: rgba(238, 210, 84, 0.288);\n}\n.cardI .contenido h3[data-v-03db46de]{\r\n\r\n    font-size: 50px;\r\n    color:#024997;\r\n    text-align: center;\r\n    margin-top: 150px;\r\n    font-weight: bold;\r\n    text-shadow: 1px 1px 2px black;\n}\n.cardD .contenido h3[data-v-03db46de]{\r\n\r\nfont-size: 50px;\r\ncolor:#024997;\r\ntext-align: center;\r\nmargin-top: 150px;\r\nfont-weight: bold;\r\ntext-shadow: 1px 1px 2px black;\n}\n.activarI:hover>.cont p[data-v-03db46de] {\r\n    margin-top: 0px;\r\n    visibility: visible;\n}\n.activarI:hover>.cont ul[data-v-03db46de] {\r\n    margin-top: 0px;\r\n    visibility: visible;\n}\n.activarD:hover>.cont p[data-v-03db46de] {\r\n    margin-top: 0px;\r\n    visibility: visible;\n}\n.activarD:hover>.cont ul[data-v-03db46de] {\r\n    margin-top: 0px;\r\n    visibility: visible;\n}\n@media(max-width: 767px) {\n.activarI[data-v-03db46de] {\r\n        margin-left: 20px;\r\n        margin-right: -20px;\r\n        margin-bottom: -350px;\r\n        -webkit-transition: all 500ms ease-out;\r\n        transition: all 500ms ease-out;\n}\n.activarI[data-v-03db46de]:hover{\r\n        margin-bottom: 0px;\r\n        -webkit-transition: all 500ms ease-out;\r\n        transition: all 500ms ease-out;\n}\n.activarD[data-v-03db46de] {\r\n        margin-left: -20px;\r\n        margin-right: 20px;\r\n        -webkit-transition: all 500ms ease-out;\r\n        transition: all 500ms ease-out;\n}\n.cardI .contenido h3[data-v-03db46de]{\r\n        margin-top: 75px;\n}\n.cardD .contenido h3[data-v-03db46de]{\r\n        margin-top: 75px;\n}\n}\n.efecto[data-v-03db46de] {\r\n    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);\r\n            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);\r\n    cursor: default;\r\n    -webkit-transition: all 400ms ease;\r\n    transition: all 400ms ease;\n}\n.efecto[data-v-03db46de]:hover {\r\n    -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);\r\n            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);\r\n    -webkit-transform: translateY(-5%);\r\n            transform: translateY(-5%);\n}\n.cardI[data-v-03db46de] {\r\n    float: right;\r\n    width: 100%;\r\n    margin: 20px;\r\n    border-radius: 6px;\r\n    overflow: hidden;\r\n    background: #fff;\r\n    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);\r\n            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);\r\n    cursor: default;\r\n    -webkit-transition: all 400 ms ease;\r\n    transition: all 400 ms ease;\n}\n.cardD[data-v-03db46de] {\r\n    float: left;\r\n    width: 100%;\r\n    margin: 20px;\r\n    border-radius: 6px;\r\n    overflow: hidden;\r\n    background: #fff;\r\n    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);\r\n            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);\r\n    cursor: default;\r\n    -webkit-transition: all 400 ms ease;\r\n    transition: all 400 ms ease;\n}\n.cardI .tamanio[data-v-03db46de] {\r\n    width: 100%;\n}\n.cardD .tamanio[data-v-03db46de] {\r\n    width: 100%;\n}\r\n\r\n/* sections */\n.why-select-us[data-v-03db46de] {\r\n    margin-top: 100px;\n}\n.why-select-us .imgs[data-v-03db46de] {\r\n    width: 100%;\n}\n.v-e .imgs[data-v-03db46de] {\r\n    width: 100%;\n}\n.v-e[data-v-03db46de] {\r\n    margin-top: 50px;\r\n    margin-bottom: 20px;\n}\n.contenido-V-E[data-v-03db46de] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.todo[data-v-03db46de] {\r\n    background-color: #fff;\n}\n.quienesSomos[data-v-03db46de] {\r\n    margin-top: 50px;\n}\nh6[data-v-03db46de] {\r\n    display: inline-block;\r\n    position: relative;\r\n    color: darkorange;\r\n    font-family: 'Poppins', sans-serif;\n}\nh6[data-v-03db46de]::after {\r\n    content: \"\";\r\n    position: absolute;\r\n    width: 0px;\r\n    height: 0px;\r\n    background-color: currentColor;\r\n    top: 0.6em;\r\n    right: 0px;\n}\n.alinear[data-v-03db46de] {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: justify;\r\n        -ms-flex-pack: justify;\r\n            justify-content: space-between;\n}\n.experiencia[data-v-03db46de] {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    width: 260px;\r\n    margin-right: 15px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.experiencia[data-v-03db46de] {\r\n        margin-left: 40px;\n}\n}\n.analisis[data-v-03db46de] {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    margin-left: 50px;\r\n    margin-right: 15px;\r\n    width: 260px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.analisis[data-v-03db46de] {\r\n        margin-left: 40px;\n}\n}\n.creatividad[data-v-03db46de] {\r\n    background-color: #f3ab41;\r\n    text-align: center;\r\n    margin-left: 100px;\r\n    margin-right: 15px;\r\n    width: 260px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.creatividad[data-v-03db46de] {\r\n        margin-left: 40px;\n}\n}\n.valores[data-v-03db46de] {\r\n    background-color: #024997;\r\n    margin-top: 50px;\r\n    margin-right: 0px;\r\n    float: right;\r\n    width: 300px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n@media(max-width: 767px) {\n.valores[data-v-03db46de] {\r\n        float: none;\n}\n}\n.Va[data-v-03db46de] {\r\n    margin-top: 15px;\r\n    margin-left: 100px;\r\n    float: right;\n}\n@media(max-width: 767px) {\n.Va[data-v-03db46de] {\r\n        float: none;\r\n        margin-top: 15px;\r\n        margin-left: 38px;\n}\n}\n.equipo[data-v-03db46de] {\r\n    background-color: #024997;\r\n    margin-top: 50px;\r\n    margin-left: 0px;\r\n    width: 300px;\r\n    padding: 10px;\r\n    border-radius: 20px;\r\n    font-family: 'Roboto', sans-serif;\n}\n.Eq[data-v-03db46de] {\r\n    margin-top: 30px;\n}\n.EqL2[data-v-03db46de] {\r\n    margin-left: 40px;\n}\n@media(max-width: 767px) {\n.Eq[data-v-03db46de] {\r\n        margin-left: 25px;\n}\n.EqL[data-v-03db46de] {\r\n        margin-left: 15px;\n}\n}\n.centrar[data-v-03db46de] {\r\n    display: grid;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    justify-items: center;\n}\n@media(max-width: 767px) {\n.centrar[data-v-03db46de] {\r\n        margin-left: 18px;\n}\n}\n.cohete[data-v-03db46de] {\r\n    margin-top: 20px;\r\n    margin-right: 90px;\n}\n.descripcion1[data-v-03db46de] {\r\n    margin-top: 15px;\n}\n@media(max-width: 767px) {\n.descripcion1[data-v-03db46de] {\r\n        text-align: center;\r\n        margin-right: -136px;\n}\n}\n.descripcion2[data-v-03db46de] {\r\n    margin-top: 5px;\r\n    margin-right: 10px;\n}\n@media(max-width: 767px) {\n.descripcion2[data-v-03db46de] {\r\n        text-align: center;\r\n        margin-right: 15px;\n}\n}\n.descripcion3[data-v-03db46de] {\r\n    margin-top: 15px;\r\n    margin-right: 60px;\n}\n@media(max-width: 767px) {\n.descripcion3[data-v-03db46de] {\r\n        text-align: center;\r\n        margin-right: 15px;\n}\n}\n.dp1[data-v-03db46de] {\r\n    margin-right: 150px;\n}\n.eqp[data-v-03db46de] {\r\n    text-align: justify\n}\n@media(max-width: 767px) {\n.eqp[data-v-03db46de] {\r\n        text-align: unset;\n}\n}\r\n", ""]);
 
 // exports
 
@@ -58966,10 +58942,12 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("h2", [_vm._v("Somos CONIT.pe")]),
             _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "Brindamos servicios de soluciones digitales, enfocados en impulsar tu Marca y Empresa al\n                        éxito con tecnología y medios digitales."
-              )
+            _c("p", { staticStyle: { color: "#000", "font-size": "20px" } }, [
+              _c("b", [
+                _vm._v(
+                  "Brindamos servicios de soluciones digitales, enfocados en impulsar tu Marca y Empresa al\n                        éxito con tecnología y medios digitales."
+                )
+              ])
             ]),
             _vm._v(" "),
             _c("h6", [_vm._v("¡Despega tu Negocio!")])
@@ -59066,17 +59044,15 @@ var staticRenderFns = [
           _c("div", { staticClass: "container" }, [
             _c("div", { staticClass: "row" }, [
               _c("div", { staticClass: "col-md-6" }, [
-                _c("div", { staticClass: "activar" }, [
-                  _c("div", { staticClass: "cardI efecto" }, [
+                _c("div", { staticClass: "activarI" }, [
+                  _c("div", { staticClass: "efecto cardI" }, [
                     _c("img", {
                       staticClass: "imgs",
                       attrs: { src: "img/Eq.jpg", alt: "" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "contenido" }, [
-                      _c("h3", { staticStyle: { color: "#fff" } }, [
-                        _vm._v("Equipo")
-                      ])
+                      _c("h3", [_vm._v("EQUIPO")])
                     ])
                   ]),
                   _vm._v(" "),
@@ -59103,8 +59079,8 @@ var staticRenderFns = [
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "col-md-6" }, [
-                _c("div", { staticClass: "activar" }, [
-                  _c("div", { staticClass: "cardD efecto" }, [
+                _c("div", { staticClass: "activarD" }, [
+                  _c("div", { staticClass: "efecto cardD" }, [
                     _c("figure", [
                       _c("img", {
                         staticClass: "tamanio",
@@ -59113,9 +59089,7 @@ var staticRenderFns = [
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "contenido" }, [
-                      _c("h3", { staticStyle: { color: "#fff" } }, [
-                        _vm._v("Valores")
-                      ])
+                      _c("h3", [_vm._v("VALORES")])
                     ])
                   ]),
                   _vm._v(" "),
